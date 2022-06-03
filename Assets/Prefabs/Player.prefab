@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1439355388932429974}
   - component: {fileID: 1439355388932429975}
   - component: {fileID: 1439355388932429970}
+  - component: {fileID: 6352361798827130934}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -209,6 +210,84 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gravity: 9.81
+--- !u!114 &6352361798827130934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439355388932429960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 4701f9f15c71e5d48a510e51805e6432, type: 3}
+  m_NotificationBehavior: 3
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2ba01adb-1a67-4a5e-a9d2-8902e277c1a6
+    m_ActionName: Player/Move[/XInputControllerWindows/leftStick,/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5dc4d6ed-d301-4b1a-83f6-4d28e102dbf0
+    m_ActionName: Player/Jump[/XInputControllerWindows/buttonSouth,/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d4416ec9-e781-434e-b9b0-c7b45ba3218b
+    m_ActionName: Player/Power[/XInputControllerWindows/buttonWest,/Keyboard/q]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 869654ca-1294-44eb-8eed-d8ca06b915a6
+    m_ActionName: Player/Interact[/XInputControllerWindows/buttonNorth,/Keyboard/y]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3b7e51c0-d46c-4798-b288-a45ab068a7ad
+    m_ActionName: Player/Switch[/XInputControllerWindows/leftShoulder,/Keyboard/ctrl]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5b591af7-0269-4c8b-b408-a51561ba86ad
+    m_ActionName: Player/Pause[/XInputControllerWindows/start,/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 69c6cc02-899b-41ba-b150-23968a108f95
+    m_ActionName: UI/Navigate[/XInputControllerWindows/leftStick/up,/XInputControllerWindows/rightStick/up,/XInputControllerWindows/leftStick/down,/XInputControllerWindows/rightStick/down,/XInputControllerWindows/leftStick/left,/XInputControllerWindows/rightStick/left,/XInputControllerWindows/leftStick/right,/XInputControllerWindows/rightStick/right,/XInputControllerWindows/dpad,/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: aaf98388-5577-43a4-9fb0-70ed5e252e54
+    m_ActionName: UI/Submit[/Keyboard/enter,/XInputControllerWindows/buttonSouth]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 05327b96-1a6a-4a08-8265-e538b0d5cea8
+    m_ActionName: UI/Cancel[/Keyboard/escape,/XInputControllerWindows/buttonEast]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 845d8f66-4e65-4e81-b302-4ad0d7d6378a
+    m_ActionName: UI/Point[/Mouse/position]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 132bb819-7ef3-4799-87d6-98b24c3445e7
+    m_ActionName: UI/Click[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 44197e2a-2d97-40e4-82e3-e2ed1a141426
+    m_ActionName: UI/Pause[/XInputControllerWindows/start,/Keyboard/escape]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: Gamepad
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &1439355389117721276
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,7 +350,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.344017, y: 1}
+    m_SensorSize: {x: 2.3703704, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
