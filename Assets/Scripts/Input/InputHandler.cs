@@ -26,6 +26,9 @@ public class InputHandler : ScriptableObject, Input.IPlayerActions, Input.IUIAct
             input = new Input();
             input.Player.SetCallbacks(this);
             input.UI.SetCallbacks(this);
+
+            // FIXME: This is a hack to move the player
+            input.Player.Enable();
         }
     }
 

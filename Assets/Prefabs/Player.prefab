@@ -160,35 +160,26 @@ MonoBehaviour:
   oneWayPlatformMask:
     serializedVersion: 2
     m_Bits: 0
-  slopeLimit: 30
+  slopeLimit: 20
   jumpingThreshold: 0.07
   slopeSpeedMultiplier:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: -90
-      value: 5
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
       time: 0
       value: 1
       inSlope: 0
       outSlope: 0
-      tangentMode: 0
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 90
-      value: 0.5
+      time: 1
+      value: 1
       inSlope: 0
       outSlope: 0
-      tangentMode: 0
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0
@@ -209,7 +200,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19d0308c512f9b94485794b4fbbb99d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputHandler: {fileID: 11400000, guid: 2d08b32a33e8a2c439895acb0349c911, type: 2}
   gravity: 9.81
+  speed: 3
+  maxSpeed: 6
 --- !u!114 &6352361798827130934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,7 +344,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.3703704, y: 1}
+    m_SensorSize: {x: 2.405983, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
