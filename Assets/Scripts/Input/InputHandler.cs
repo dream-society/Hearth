@@ -16,6 +16,7 @@ public class InputHandler : ScriptableObject, Input.IPlayerActions, Input.IUIAct
     public event UnityAction powerReleased = delegate { };
     public event UnityAction switchPressed = delegate { };
     public event UnityAction pausePressed = delegate { };
+    public event UnityAction runPressed = delegate { };
 
     private Input input;
 
@@ -116,6 +117,14 @@ public class InputHandler : ScriptableObject, Input.IPlayerActions, Input.IUIAct
         if (context.started)
         {
             pausePressed?.Invoke();
+        }
+    }
+
+    public void OnRun(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            runPressed?.Invoke();
         }
     }
 

@@ -1,5 +1,5 @@
 {
-    "name": "Hearth",
+    "name": "Input",
     "maps": [
         {
             "name": "Player",
@@ -54,6 +54,15 @@
                     "name": "Pause",
                     "type": "Button",
                     "id": "5b591af7-0269-4c8b-b408-a51561ba86ad",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Run",
+                    "type": "Button",
+                    "id": "6f23aef6-0ac5-4ae4-80ab-b493c825cd63",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -194,6 +203,61 @@
                     "isPartOfComposite": false
                 },
                 {
+                    "name": "2D Vector",
+                    "id": "e6a57436-4e38-4e3a-9d33-d4f5148a2404",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "38ee5fae-6420-4d30-8a20-3272ac9cf763",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "b5054397-8084-4aab-b1ae-1475446e4845",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "b6b2a9e3-a6b7-4897-8cd1-36c3a35bb956",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "90dc0d59-4993-450e-9df4-3dfc3a38e4c5",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "",
                     "id": "4d882975-c2d3-461b-bda6-a771ad39f41d",
                     "path": "<Gamepad>/buttonSouth",
@@ -300,6 +364,17 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "117435a7-64f5-43f7-969e-71da110bb547",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Run",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
