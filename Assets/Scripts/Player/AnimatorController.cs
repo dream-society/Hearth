@@ -6,25 +6,12 @@ using UnityEngine;
 public class AnimatorController : MonoBehaviour
 {
     private Animator animator;
-    private CharacterController2D controller;
 
     // Start is called before the first frame update
-    void Awake()
-    {
-        animator = GetComponent<Animator>();
-        controller = GetComponent<CharacterController2D>();
-    }
+    void Awake() => animator = GetComponent<Animator>();
+    public void StartWalkAnimation() => animator.SetBool("Walk", true);
+    public void StopWalkAnimation() => animator.SetBool("Walk", false);
+    public void StartRunAnimation() => animator.SetBool("Run", true);
+    public void StopRunAnimation() => animator.SetBool("Run", false);
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (controller.velocity.x > 0)
-        {
-            animator.SetFloat("Speed", 1);
-        }
-        else
-        {
-            animator.SetFloat("Speed", 0);
-        }
-    }
 }
