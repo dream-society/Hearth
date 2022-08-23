@@ -123,7 +123,7 @@ public class InputHandler : ScriptableObject, Input.IPlayerActions, Input.IUIAct
 
     public void OnRun(InputAction.CallbackContext context)
     {
-        if (context.performed)
+        if (context.started)
         {
             runPressed?.Invoke();
         }

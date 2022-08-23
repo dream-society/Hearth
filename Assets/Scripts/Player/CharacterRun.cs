@@ -21,6 +21,7 @@ namespace Hearth.Player
         [SerializeField] private float jumpForce = 0f;
         [SerializeField] private float variableJumpMult = 0.5f;
         [SerializeField] private float jumpBufferTime = 0.2f;
+        [SerializeField] private bool isRunning;
         private bool isJumping;
         private bool jumpInput;
         private bool jumpInputStop;
@@ -32,9 +33,6 @@ namespace Hearth.Player
         {
             controller = GetComponent<CharacterController2D>();
             spriteRenderer = GetComponent<SpriteRenderer>();
-        }
-        private void Start()
-        {
             speed = walkSpeed;
         }
 
@@ -98,17 +96,18 @@ namespace Hearth.Player
         private void Move(Vector2 vel)
         {
             // velocity.x = Mathf.Clamp(vel.x * speed, -maxSpeed, maxSpeed);
+            speed = isRunning ? runSpeed : walkSpeed;
             velocity.x = vel.x * speed;
         }
 
         private void StartRun()
         {
-            speed = runSpeed;
+            isRunning = true;
         }
 
         private void StopRun()
         {
-            speed = walkSpeed;
+            isRunning = false;
         }
 
         private void JumpStart()
