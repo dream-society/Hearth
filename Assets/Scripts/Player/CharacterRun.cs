@@ -17,11 +17,14 @@ namespace Hearth.Player
         private CharacterController2D controller;
         private Vector3 velocity;
         private float gravityScale = 1f;
+        private bool isMoving;
+        private bool runInput;
+        private Vector2 movement;
+
         [Header("Jump")]
         [SerializeField] private float jumpForce = 0f;
         [SerializeField] private float variableJumpMult = 0.5f;
         [SerializeField] private float jumpBufferTime = 0.2f;
-        [SerializeField] private bool isRunning;
         private bool isJumping;
         private bool jumpInput;
         private bool jumpInputStop;
@@ -68,9 +71,10 @@ namespace Hearth.Player
                 Jump();
             }
 
+            speed = runInput ? runSpeed : walkSpeed;
+            velocity.x = movement != Vector2.zero ? movement.x * speed : 0;
             controller.move(velocity * Time.deltaTime);
             velocity = controller.velocity;
-
 
             if (velocity.x != 0)
             {
@@ -80,7 +84,7 @@ namespace Hearth.Player
                     animatorController.StartWalkAnimation();
                     animatorController.StopRunAnimation();
                 }
-                else if(speed == runSpeed)
+                else if (speed == runSpeed)
                 {
                     animatorController.StartRunAnimation();
                 }
@@ -93,22 +97,14 @@ namespace Hearth.Player
         }
 
 
-        private void Move(Vector2 vel)
+        private void Move(Vector2 move)
         {
-            // velocity.x = Mathf.Clamp(vel.x * speed, -maxSpeed, maxSpeed);
-            speed = isRunning ? runSpeed : walkSpeed;
-            velocity.x = vel.x * speed;
+            movement = move;
         }
 
-        private void StartRun()
-        {
-            isRunning = true;
-        }
+        private void StartRun() => runInput = true;
 
-        private void StopRun()
-        {
-            isRunning = false;
-        }
+        private void StopRun() => runInput = false;
 
         private void JumpStart()
         {
