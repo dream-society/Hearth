@@ -1084,6 +1084,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1439355388932429960, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1439355388932429970, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: maxSpeed
       value: 6
@@ -1173,6 +1177,10 @@ PrefabInstance:
       value: -0.051518917
       objectReference: {fileID: 0}
     - target: {fileID: 1439355388932429973, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439355388932429973, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 5.12
       objectReference: {fileID: 0}
@@ -1183,6 +1191,10 @@ PrefabInstance:
     - target: {fileID: 1439355388932429975, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: slopeLimit
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439355388932429975, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: triggerMask.m_Bits
+      value: 384
       objectReference: {fileID: 0}
     - target: {fileID: 1439355388932429975, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: slopeSpeedMultiplier.m_Curve.Array.size
