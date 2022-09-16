@@ -30,6 +30,8 @@ namespace Hearth.Player
         private bool jumpInputStop;
         private float jumpInputStartTime;
 
+        private bool isInAir;
+
         private SpriteRenderer spriteRenderer;
 
         void Awake()
@@ -66,11 +68,21 @@ namespace Hearth.Player
 
             CheckVariableJump();
 
+            if (velocity.y <= -1)
+            {
+                animatorController.StartFallAnimation();
+                isInAir = true;
+            }
             if (controller.isGrounded && jumpInput)
             {
                 Jump();
             }
-
+            if (controller.isGrounded && isInAir && velocity.y <= 0)
+            {
+                isInAir = false;
+                animatorController.StopFallAnimation();
+                animatorController.StartLandAnimation();
+            }
             speed = runInput ? runSpeed : walkSpeed;
             velocity.x = movement != Vector2.zero ? movement.x * speed : 0;
             controller.move(velocity * Time.deltaTime);
@@ -96,7 +108,6 @@ namespace Hearth.Player
             }
         }
 
-
         private void Move(Vector2 move)
         {
             movement = move;
@@ -117,7 +128,9 @@ namespace Hearth.Player
         private void Jump()
         {
             isJumping = true;
+            isInAir = true;
             velocity.y = Mathf.Sqrt(2f * jumpForce);
+            animatorController.StartJumpAnimation();
         }
 
         private IEnumerator JumpBufferClear()
@@ -137,7 +150,6 @@ namespace Hearth.Player
             {
                 return;
             }
-
             if (jumpInputStop)
             {
                 velocity.y *= variableJumpMult;

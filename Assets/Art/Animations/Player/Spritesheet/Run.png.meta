@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3eb7e7e45e6576e4791597f67868d6b7
+guid: a851f08654c14894bb32695d3abdcbc5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LeiIdle_spritesheet_0
+      name: Run_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f23126a8a8f80bb45a4d82d2ff410f3c
-      internalID: 389656399
+      spriteID: 16a80bf740f7ed44aba675e4555c1352
+      internalID: 1709224566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiIdle_spritesheet_1
+      name: Run_1
       rect:
         serializedVersion: 2
         x: 512
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bff747190ea6ea44b9408f41928c9140
-      internalID: -375766399
+      spriteID: 3f6d3f4aade83d64eb2e9a35c19ca5b9
+      internalID: 1645463863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiIdle_spritesheet_2
+      name: Run_2
       rect:
         serializedVersion: 2
         x: 1024
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c1c8580bbd5adf4b9a287d9566982d1
-      internalID: 579393561
+      spriteID: a8c41719e226e8a4181d7d66108d8ab7
+      internalID: 1510751768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiIdle_spritesheet_3
+      name: Run_3
       rect:
         serializedVersion: 2
         x: 1536
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c8702c7f6d7f7c4c8761c763ac2d6bf
-      internalID: -1270244294
+      spriteID: 8396be89470b09242ac576948822f332
+      internalID: -378438386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiIdle_spritesheet_4
+      name: Run_4
       rect:
         serializedVersion: 2
         x: 2048
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25dadf8ad6a2a914aaee62893654a9fa
-      internalID: 479143198
+      spriteID: 3827cc61e1147284d9741fa457949932
+      internalID: -436611347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiIdle_spritesheet_5
+      name: Run_5
       rect:
         serializedVersion: 2
         x: 2560
@@ -223,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3bc6262ac162224fb61f89201c47516
-      internalID: -615213833
+      spriteID: f94c94a876eba1649bf09e50ac7e00c9
+      internalID: 631649395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiIdle_spritesheet_6
+      name: Run_6
       rect:
         serializedVersion: 2
         x: 3072
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4402746ca613ad54f978bceb618778dd
-      internalID: -210089005
+      spriteID: 137b039241be23a438bd21544b5cb420
+      internalID: 596301162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiIdle_spritesheet_7
+      name: Run_7
       rect:
         serializedVersion: 2
         x: 3584
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c4600075d361834f876b42fdd367ab2
-      internalID: 1756399122
+      spriteID: 12e2db9b2981aeb45b7166af9d365ee6
+      internalID: -1605117417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiIdle_spritesheet_8
+      name: Run_8
       rect:
         serializedVersion: 2
         x: 4096
@@ -286,14 +286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbb07e7021f770c4486071648264ab87
-      internalID: 552077234
+      spriteID: b7f9899f7ec1f7d42b1d021e88f0292a
+      internalID: 1346361034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiIdle_spritesheet_9
+      name: Run_9
       rect:
         serializedVersion: 2
         x: 4608
@@ -307,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2eebc6dc46b940044a3026389ac8617a
-      internalID: 1627882003
+      spriteID: e57812b0d8a14f048aaa45cb743c1145
+      internalID: -207020676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiIdle_spritesheet_10
+      name: Run_10
       rect:
         serializedVersion: 2
         x: 5120
@@ -328,14 +328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: daed562b2f25f204d80f33c4e0a8ef25
-      internalID: 508512196
+      spriteID: 06a0a36cec0860747b293a7fa9703d51
+      internalID: 876601463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiIdle_spritesheet_11
+      name: Run_11
       rect:
         serializedVersion: 2
         x: 5632
@@ -349,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23b7f932af72bb34f97704aa6cf52a92
-      internalID: 1050191909
+      spriteID: c2838db0ea6673e408b8ddaa80b77a3a
+      internalID: 295798506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiIdle_spritesheet_12
+      name: Run_12
       rect:
         serializedVersion: 2
         x: 6144
@@ -370,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e91201d8d4fbaf42998000d65ca27ce
-      internalID: -734853364
+      spriteID: f27ca651193b9f6498548ab014b59368
+      internalID: -954141786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiIdle_spritesheet_13
+      name: Run_13
       rect:
         serializedVersion: 2
         x: 6656
@@ -391,14 +391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8986eb24466a5e846bc9569159eaa2e3
-      internalID: 484576839
+      spriteID: e5574245742c9e1409d6ad1db50b17ce
+      internalID: -853367774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiIdle_spritesheet_14
+      name: Run_14
       rect:
         serializedVersion: 2
         x: 7168
@@ -412,14 +412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7292140160fe368478cd2ac4a4a994ba
-      internalID: 1136691852
+      spriteID: 521dc24bcf7e714469cc860377fe2fb7
+      internalID: 1097863636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiIdle_spritesheet_15
+      name: Run_15
       rect:
         serializedVersion: 2
         x: 7680
@@ -433,14 +433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d67626a80adf9f4c841799574bc46aa
-      internalID: -1083786549
+      spriteID: 1f21f93606b2af342a8ef990968d2e50
+      internalID: -1125184586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiIdle_spritesheet_16
+      name: Run_16
       rect:
         serializedVersion: 2
         x: 8192
@@ -454,14 +454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae8d000b649c79a4c98b44f3ae950302
-      internalID: 1290084034
+      spriteID: 178948835066503429714b6dc385d69c
+      internalID: -1934258434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiIdle_spritesheet_17
+      name: Run_17
       rect:
         serializedVersion: 2
         x: 8704
@@ -475,8 +475,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca68d25a090eeb5439f435d418798db2
-      internalID: -1403629086
+      spriteID: d24f627f56641764b9e14b299bd195d4
+      internalID: 409521858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_18
+      rect:
+        serializedVersion: 2
+        x: 9216
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c2f549778ba5d48b4a5c0fdfd747a3
+      internalID: 1478070911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_19
+      rect:
+        serializedVersion: 2
+        x: 9728
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92322bf9167edcb4981fac3d70f992a9
+      internalID: -1878257010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_20
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4beff595118574b900a2ff42684288
+      internalID: -1989598660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_21
+      rect:
+        serializedVersion: 2
+        x: 10752
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc446d0b58aef847a4a891c776f1f3c
+      internalID: -1192160614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_22
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330479c2e99eebe489142aea43098959
+      internalID: 808109757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_23
+      rect:
+        serializedVersion: 2
+        x: 11776
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17837ee6c25959c43a59636f1d23ec65
+      internalID: -1629400009
       vertices: []
       indices: 
       edges: []
@@ -492,24 +618,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      LeiIdle_spritesheet_2: 579393561
-      LeiIdle_spritesheet_6: -210089005
-      LeiIdle_spritesheet_0: 389656399
-      LeiIdle_spritesheet_7: 1756399122
-      LeiIdle_spritesheet_16: 1290084034
-      LeiIdle_spritesheet_8: 552077234
-      LeiIdle_spritesheet_1: -375766399
-      LeiIdle_spritesheet_10: 508512196
-      LeiIdle_spritesheet_4: 479143198
-      LeiIdle_spritesheet_17: -1403629086
-      LeiIdle_spritesheet_3: -1270244294
-      LeiIdle_spritesheet_12: -734853364
-      LeiIdle_spritesheet_15: -1083786549
-      LeiIdle_spritesheet_13: 484576839
-      LeiIdle_spritesheet_9: 1627882003
-      LeiIdle_spritesheet_5: -615213833
-      LeiIdle_spritesheet_11: 1050191909
-      LeiIdle_spritesheet_14: 1136691852
+      Run_8: 1346361034
+      Run_17: 409521858
+      Run_6: 596301162
+      Run_18: 1478070911
+      Run_21: -1192160614
+      Run_2: 1510751768
+      Run_22: 808109757
+      Run_12: -954141786
+      Run_23: -1629400009
+      Run_11: 295798506
+      Run_14: 1097863636
+      Run_16: -1934258434
+      Run_13: -853367774
+      Run_1: 1645463863
+      Run_19: -1878257010
+      Run_15: -1125184586
+      Run_3: -378438386
+      Run_7: -1605117417
+      Run_4: -436611347
+      Run_0: 1709224566
+      Run_10: 876601463
+      Run_20: -1989598660
+      Run_9: -207020676
+      Run_5: 631649395
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

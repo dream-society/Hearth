@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 625601547aff4b846b5e1de1497b9bb5
+guid: bbd0f8f9532e92543b4c4f91e0590ec2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LeiWalk_spritesheet_0
+      name: Walk_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d32256f2ee9cd641a799d062032ae20
-      internalID: -281363499
+      spriteID: ab627ff3fefe7b64dbe42f94dc7ff95c
+      internalID: 1402860089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiWalk_spritesheet_1
+      name: Walk_1
       rect:
         serializedVersion: 2
         x: 512
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ba7299870c6ca74786e885f54ec82c8
-      internalID: 1192241727
+      spriteID: 22dbd178085583742a2201941c267241
+      internalID: -1986367023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiWalk_spritesheet_2
+      name: Walk_2
       rect:
         serializedVersion: 2
         x: 1024
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 938c933eae2782c45a09a6d3d7bd3d76
-      internalID: 1416540755
+      spriteID: e698473d19d95f745a8f09ce69e9b35e
+      internalID: 2113663472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiWalk_spritesheet_3
+      name: Walk_3
       rect:
         serializedVersion: 2
         x: 1536
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cc78732f3cf5744483e08e0854c1dc5
-      internalID: 1805271635
+      spriteID: 71f4a93d55b532140882f1e315590776
+      internalID: 329282943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiWalk_spritesheet_4
+      name: Walk_4
       rect:
         serializedVersion: 2
         x: 2048
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d89e7caecc1dd7499785b2b56b124fe
-      internalID: -529856820
+      spriteID: 54aeb6a1c183d9f4aa66f7c34ae99ad1
+      internalID: -792649453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiWalk_spritesheet_5
+      name: Walk_5
       rect:
         serializedVersion: 2
         x: 2560
@@ -223,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb840f2839d82e047917a9905ec0ae0f
-      internalID: -1820212598
+      spriteID: 420bc3347d928b248acc81aab6a3542d
+      internalID: -209178840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiWalk_spritesheet_6
+      name: Walk_6
       rect:
         serializedVersion: 2
         x: 3072
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4af2f616717f1624a9a89ea2ae151b1b
-      internalID: 1910723891
+      spriteID: ff20580b4df53a8498fdef108f5d3734
+      internalID: 493963826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiWalk_spritesheet_7
+      name: Walk_7
       rect:
         serializedVersion: 2
         x: 3584
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09e6ef1e3277ea4429ba8ffc42da70b3
-      internalID: 2140225957
+      spriteID: d51c32c0e559af049b1bf33f0fcc87c3
+      internalID: 977292778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiWalk_spritesheet_8
+      name: Walk_8
       rect:
         serializedVersion: 2
         x: 4096
@@ -286,14 +286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6652c0eeb4b3e447991ac48a4b500c0
-      internalID: -1732282187
+      spriteID: 41b3145528948174aa33e0a571c36386
+      internalID: -758600701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiWalk_spritesheet_9
+      name: Walk_9
       rect:
         serializedVersion: 2
         x: 4608
@@ -307,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af95f7e1c14ce174794ec4b67eb0b53e
-      internalID: 1497204266
+      spriteID: 14446e150e4fe65498f7c24f6464c6a8
+      internalID: 1734807302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiWalk_spritesheet_10
+      name: Walk_10
       rect:
         serializedVersion: 2
         x: 5120
@@ -328,14 +328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8df4fc1340d83274cb43a95644146ce5
-      internalID: -838419724
+      spriteID: 4d663fe58f67da049999f6000764fa95
+      internalID: 1523555681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiWalk_spritesheet_11
+      name: Walk_11
       rect:
         serializedVersion: 2
         x: 5632
@@ -349,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85a0cb41838092442a9154286363d517
-      internalID: 503596108
+      spriteID: 11e2d3dc79994d14c8fd51b8e3ad5ce0
+      internalID: -677902776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiWalk_spritesheet_12
+      name: Walk_12
       rect:
         serializedVersion: 2
         x: 6144
@@ -370,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ba64e370a6ed9a4f9a12c9485808c4e
-      internalID: -150394981
+      spriteID: 1b5e1b69c45a7824da09f1d6bd7a7aaf
+      internalID: 387352267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiWalk_spritesheet_13
+      name: Walk_13
       rect:
         serializedVersion: 2
         x: 6656
@@ -391,14 +391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89904ae0e52acba4e8a98117901e0fcc
-      internalID: 1461314729
+      spriteID: 42b8327420b21c346b40d6dc53b1a97c
+      internalID: 2114136701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiWalk_spritesheet_14
+      name: Walk_14
       rect:
         serializedVersion: 2
         x: 7168
@@ -412,14 +412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67fa76b0f5db60f48b7082375ab5b8e2
-      internalID: -1648772812
+      spriteID: 5c51bd30c095c0b4cb17519cf7d05f17
+      internalID: -1374501394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiWalk_spritesheet_15
+      name: Walk_15
       rect:
         serializedVersion: 2
         x: 7680
@@ -433,14 +433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65fdc83c564510a428ad929065fe9008
-      internalID: 224574991
+      spriteID: 960e69fa2ec608c46afd422422002031
+      internalID: -521661525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiWalk_spritesheet_16
+      name: Walk_16
       rect:
         serializedVersion: 2
         x: 8192
@@ -454,14 +454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d45c613029ca3e46ab78b3d6feac800
-      internalID: 1389289285
+      spriteID: 62ee2c12f46c446499e4538e4212dd46
+      internalID: 701035648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeiWalk_spritesheet_17
+      name: Walk_17
       rect:
         serializedVersion: 2
         x: 8704
@@ -475,8 +475,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96f9e8f2d0a44704794e7d413cd439d8
-      internalID: 1073725664
+      spriteID: 52d486487b1a0eb418be07aa07c891bd
+      internalID: 238474275
       vertices: []
       indices: 
       edges: []
@@ -492,24 +492,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      LeiWalk_spritesheet_14: -1648772812
-      LeiWalk_spritesheet_1: 1192241727
-      LeiWalk_spritesheet_2: 1416540755
-      LeiWalk_spritesheet_11: 503596108
-      LeiWalk_spritesheet_9: 1497204266
-      LeiWalk_spritesheet_10: -838419724
-      LeiWalk_spritesheet_4: -529856820
-      LeiWalk_spritesheet_7: 2140225957
-      LeiWalk_spritesheet_17: 1073725664
-      LeiWalk_spritesheet_3: 1805271635
-      LeiWalk_spritesheet_5: -1820212598
-      LeiWalk_spritesheet_8: -1732282187
-      LeiWalk_spritesheet_16: 1389289285
-      LeiWalk_spritesheet_13: 1461314729
-      LeiWalk_spritesheet_15: 224574991
-      LeiWalk_spritesheet_12: -150394981
-      LeiWalk_spritesheet_0: -281363499
-      LeiWalk_spritesheet_6: 1910723891
+      Walk_5: -209178840
+      Walk_12: 387352267
+      Walk_10: 1523555681
+      Walk_0: 1402860089
+      Walk_9: 1734807302
+      Walk_16: 701035648
+      Walk_4: -792649453
+      Walk_11: -677902776
+      Walk_8: -758600701
+      Walk_6: 493963826
+      Walk_17: 238474275
+      Walk_2: 2113663472
+      Walk_15: -521661525
+      Walk_7: 977292778
+      Walk_3: 329282943
+      Walk_13: 2114136701
+      Walk_1: -1986367023
+      Walk_14: -1374501394
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
