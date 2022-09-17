@@ -64,7 +64,14 @@ namespace Hearth.Player
         void Update()
         {
             // Apply gravity before move
-            velocity.y += -gravity * gravityScale * Time.deltaTime;
+            if (controller.isGrounded)
+            {
+                velocity.y = 0;
+            }
+            else
+            {
+                velocity.y += -gravity * gravityScale * Time.deltaTime;
+            }
 
             CheckVariableJump();
 
