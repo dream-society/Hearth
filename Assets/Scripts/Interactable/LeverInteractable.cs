@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LeverInteractable : InteractableBase
 {
-    public MovingPlatform Platform;
+    [SerializeField] private MovingPlatform Platform;
 
     public override void Interact()
     {

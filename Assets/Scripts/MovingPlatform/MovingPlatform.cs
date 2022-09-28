@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class MovingPlatform : MonoBehaviour
 {
-    public float Duration;
-    public int TargetToStart;
-    public Transform[] TargetsPosition;
+    [SerializeField] private float Duration;
+    [SerializeField] private int TargetToStart;
+    [SerializeField] private Transform[] TargetsPosition;
     private int index;
 
     private void Awake()
