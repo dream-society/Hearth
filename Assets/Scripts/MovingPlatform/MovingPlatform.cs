@@ -4,21 +4,20 @@ using UnityEngine;
 public class MovingPlatform : MonoBehaviour
 {
     public float Duration;
-    public Transform[] targetsPosition;
-    public int IndexToStart;
+    public int TargetToStart;
+    public Transform[] TargetsPosition;
     private int index;
 
-    private void Start()
+    private void Awake()
     {
-        index = IndexToStart;
-        Move();
+        index = TargetToStart;
     }
 
     public void Move()
     {
-        Vector3 startPosition = targetsPosition[index].position;
-        index = index == targetsPosition.Length - 1 ? 0 : index += 1;
-        Vector3 targetPosition = targetsPosition[index].position;
+        Vector3 startPosition = TargetsPosition[index].position;
+        index = index == TargetsPosition.Length - 1 ? 0 : index += 1;
+        Vector3 targetPosition = TargetsPosition[index].position;
         StartCoroutine(MoveCoroutine(startPosition, targetPosition));
     }
 
