@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Hearth.Player;
 
 public class PlasticBottleCollectable : CollectableBase
 {
-    public override void Collect()
+    public override void Collect(CharacterController2D player)
     {
-        base.Collect();
-        Debug.Log("PlasticBottle + 1");
+        player.CollectPlasticBottle(value);
+        base.Collect(player);
     }
 
 }

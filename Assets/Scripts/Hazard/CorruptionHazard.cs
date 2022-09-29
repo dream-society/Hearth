@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Hearth.Player;
 
 public class CorruptionHazard : HazardBase
 {
@@ -12,12 +13,6 @@ public class CorruptionHazard : HazardBase
     private void Awake()
     {
         boxCollider = GetComponent<BoxCollider2D>();
-    }
-
-    public override void Damage()
-    {
-        base.Damage();
-        Debug.Log("Get damage from CorruptionHazard");
     }
 
     private void Death()
@@ -49,7 +44,8 @@ public class CorruptionHazard : HazardBase
             }
             else
             {
-                Damage();
+                CharacterController2D player = collision.GetComponent<CharacterController2D>();
+                Damage(player);
             }
         }
     }
