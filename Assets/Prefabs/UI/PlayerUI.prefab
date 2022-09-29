@@ -563,7 +563,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 175813093226648463, guid: 55967cb25da81b541a06e0651748b5da, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55967cb25da81b541a06e0651748b5da, type: 3}
@@ -711,12 +711,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2166784796843116497 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 175813093311254014, guid: 55967cb25da81b541a06e0651748b5da, type: 3}
+  m_PrefabInstance: {fileID: 2045032637447473711}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2166784796843116499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2166784796843116499 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 175813093311254012, guid: 55967cb25da81b541a06e0651748b5da, type: 3}
   m_PrefabInstance: {fileID: 2045032637447473711}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1336330708
+--- !u!114 &1336330713
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -756,7 +767,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 2166784796792253263}
+  m_TargetGraphic: {fileID: 2166784796843116497}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
