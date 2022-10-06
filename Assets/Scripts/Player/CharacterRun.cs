@@ -32,12 +32,13 @@ namespace Hearth.Player
 
         private bool isInAir;
 
-        private SpriteRenderer spriteRenderer;
+        [SerializeField] private SpriteRenderer corpoSpriteRenderer;
+        [SerializeField] private SpriteRenderer capelliSpriteRenderer;
+        [SerializeField] private SpriteRenderer sciarpaSpriteRenderer;
 
         void Awake()
         {
             controller = GetComponent<CharacterController2D>();
-            spriteRenderer = GetComponent<SpriteRenderer>();
             speed = walkSpeed;
         }
 
@@ -97,7 +98,9 @@ namespace Hearth.Player
 
             if (velocity.x != 0)
             {
-                spriteRenderer.flipX = velocity.x < 0;
+                corpoSpriteRenderer.flipX = velocity.x < 0;
+                capelliSpriteRenderer.flipX = velocity.x < 0;
+                sciarpaSpriteRenderer.flipX = velocity.x < 0;
                 if (speed == walkSpeed)
                 {
                     animatorController.StartWalkAnimation();

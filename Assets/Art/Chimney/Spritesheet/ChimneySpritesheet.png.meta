@@ -1,0 +1,1068 @@
+fileFormatVersion: 2
+guid: 7875d9f46fcc86f4180244604c6f2422
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770546a58e1ec3247993356baf9af154
+      internalID: 731474474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_1
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc92e6ede2020a4fa8d5b417eefd0d1
+      internalID: 557194388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_2
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec4e54471b947d4789bd53aa2436c0b
+      internalID: -2089230297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_3
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3013d6421c4973947a3ac4457a5cbc39
+      internalID: -946358830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_4
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ef1499ca6ba4943b4420dcdf82f491
+      internalID: -1621410295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_5
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34245f86338a23d4282f3f5a48fe1f50
+      internalID: -482287606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_6
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839083dba4f8c634d941edd71f34613e
+      internalID: -432268550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_7
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093b114a75cb30e4099ddc6ee6da6af1
+      internalID: -836949983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_8
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c0bf308bf2e8e4a9189200b40a28b1
+      internalID: 1937840310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_9
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac0cb44ef724bc468e7e618d70f11d4
+      internalID: -605295177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_10
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7298b3424d925489352a95d9e5c8af
+      internalID: -794000318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_11
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75339dfdee612d44fa60760bf071fa6c
+      internalID: 513207705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_12
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d356bd2bda107742a30ea11eb8f03b6
+      internalID: -150296318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_13
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbd3cbc691758c43889a01714827ff0
+      internalID: -950620654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_14
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eba79afe09e43640b58e1a300644aec
+      internalID: 2096912129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_15
+      rect:
+        serializedVersion: 2
+        x: 3915
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677ebb349829ffc4bb54611786a6c05d
+      internalID: -1931274728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_16
+      rect:
+        serializedVersion: 2
+        x: 4176
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2115cde1f0e46d34ea072d01cbb9a018
+      internalID: 312615295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_17
+      rect:
+        serializedVersion: 2
+        x: 4437
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc0cd773a863f946b0259bbf3bafbb3
+      internalID: -1447415290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_18
+      rect:
+        serializedVersion: 2
+        x: 4698
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c4f5000a6ffd54286bc06d6d6a3ed0
+      internalID: -1120022880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_19
+      rect:
+        serializedVersion: 2
+        x: 4959
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a542fac9a4c2cb541bce9e128e7e2c70
+      internalID: 147735005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_20
+      rect:
+        serializedVersion: 2
+        x: 5220
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2293697dd5d574d81a5646ed460562
+      internalID: 1806533156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_21
+      rect:
+        serializedVersion: 2
+        x: 5481
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f0001f95e76834fb687d0f9994d94b
+      internalID: 2041558594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_22
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f395a38adb69388488776177c79e8f2b
+      internalID: -906886310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_23
+      rect:
+        serializedVersion: 2
+        x: 6003
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c342bfc2877ee44bc2649e77a1c45b
+      internalID: -371693629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_24
+      rect:
+        serializedVersion: 2
+        x: 6264
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1742fe9a26c454b88dd6a2e2ceb69d
+      internalID: 1855726966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_25
+      rect:
+        serializedVersion: 2
+        x: 6525
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d2d938ad633854784f59e1331e1cd5
+      internalID: 500679941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_26
+      rect:
+        serializedVersion: 2
+        x: 6786
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866c91040f8c03f4d8bd5b6e3008ed00
+      internalID: -1191153326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_27
+      rect:
+        serializedVersion: 2
+        x: 7047
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd546e4c0d94a9c4885ec91edf2aba9e
+      internalID: 1830950793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_28
+      rect:
+        serializedVersion: 2
+        x: 7308
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2852dac7887851d41a7eba5b5868a35c
+      internalID: -1067311670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_29
+      rect:
+        serializedVersion: 2
+        x: 7569
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80501aaba0a6ba145917ff654010f494
+      internalID: 1660596775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_30
+      rect:
+        serializedVersion: 2
+        x: 7830
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d175e9d703bcb4d419dc0649a8e8aeab
+      internalID: -1331133602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_31
+      rect:
+        serializedVersion: 2
+        x: 8091
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8bc5740aa27134e959014b3d9f91da
+      internalID: 599167618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_32
+      rect:
+        serializedVersion: 2
+        x: 8352
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24ce212b223aaa429ea7d9aea862672
+      internalID: -1627601695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_33
+      rect:
+        serializedVersion: 2
+        x: 8613
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b17d7fd7b13b2b49820ecd2330b1b6d
+      internalID: 1226651391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_34
+      rect:
+        serializedVersion: 2
+        x: 8874
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d7aa26fb30472449487a213dcad943
+      internalID: 1151056848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_35
+      rect:
+        serializedVersion: 2
+        x: 9135
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f22aef773613e14d92d89ef25854409
+      internalID: -1087499327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_36
+      rect:
+        serializedVersion: 2
+        x: 9396
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d73c2e503433e34c8d99e46a455b27f
+      internalID: -253889859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_37
+      rect:
+        serializedVersion: 2
+        x: 9657
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169ec295ec77f9c44bc6aed699edf11b
+      internalID: 647805134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_38
+      rect:
+        serializedVersion: 2
+        x: 9918
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0986c0a7fb57b11449257e89cf77ab05
+      internalID: -1422410569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_39
+      rect:
+        serializedVersion: 2
+        x: 10179
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585d1ce0a51d8ac4ebf82f928456f2df
+      internalID: 92078885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_40
+      rect:
+        serializedVersion: 2
+        x: 10440
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccbdfbb56fb91942bb891b05a2638b4
+      internalID: 1099040843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_41
+      rect:
+        serializedVersion: 2
+        x: 10701
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cc3753d818c914daa5adfe7a7a71a3
+      internalID: -1355510171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Camino_1_Spritesheet_2_42
+      rect:
+        serializedVersion: 2
+        x: 10962
+        y: 0
+        width: 261.06976
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14ae177370b51c49a97bb50a4b53577
+      internalID: -291145253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Hearth_Camino_1_Spritesheet_2_9: -605295177
+      Hearth_Camino_1_Spritesheet_2_15: -1931274728
+      Hearth_Camino_1_Spritesheet_2_12: -150296318
+      Hearth_Camino_1_Spritesheet_2_0: 731474474
+      Hearth_Camino_1_Spritesheet_2_25: 500679941
+      Hearth_Camino_1_Spritesheet_2_7: -836949983
+      Hearth_Camino_1_Spritesheet_2_2: -2089230297
+      Hearth_Camino_1_Spritesheet_2_30: -1331133602
+      Hearth_Camino_1_Spritesheet_2_39: 92078885
+      Hearth_Camino_1_Spritesheet_2_21: 2041558594
+      Hearth_Camino_1_Spritesheet_2_10: -794000318
+      Hearth_Camino_1_Spritesheet_2_17: -1447415290
+      Hearth_Camino_1_Spritesheet_2_5: -482287606
+      Hearth_Camino_1_Spritesheet_2_8: 1937840310
+      Hearth_Camino_1_Spritesheet_2_18: -1120022880
+      Hearth_Camino_1_Spritesheet_2_14: 2096912129
+      Hearth_Camino_1_Spritesheet_2_1: 557194388
+      Hearth_Camino_1_Spritesheet_2_20: 1806533156
+      Hearth_Camino_1_Spritesheet_2_29: 1660596775
+      Hearth_Camino_1_Spritesheet_2_24: 1855726966
+      Hearth_Camino_1_Spritesheet_2_38: -1422410569
+      Hearth_Camino_1_Spritesheet_2_42: -291145253
+      Hearth_Camino_1_Spritesheet_2_28: -1067311670
+      Hearth_Camino_1_Spritesheet_2_13: -950620654
+      Hearth_Camino_1_Spritesheet_2_36: -253889859
+      Hearth_Camino_1_Spritesheet_2_4: -1621410295
+      Hearth_Camino_1_Spritesheet_2_27: 1830950793
+      Hearth_Camino_1_Spritesheet_2_35: -1087499327
+      Hearth_Camino_1_Spritesheet_2_37: 647805134
+      Hearth_Camino_1_Spritesheet_2_41: -1355510171
+      Hearth_Camino_1_Spritesheet_2_11: 513207705
+      Hearth_Camino_1_Spritesheet_2_23: -371693629
+      Hearth_Camino_1_Spritesheet_2_22: -906886310
+      Hearth_Camino_1_Spritesheet_2_31: 599167618
+      Hearth_Camino_1_Spritesheet_2_34: 1151056848
+      Hearth_Camino_1_Spritesheet_2_3: -946358830
+      Hearth_Camino_1_Spritesheet_2_16: 312615295
+      Hearth_Camino_1_Spritesheet_2_32: -1627601695
+      Hearth_Camino_1_Spritesheet_2_26: -1191153326
+      Hearth_Camino_1_Spritesheet_2_6: -432268550
+      Hearth_Camino_1_Spritesheet_2_19: 147735005
+      Hearth_Camino_1_Spritesheet_2_40: 1099040843
+      Hearth_Camino_1_Spritesheet_2_33: 1226651391
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

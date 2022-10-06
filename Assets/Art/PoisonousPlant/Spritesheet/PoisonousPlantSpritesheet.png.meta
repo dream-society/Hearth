@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a31b712e8f71e584d9ce475aab037364
+guid: 4243bff9ec2b4a44d879c1bb4849ae88
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hearth_Cespuglio_Spinoso_Spritesheet_0
+      name: PoisonousPlantSpritesheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb304892c450e954a854170cfb7ffe27
-      internalID: 1046150135
+      spriteID: 76b94c78455451a4f8e00ec4ca73d078
+      internalID: 1153958032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hearth_Cespuglio_Spinoso_Spritesheet_1
+      name: PoisonousPlantSpritesheet_1
       rect:
         serializedVersion: 2
         x: 520
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79862816be957a04d90fd9f47a4cef46
-      internalID: 1815714974
+      spriteID: c54a17c3e36b3f546af0c6ce9d88cf00
+      internalID: -14198395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hearth_Cespuglio_Spinoso_Spritesheet_2
+      name: PoisonousPlantSpritesheet_2
       rect:
         serializedVersion: 2
         x: 1040
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 722812d7907f6764589a89d24aec59ca
-      internalID: -1997107161
+      spriteID: b5cde6d1986f4044eab8480c6f2b22f7
+      internalID: 403642502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hearth_Cespuglio_Spinoso_Spritesheet_3
+      name: PoisonousPlantSpritesheet_3
       rect:
         serializedVersion: 2
         x: 1560
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02a75a83abe6c6d41ad846e5ad04ad3f
-      internalID: -896343027
+      spriteID: f63e14dd2a73fd248b95ae9f8086f704
+      internalID: 1894519225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hearth_Cespuglio_Spinoso_Spritesheet_4
+      name: PoisonousPlantSpritesheet_4
       rect:
         serializedVersion: 2
         x: 2080
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16b87afed147e0246aca9370d8b32afe
-      internalID: -54989933
+      spriteID: 06fc867a9e238e74eab63b444b6cc39a
+      internalID: 1251805355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hearth_Cespuglio_Spinoso_Spritesheet_5
+      name: PoisonousPlantSpritesheet_5
       rect:
         serializedVersion: 2
         x: 2600
@@ -223,8 +223,407 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be8f547200cbe94458b38debdf26466b
-      internalID: 637654675
+      spriteID: b192f7d1210c0e64fac7eebfcc997e84
+      internalID: 1614652994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoisonousPlantSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97728a645702704a8ea2a3fcc5604f6
+      internalID: 1220329613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoisonousPlantSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5b5697790065e4b9df0354caef62c7
+      internalID: -640088098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoisonousPlantSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79416584a13869748892c864e7a27169
+      internalID: -850287601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoisonousPlantSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01474698049443443aac856ef2bfd7bc
+      internalID: -278334984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoisonousPlantSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25855cd5481b12b40bbc7bf25d839d8e
+      internalID: 42964731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoisonousPlantSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 5720
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea3983b0af4fdc47ba88133f6cddcb0
+      internalID: 1246147044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoisonousPlantSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 6240
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e036a1dafd447d149b25bb810db2d2e1
+      internalID: 616293548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoisonousPlantSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 6760
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b48941db98fef41b90b710b4e39707
+      internalID: -12501068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoisonousPlantSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 7280
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82eb2845407da5643b3ef0af7520f811
+      internalID: 1073776820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoisonousPlantSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 7800
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb6dcd3922d0014f9721d17069fafaf
+      internalID: -1513862119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoisonousPlantSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 8320
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6717fd6f83fca44a99cc54e133049df
+      internalID: -304033950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoisonousPlantSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 8840
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42854f80e00466439adeb5a3d69aeb5
+      internalID: -550217914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoisonousPlantSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93760e5811a0f84685db605779227b1
+      internalID: 1920440589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoisonousPlantSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 9880
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159dcab81aad88b4ab4c2b4fc5e2ec4c
+      internalID: -1604986526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoisonousPlantSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 10400
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea95854bb2be3614f9c87ef9580ae710
+      internalID: -191446901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoisonousPlantSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 10920
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe175366d55ff34439f7939dce9d39c2
+      internalID: 1357779101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoisonousPlantSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 11440
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7ba5a0cda81f24288b141b0de7c02f
+      internalID: -1187961511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoisonousPlantSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 11960
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b1b3f5e95e5304ba9b669f7fe28399
+      internalID: -1573419692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoisonousPlantSpritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 12480
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb32f1fa9bf469d4ba3ca18a06f3fea4
+      internalID: -1633841864
       vertices: []
       indices: 
       edges: []
@@ -240,12 +639,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hearth_Cespuglio_Spinoso_Spritesheet_1: 1815714974
-      Hearth_Cespuglio_Spinoso_Spritesheet_0: 1046150135
-      Hearth_Cespuglio_Spinoso_Spritesheet_2: -1997107161
-      Hearth_Cespuglio_Spinoso_Spritesheet_5: 637654675
-      Hearth_Cespuglio_Spinoso_Spritesheet_4: -54989933
-      Hearth_Cespuglio_Spinoso_Spritesheet_3: -896343027
+      PoisonousPlantSpritesheet_6: 1220329613
+      PoisonousPlantSpritesheet_15: -1513862119
+      PoisonousPlantSpritesheet_2: 403642502
+      PoisonousPlantSpritesheet_4: 1251805355
+      PoisonousPlantSpritesheet_8: -850287601
+      PoisonousPlantSpritesheet_13: -12501068
+      PoisonousPlantSpritesheet_14: 1073776820
+      PoisonousPlantSpritesheet_5: 1614652994
+      PoisonousPlantSpritesheet_18: 1920440589
+      PoisonousPlantSpritesheet_24: -1633841864
+      PoisonousPlantSpritesheet_1: -14198395
+      PoisonousPlantSpritesheet_17: -550217914
+      PoisonousPlantSpritesheet_22: -1187961511
+      PoisonousPlantSpritesheet_11: 1246147044
+      PoisonousPlantSpritesheet_9: -278334984
+      PoisonousPlantSpritesheet_16: -304033950
+      PoisonousPlantSpritesheet_3: 1894519225
+      PoisonousPlantSpritesheet_12: 616293548
+      PoisonousPlantSpritesheet_23: -1573419692
+      PoisonousPlantSpritesheet_10: 42964731
+      PoisonousPlantSpritesheet_7: -640088098
+      PoisonousPlantSpritesheet_21: 1357779101
+      PoisonousPlantSpritesheet_20: -191446901
+      PoisonousPlantSpritesheet_0: 1153958032
+      PoisonousPlantSpritesheet_19: -1604986526
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
