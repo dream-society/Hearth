@@ -49,6 +49,7 @@ namespace Hearth.Player
             inputHandler.jumpReleased += JumpEnd;
             inputHandler.runPressed += StartRun;
             inputHandler.runReleased += StopRun;
+            inputHandler.interactPressed += Interact;
         }
 
 
@@ -59,6 +60,7 @@ namespace Hearth.Player
             inputHandler.jumpReleased -= JumpEnd;
             inputHandler.runPressed -= StartRun;
             inputHandler.runReleased -= StopRun;
+            inputHandler.interactPressed -= Interact;
         }
 
 
@@ -169,6 +171,11 @@ namespace Hearth.Player
             {
                 isJumping = false;
             }
+        }
+    
+        private void Interact()
+        {
+            animatorController.StartInteract();
         }
     }
 }

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bd1131e4b6ce7e6478ac9225fc8ef0cb
+guid: 0a2279c78713ec84ba74ae4a2d1eddc6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -109,7 +109,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -118,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f9877a0202052f44a8a1cd74b167ac0
-      internalID: -1028258913
+      spriteID: 1d6b23c1459a8d94eb6b4f3fbecaea76
+      internalID: -1390421660
       vertices: []
       indices: 
       edges: []
@@ -128,9 +128,9 @@ TextureImporter:
       name: SmokeSpritesheet_1
       rect:
         serializedVersion: 2
-        x: 261
+        x: 260
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -139,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e15b8bac315ddb946a561a9d51727b14
-      internalID: -700673826
+      spriteID: f9755e20b284e8e40a28cfd3c3222e9e
+      internalID: -605728092
       vertices: []
       indices: 
       edges: []
@@ -149,9 +149,9 @@ TextureImporter:
       name: SmokeSpritesheet_2
       rect:
         serializedVersion: 2
-        x: 522
+        x: 520
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9366ff3f8d6b25a458e726e674f88389
-      internalID: -330960981
+      spriteID: 7c9c432434b68184184d8b912fccc7e6
+      internalID: 836176727
       vertices: []
       indices: 
       edges: []
@@ -170,9 +170,9 @@ TextureImporter:
       name: SmokeSpritesheet_3
       rect:
         serializedVersion: 2
-        x: 783
+        x: 780
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 443336a19bb9ee0458dd6af114860196
-      internalID: 790404157
+      spriteID: 1f4376b1fbf326c41badc4e28d28cfaf
+      internalID: 1499216631
       vertices: []
       indices: 
       edges: []
@@ -191,9 +191,9 @@ TextureImporter:
       name: SmokeSpritesheet_4
       rect:
         serializedVersion: 2
-        x: 1044
+        x: 1040
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -202,8 +202,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcf44a20621ff734d9e52e30fa04fc6d
-      internalID: -641897885
+      spriteID: 76dabf37e07340a43bfeda27e9a39f73
+      internalID: 1179585924
       vertices: []
       indices: 
       edges: []
@@ -212,9 +212,9 @@ TextureImporter:
       name: SmokeSpritesheet_5
       rect:
         serializedVersion: 2
-        x: 1305
+        x: 1300
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -223,8 +223,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d0743773906fba49a211306632dbef4
-      internalID: 1003633149
+      spriteID: 0141a0e6403e0004e9dcfe7a4f21236f
+      internalID: -1113089178
       vertices: []
       indices: 
       edges: []
@@ -233,9 +233,9 @@ TextureImporter:
       name: SmokeSpritesheet_6
       rect:
         serializedVersion: 2
-        x: 1566
+        x: 1560
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -244,8 +244,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6958d388613ad34481f312e25881bbf
-      internalID: -839963007
+      spriteID: e88ed5f9ce9b5f34486a17a623e6c1be
+      internalID: 436936620
       vertices: []
       indices: 
       edges: []
@@ -254,9 +254,9 @@ TextureImporter:
       name: SmokeSpritesheet_7
       rect:
         serializedVersion: 2
-        x: 1827
+        x: 1820
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -265,8 +265,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f621609198e3284a989ff1bb177f962
-      internalID: 1650561662
+      spriteID: 01b5224d747c22644befba5372420e7e
+      internalID: 1570483892
       vertices: []
       indices: 
       edges: []
@@ -275,9 +275,9 @@ TextureImporter:
       name: SmokeSpritesheet_8
       rect:
         serializedVersion: 2
-        x: 2088
+        x: 2080
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -286,8 +286,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83c082008d2bad34d9e3ce2cbc14ada2
-      internalID: -1541597006
+      spriteID: 6a2664f6683e5c242898755d17c649f0
+      internalID: -1614742349
       vertices: []
       indices: 
       edges: []
@@ -296,9 +296,9 @@ TextureImporter:
       name: SmokeSpritesheet_9
       rect:
         serializedVersion: 2
-        x: 2349
+        x: 2340
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -307,8 +307,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39db6cc3e1ef64244847b2844429b92a
-      internalID: 1289608537
+      spriteID: d691cabedb6c4da459244b3c5598961b
+      internalID: -1987952088
       vertices: []
       indices: 
       edges: []
@@ -317,9 +317,9 @@ TextureImporter:
       name: SmokeSpritesheet_10
       rect:
         serializedVersion: 2
-        x: 2610
+        x: 2600
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -328,8 +328,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddabd7b52b9d4f843961cf661556ec96
-      internalID: 1228500157
+      spriteID: b636403df0c149e4d9850ce0fa784d6b
+      internalID: -1626670858
       vertices: []
       indices: 
       edges: []
@@ -338,9 +338,9 @@ TextureImporter:
       name: SmokeSpritesheet_11
       rect:
         serializedVersion: 2
-        x: 2871
+        x: 2860
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -349,8 +349,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaeaed00567a556419a167d9213b826b
-      internalID: -244193136
+      spriteID: cd0a687f78de3cb40b3c0393becbc67e
+      internalID: 1236839544
       vertices: []
       indices: 
       edges: []
@@ -359,9 +359,9 @@ TextureImporter:
       name: SmokeSpritesheet_12
       rect:
         serializedVersion: 2
-        x: 3132
+        x: 3120
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -370,8 +370,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07d92185d7299ba46a21ff1c6333e203
-      internalID: -1883184459
+      spriteID: 474cdc2f5f6f78b49a955a5e6c80e9e4
+      internalID: 285120674
       vertices: []
       indices: 
       edges: []
@@ -380,9 +380,9 @@ TextureImporter:
       name: SmokeSpritesheet_13
       rect:
         serializedVersion: 2
-        x: 3393
+        x: 3380
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -391,8 +391,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b02d3e7bd54cec46bc002f8e84ae7b7
-      internalID: 935371082
+      spriteID: 76882b29aafa1e8418c09add078d7f5d
+      internalID: -1145539748
       vertices: []
       indices: 
       edges: []
@@ -401,9 +401,9 @@ TextureImporter:
       name: SmokeSpritesheet_14
       rect:
         serializedVersion: 2
-        x: 3654
+        x: 3640
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -412,8 +412,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98a1768171188be47ae94cb6c89b9347
-      internalID: -1388603979
+      spriteID: 77c9482482b4be14cbb7e84b6206a66c
+      internalID: -1394199911
       vertices: []
       indices: 
       edges: []
@@ -422,9 +422,9 @@ TextureImporter:
       name: SmokeSpritesheet_15
       rect:
         serializedVersion: 2
-        x: 3915
+        x: 3900
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -433,8 +433,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbeadb2d1c357d64ab92084f27402fe3
-      internalID: 2000187038
+      spriteID: fa11c623098bfd64a93262d7f03e5d5f
+      internalID: -484349594
       vertices: []
       indices: 
       edges: []
@@ -443,9 +443,9 @@ TextureImporter:
       name: SmokeSpritesheet_16
       rect:
         serializedVersion: 2
-        x: 4176
+        x: 4160
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -454,8 +454,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fca180b75c9569d43ac8781f6c1e7c43
-      internalID: -1507143537
+      spriteID: 4fb7500b88a89cd4b95323c03a0f23f3
+      internalID: -1664652264
       vertices: []
       indices: 
       edges: []
@@ -464,9 +464,9 @@ TextureImporter:
       name: SmokeSpritesheet_17
       rect:
         serializedVersion: 2
-        x: 4437
+        x: 4420
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -475,8 +475,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9795a1aca139dd14f8d566186d344f77
-      internalID: 1709637210
+      spriteID: 92b9fd4a47bf2c440bb9ebc6826d3b98
+      internalID: 1200711697
       vertices: []
       indices: 
       edges: []
@@ -485,9 +485,9 @@ TextureImporter:
       name: SmokeSpritesheet_18
       rect:
         serializedVersion: 2
-        x: 4698
+        x: 4680
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -496,8 +496,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71467144dba8b9445b6796f1f932832b
-      internalID: -1166323280
+      spriteID: 4dc88deaf52ac104ca96e715f8496929
+      internalID: -1396689064
       vertices: []
       indices: 
       edges: []
@@ -506,9 +506,9 @@ TextureImporter:
       name: SmokeSpritesheet_19
       rect:
         serializedVersion: 2
-        x: 4959
+        x: 4940
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -517,8 +517,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 979b123f4bf53ca42958c62b3aa9d56f
-      internalID: 1285174176
+      spriteID: ced0f848fa8e0b64ea4236a1656b1cbe
+      internalID: -1498106221
       vertices: []
       indices: 
       edges: []
@@ -527,9 +527,9 @@ TextureImporter:
       name: SmokeSpritesheet_20
       rect:
         serializedVersion: 2
-        x: 5220
+        x: 5200
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -538,8 +538,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfb7e710e4c7b7541952b3c897084299
-      internalID: -787467125
+      spriteID: 52395bb3f3f009b48a21c9b043ea8922
+      internalID: -299784542
       vertices: []
       indices: 
       edges: []
@@ -548,9 +548,9 @@ TextureImporter:
       name: SmokeSpritesheet_21
       rect:
         serializedVersion: 2
-        x: 5481
+        x: 5460
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -559,8 +559,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0744cd4daa084c45b86137428e8e53c
-      internalID: 172324320
+      spriteID: 470b4906022096b47a2365e6c69310d9
+      internalID: 1002483675
       vertices: []
       indices: 
       edges: []
@@ -569,9 +569,9 @@ TextureImporter:
       name: SmokeSpritesheet_22
       rect:
         serializedVersion: 2
-        x: 5742
+        x: 5720
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -580,8 +580,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4072da7137d74be4d8a29596db05b03a
-      internalID: -1764104157
+      spriteID: 7d92dac01955310439acd59dbf961394
+      internalID: -471363882
       vertices: []
       indices: 
       edges: []
@@ -590,9 +590,9 @@ TextureImporter:
       name: SmokeSpritesheet_23
       rect:
         serializedVersion: 2
-        x: 6003
+        x: 5980
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -601,8 +601,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd35f56018589434ea8cd038c4f15dbc
-      internalID: 1411089527
+      spriteID: e940d1ab0dd10bb49b0a95036f57f200
+      internalID: 1184651085
       vertices: []
       indices: 
       edges: []
@@ -611,9 +611,9 @@ TextureImporter:
       name: SmokeSpritesheet_24
       rect:
         serializedVersion: 2
-        x: 6264
+        x: 6240
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -622,8 +622,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51a8a866cc5bde94b9161391096c6ec0
-      internalID: 798215082
+      spriteID: 8b0d99a744ba41546a8ee7cb29b14cfe
+      internalID: -1045099056
       vertices: []
       indices: 
       edges: []
@@ -632,9 +632,9 @@ TextureImporter:
       name: SmokeSpritesheet_25
       rect:
         serializedVersion: 2
-        x: 6525
+        x: 6500
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -643,8 +643,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3462fe40b9155a4183e6e4323daa585
-      internalID: -415513171
+      spriteID: 41aa10f3df24fff45a0e1e924e4b05ca
+      internalID: 1699958628
       vertices: []
       indices: 
       edges: []
@@ -653,9 +653,9 @@ TextureImporter:
       name: SmokeSpritesheet_26
       rect:
         serializedVersion: 2
-        x: 6786
+        x: 6760
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -664,8 +664,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e18353cd839f51d40834dce519e80a90
-      internalID: 1759167103
+      spriteID: 67ec8e1aa9a739449ba87c03854fb192
+      internalID: 1910609681
       vertices: []
       indices: 
       edges: []
@@ -674,9 +674,9 @@ TextureImporter:
       name: SmokeSpritesheet_27
       rect:
         serializedVersion: 2
-        x: 7047
+        x: 7020
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -685,8 +685,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f7c91c3825b9914a8f3c864241e9168
-      internalID: 238812673
+      spriteID: 8f7b966880149244899029b9de15048f
+      internalID: -1971638331
       vertices: []
       indices: 
       edges: []
@@ -695,9 +695,9 @@ TextureImporter:
       name: SmokeSpritesheet_28
       rect:
         serializedVersion: 2
-        x: 7308
+        x: 7280
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -706,8 +706,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7d0e2e22732b524baa056adfe23e830
-      internalID: 960993153
+      spriteID: 5baf4fc45377ebf48941a76cf60bd78d
+      internalID: 1139192147
       vertices: []
       indices: 
       edges: []
@@ -716,9 +716,9 @@ TextureImporter:
       name: SmokeSpritesheet_29
       rect:
         serializedVersion: 2
-        x: 7569
+        x: 7540
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -727,8 +727,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fdbb5cf51a9a644f99aa7b056330064
-      internalID: 495208149
+      spriteID: 45e83736ae800e64da629c9ecc45e38d
+      internalID: 2053048691
       vertices: []
       indices: 
       edges: []
@@ -737,9 +737,9 @@ TextureImporter:
       name: SmokeSpritesheet_30
       rect:
         serializedVersion: 2
-        x: 7830
+        x: 7800
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -748,8 +748,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 936997c1337bccb41b4a2827d4e27025
-      internalID: 1248452334
+      spriteID: f46d05721c5218d45bfdced1e3674f79
+      internalID: -344742755
       vertices: []
       indices: 
       edges: []
@@ -758,9 +758,9 @@ TextureImporter:
       name: SmokeSpritesheet_31
       rect:
         serializedVersion: 2
-        x: 8091
+        x: 8060
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -769,8 +769,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67b02b6829934d441a8c1d75a91dd11f
-      internalID: 945783843
+      spriteID: 65c6970826eb7e64db08215ee75aeba1
+      internalID: 951011075
       vertices: []
       indices: 
       edges: []
@@ -779,9 +779,9 @@ TextureImporter:
       name: SmokeSpritesheet_32
       rect:
         serializedVersion: 2
-        x: 8352
+        x: 8320
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -790,8 +790,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f57226e5c53ece44b7e255e5ce27255
-      internalID: 1294638851
+      spriteID: 697771f6a589e9c4abba56580de9a95b
+      internalID: -1356974298
       vertices: []
       indices: 
       edges: []
@@ -800,9 +800,9 @@ TextureImporter:
       name: SmokeSpritesheet_33
       rect:
         serializedVersion: 2
-        x: 8613
+        x: 8580
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -811,8 +811,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b117e3a4391bbf4fbd26ca78b53dc5d
-      internalID: -1704890018
+      spriteID: 16efedcec68ea1c409f0b918f9a40fbe
+      internalID: 1636983910
       vertices: []
       indices: 
       edges: []
@@ -821,9 +821,9 @@ TextureImporter:
       name: SmokeSpritesheet_34
       rect:
         serializedVersion: 2
-        x: 8874
+        x: 8840
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -832,8 +832,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa7ba8296117c1740981377f1a03bb61
-      internalID: 1210259532
+      spriteID: 99a71c2f6ecd8a64ea7d114af5ce0e44
+      internalID: 1488071306
       vertices: []
       indices: 
       edges: []
@@ -842,9 +842,9 @@ TextureImporter:
       name: SmokeSpritesheet_35
       rect:
         serializedVersion: 2
-        x: 9135
+        x: 9100
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -853,8 +853,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 452fb43774cbaf145a93e75f693aba1f
-      internalID: -35778676
+      spriteID: 73d0a91d02837574d876a1076ebe2a79
+      internalID: -317706212
       vertices: []
       indices: 
       edges: []
@@ -863,9 +863,9 @@ TextureImporter:
       name: SmokeSpritesheet_36
       rect:
         serializedVersion: 2
-        x: 9396
+        x: 9360
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -874,8 +874,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d9a3ea56c6e3114390bd242a18193f8
-      internalID: 1324034636
+      spriteID: 5bccfeecb66c7254eaf9e4011ef0472c
+      internalID: -1168013971
       vertices: []
       indices: 
       edges: []
@@ -884,9 +884,9 @@ TextureImporter:
       name: SmokeSpritesheet_37
       rect:
         serializedVersion: 2
-        x: 9657
+        x: 9620
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -895,8 +895,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25f76870aae756747a010cdb5c711c73
-      internalID: 1167004094
+      spriteID: 80fdad289af9fd64bbf4b6ea04aa38b2
+      internalID: 63175486
       vertices: []
       indices: 
       edges: []
@@ -905,9 +905,9 @@ TextureImporter:
       name: SmokeSpritesheet_38
       rect:
         serializedVersion: 2
-        x: 9918
+        x: 9880
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -916,8 +916,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59d2868aabb27df4a90fe28cb942ac05
-      internalID: -1355877334
+      spriteID: 8c64b1471ac5a8640b71df683153d9f1
+      internalID: 1532077458
       vertices: []
       indices: 
       edges: []
@@ -926,9 +926,9 @@ TextureImporter:
       name: SmokeSpritesheet_39
       rect:
         serializedVersion: 2
-        x: 10179
+        x: 10140
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -937,8 +937,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0ab5311aeb93e34f96cd0faa4057d9f
-      internalID: 721227756
+      spriteID: 1e9f0b6d53816eb4fb29bf6b06adf719
+      internalID: -2025184901
       vertices: []
       indices: 
       edges: []
@@ -947,9 +947,9 @@ TextureImporter:
       name: SmokeSpritesheet_40
       rect:
         serializedVersion: 2
-        x: 10440
+        x: 10400
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -958,8 +958,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ff2b2593c1bcb64da5a169e71d1c8ec
-      internalID: -769334801
+      spriteID: a505ea2562057fe4a9cb9bac47a694e9
+      internalID: -1356541230
       vertices: []
       indices: 
       edges: []
@@ -968,9 +968,9 @@ TextureImporter:
       name: SmokeSpritesheet_41
       rect:
         serializedVersion: 2
-        x: 10701
+        x: 10660
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -979,8 +979,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3870b36a3560606449b9799f86d7ddfb
-      internalID: 1615472856
+      spriteID: fcff008c9e4147447b4113fe6b588771
+      internalID: -1922233241
       vertices: []
       indices: 
       edges: []
@@ -989,9 +989,9 @@ TextureImporter:
       name: SmokeSpritesheet_42
       rect:
         serializedVersion: 2
-        x: 10962
+        x: 10920
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1000,8 +1000,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d92140aee434454ebf4cc5f6a8e47aa
-      internalID: -1885313186
+      spriteID: 685beb07c6335ac4eb456aa085f6017b
+      internalID: 1840887276
       vertices: []
       indices: 
       edges: []
@@ -1017,49 +1017,49 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SmokeSpritesheet_35: -35778676
-      SmokeSpritesheet_31: 945783843
-      SmokeSpritesheet_6: -839963007
-      SmokeSpritesheet_5: 1003633149
-      SmokeSpritesheet_19: 1285174176
-      SmokeSpritesheet_40: -769334801
-      SmokeSpritesheet_13: 935371082
-      SmokeSpritesheet_39: 721227756
-      SmokeSpritesheet_22: -1764104157
-      SmokeSpritesheet_11: -244193136
-      SmokeSpritesheet_38: -1355877334
-      SmokeSpritesheet_20: -787467125
-      SmokeSpritesheet_23: 1411089527
-      SmokeSpritesheet_3: 790404157
-      SmokeSpritesheet_37: 1167004094
-      SmokeSpritesheet_28: 960993153
-      SmokeSpritesheet_25: -415513171
-      SmokeSpritesheet_34: 1210259532
-      SmokeSpritesheet_0: -1028258913
-      SmokeSpritesheet_8: -1541597006
-      SmokeSpritesheet_18: -1166323280
-      SmokeSpritesheet_26: 1759167103
-      SmokeSpritesheet_27: 238812673
-      SmokeSpritesheet_12: -1883184459
-      SmokeSpritesheet_36: 1324034636
-      SmokeSpritesheet_32: 1294638851
-      SmokeSpritesheet_41: 1615472856
-      SmokeSpritesheet_29: 495208149
-      SmokeSpritesheet_9: 1289608537
-      SmokeSpritesheet_21: 172324320
-      SmokeSpritesheet_33: -1704890018
-      SmokeSpritesheet_17: 1709637210
-      SmokeSpritesheet_16: -1507143537
-      SmokeSpritesheet_24: 798215082
-      SmokeSpritesheet_10: 1228500157
-      SmokeSpritesheet_30: 1248452334
-      SmokeSpritesheet_4: -641897885
-      SmokeSpritesheet_42: -1885313186
-      SmokeSpritesheet_2: -330960981
-      SmokeSpritesheet_14: -1388603979
-      SmokeSpritesheet_1: -700673826
-      SmokeSpritesheet_15: 2000187038
-      SmokeSpritesheet_7: 1650561662
+      SmokeSpritesheet_35: -317706212
+      SmokeSpritesheet_31: 951011075
+      SmokeSpritesheet_6: 436936620
+      SmokeSpritesheet_5: -1113089178
+      SmokeSpritesheet_19: -1498106221
+      SmokeSpritesheet_40: -1356541230
+      SmokeSpritesheet_13: -1145539748
+      SmokeSpritesheet_39: -2025184901
+      SmokeSpritesheet_22: -471363882
+      SmokeSpritesheet_11: 1236839544
+      SmokeSpritesheet_38: 1532077458
+      SmokeSpritesheet_20: -299784542
+      SmokeSpritesheet_23: 1184651085
+      SmokeSpritesheet_3: 1499216631
+      SmokeSpritesheet_37: 63175486
+      SmokeSpritesheet_28: 1139192147
+      SmokeSpritesheet_25: 1699958628
+      SmokeSpritesheet_34: 1488071306
+      SmokeSpritesheet_0: -1390421660
+      SmokeSpritesheet_8: -1614742349
+      SmokeSpritesheet_18: -1396689064
+      SmokeSpritesheet_26: 1910609681
+      SmokeSpritesheet_27: -1971638331
+      SmokeSpritesheet_12: 285120674
+      SmokeSpritesheet_36: -1168013971
+      SmokeSpritesheet_32: -1356974298
+      SmokeSpritesheet_41: -1922233241
+      SmokeSpritesheet_29: 2053048691
+      SmokeSpritesheet_9: -1987952088
+      SmokeSpritesheet_21: 1002483675
+      SmokeSpritesheet_33: 1636983910
+      SmokeSpritesheet_17: 1200711697
+      SmokeSpritesheet_16: -1664652264
+      SmokeSpritesheet_24: -1045099056
+      SmokeSpritesheet_10: -1626670858
+      SmokeSpritesheet_30: -344742755
+      SmokeSpritesheet_4: 1179585924
+      SmokeSpritesheet_42: 1840887276
+      SmokeSpritesheet_2: 836176727
+      SmokeSpritesheet_14: -1394199911
+      SmokeSpritesheet_1: -605728092
+      SmokeSpritesheet_15: -484349594
+      SmokeSpritesheet_7: 1570483892
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

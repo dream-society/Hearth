@@ -63,4 +63,9 @@ public class AnimatorController : MonoBehaviour
         capelliAnimator.SetTrigger("Land");
         sciarpaAnimator.SetTrigger("Land");
     }
+
+    public void StartInteract()
+    {
+        sciarpaAnimator.SetTrigger("Interact");
+    }
 }
