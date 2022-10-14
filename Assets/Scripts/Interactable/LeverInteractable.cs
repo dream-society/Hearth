@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class LeverInteractable : InteractableBase
@@ -10,6 +8,11 @@ public class LeverInteractable : InteractableBase
     {
         base.Interact();
         Debug.Log("Interact with Lever");
-        Platform.Move();
+        Animator animator = GetComponent<Animator>();
+        animator.SetTrigger("Interact");
+        if (Platform != null)
+        {
+            Platform.Move();
+        }
     }
 }
