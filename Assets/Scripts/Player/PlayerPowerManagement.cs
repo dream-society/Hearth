@@ -14,6 +14,11 @@ public class PlayerPowerManagement : MonoBehaviour
     [SerializeField] private InputHandler inputHandler;
     [SerializeField] private Power currentPower;
     public static Action<Power> OnChangePower;
+    public static Func<Power, bool> CanUsePower;
+    public static Action<Power> OnUnlockPower;
+    private bool haveGazzaPower;
+    private bool haveOrsoPower;
+    private bool haveRagnoPower;
 
     private void Start()
     {
@@ -25,6 +30,8 @@ public class PlayerPowerManagement : MonoBehaviour
         inputHandler.switchPressed += TogglePowerUI;
         inputHandler.powerPressed += UsePower;
         OnChangePower += ChangePower;
+        CanUsePower += CheckForPower;
+        OnUnlockPower += UnlockPower;
     }
 
     private void OnDisable()
@@ -32,6 +39,24 @@ public class PlayerPowerManagement : MonoBehaviour
         inputHandler.switchPressed -= TogglePowerUI;
         inputHandler.powerPressed -= UsePower;
         OnChangePower -= ChangePower;
+        CanUsePower -= CheckForPower;
+        OnUnlockPower -= UnlockPower;
+    }
+
+    public bool CheckForPower(Power power)
+    {
+        switch (power)
+        {
+            case Power.GAZZA:
+                return haveGazzaPower;
+            case Power.ORSO:
+                return haveOrsoPower;
+            case Power.RAGNO:
+                return haveRagnoPower;
+            case Power.NONE:
+                return false;
+        }
+        return false;
     }
 
     private void TogglePowerUI()
@@ -65,5 +90,23 @@ public class PlayerPowerManagement : MonoBehaviour
     private void GazzaPower()
     {
         
+    }
+
+    private void UnlockPower(Power power)
+    {
+        switch (power)
+        {
+            case Power.GAZZA:
+                haveGazzaPower = true;
+                break;
+            case Power.ORSO:
+                haveOrsoPower = true;
+                break;
+            case Power.RAGNO:
+                haveRagnoPower = true;
+                break;
+            case Power.NONE:
+                break;
+        }
     }
 }

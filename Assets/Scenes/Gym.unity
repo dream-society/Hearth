@@ -14147,6 +14147,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8207516788591981574, guid: ccb5ff10122b7064082e9d69984e88b1, type: 3}
   m_PrefabInstance: {fileID: 1798069282}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1802173069 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 656815394667545988, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+  m_PrefabInstance: {fileID: 2166784795746225667}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1810759987 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8207516788591981574, guid: ccb5ff10122b7064082e9d69984e88b1, type: 3}
@@ -16474,8 +16485,28 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2166784795494928789, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_Name
-      value: PlayerUI
+      value: UI
       objectReference: {fileID: 0}
+    - target: {fileID: 2166784795494928792, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: borderPowerImage
+      value: 
+      objectReference: {fileID: 1802173069}
+    - target: {fileID: 2166784795494928792, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: bordersPowers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166784795494928792, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: bordersPowers.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: e99b8726ffaf8f044b86e7e91ce7fb6a, type: 3}
+    - target: {fileID: 2166784795494928792, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: bordersPowers.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: c2ed6255545117e4fa5a64cb12d117f7, type: 3}
+    - target: {fileID: 2166784795494928792, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: bordersPowers.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 7fef9f7f01ea98445aec713cd5d7e3be, type: 3}
     - target: {fileID: 2166784795494928793, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -16560,9 +16591,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2166784796926155168, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 2166784795967259804, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 143.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
