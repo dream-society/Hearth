@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using System;
 using UnityEngine.UI;
+using System.Collections;
 
 public class PlayerUI : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class PlayerUI : MonoBehaviour
     public static Action<int> OnUpdateLife;
     public static Action<int> OnUpdatePlasticBottle;
     public static Action OnTogglePowersUI;
+    public static Action<float> OnUsePower;
     public Sprite[] bordersPowers;
 
     private void OnEnable()
@@ -19,6 +21,7 @@ public class PlayerUI : MonoBehaviour
         OnUpdateLife += UpdateLifeText;
         OnUpdatePlasticBottle += UpdatePlasticBottleText;
         OnTogglePowersUI += TogglePowersUI;
+        OnUsePower += UsePower;
     }
 
     private void OnDisable()
@@ -26,6 +29,7 @@ public class PlayerUI : MonoBehaviour
         OnUpdateLife -= UpdateLifeText;
         OnUpdatePlasticBottle -= UpdatePlasticBottleText;
         OnTogglePowersUI -= TogglePowersUI;
+        OnUsePower -= UsePower;
     }
 
     private void UpdateLifeText(int life)
@@ -77,5 +81,23 @@ public class PlayerUI : MonoBehaviour
     {
         borderPowerImage.enabled = true;
         activePowerImage.sprite = image.sprite;
+    }
+
+    private void UsePower(float time)
+    {
+        StartCoroutine(StartPowerCD(time));
+    }
+
+    private IEnumerator StartPowerCD(float time)
+    {
+        activePowerImage.fillAmount = 0;
+        float counter = 0;
+        while (counter < time)
+        {
+            activePowerImage.fillAmount = Mathf.Lerp(0, 1, counter / time);
+            counter += Time.deltaTime;
+            yield return null;
+        }
+        activePowerImage.fillAmount = 1;
     }
 }

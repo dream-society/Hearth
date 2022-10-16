@@ -16426,6 +16426,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 371518275, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: timeInForm
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 371518275, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: haveGazzaPower
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 371518275, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: timeIngGazzaForm
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1439355388932429960, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: m_Name
       value: Player
@@ -16483,6 +16495,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 51950120595560535, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_FillAmount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 51950120595560535, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_FillClockwise
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1207656859932100510, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2166784795494928789, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_Name
       value: UI
@@ -16591,9 +16615,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2166784795551428310, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 314.3
+      objectReference: {fileID: 0}
     - target: {fileID: 2166784795967259804, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 143.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166784795967259810, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166784796926155168, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2640252694083812856, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 89251c5b94d79ea42988177bb885cae0, type: 3}
+    - target: {fileID: 2640252694083812856, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2640252694083812856, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2640252694083812856, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}

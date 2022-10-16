@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public enum Power
@@ -16,9 +17,12 @@ public class PlayerPowerManagement : MonoBehaviour
     public static Action<Power> OnChangePower;
     public static Func<Power, bool> CanUsePower;
     public static Action<Power> OnUnlockPower;
-    private bool haveGazzaPower;
+    public static Func<float> OnUsePower;
+    public bool haveGazzaPower;
     private bool haveOrsoPower;
     private bool haveRagnoPower;
+    private bool isOnGazzaForm;
+    public float timeIngGazzaForm;
 
     private void Start()
     {
@@ -89,7 +93,12 @@ public class PlayerPowerManagement : MonoBehaviour
 
     private void GazzaPower()
     {
-        
+        if (!isOnGazzaForm)
+        {
+            isOnGazzaForm = true;
+            PlayerUI.OnUsePower(timeIngGazzaForm);
+            StartCoroutine(GazzaPowerCoroutine());
+        }
     }
 
     private void UnlockPower(Power power)
@@ -108,5 +117,12 @@ public class PlayerPowerManagement : MonoBehaviour
             case Power.NONE:
                 break;
         }
+    }
+    
+    private IEnumerator GazzaPowerCoroutine()
+    {
+        //Make her Fly
+        yield return new WaitForSeconds(timeIngGazzaForm);
+        isOnGazzaForm = false;
     }
 }
