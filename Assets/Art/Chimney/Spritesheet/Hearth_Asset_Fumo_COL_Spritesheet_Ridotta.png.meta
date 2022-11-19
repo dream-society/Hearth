@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0a2279c78713ec84ba74ae4a2d1eddc6
+guid: 4cf7f5401a89d6849bb3f15e85e25df9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,12 +104,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SmokeSpritesheet_0
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -118,19 +118,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d6b23c1459a8d94eb6b4f3fbecaea76
-      internalID: -1390421660
+      spriteID: be3fbe832c0feec4bb99f755d1969e9b
+      internalID: 343408727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_1
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_1
       rect:
         serializedVersion: 2
-        x: 260
+        x: 261
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -139,19 +139,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9755e20b284e8e40a28cfd3c3222e9e
-      internalID: -605728092
+      spriteID: 4f52489732b16234ca8e291ca551e03a
+      internalID: -1980089199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_2
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_2
       rect:
         serializedVersion: 2
-        x: 520
+        x: 522
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -160,19 +160,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c9c432434b68184184d8b912fccc7e6
-      internalID: 836176727
+      spriteID: 2055e28a7d6f140478a1e155838b0446
+      internalID: -586708050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_3
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_3
       rect:
         serializedVersion: 2
-        x: 780
+        x: 783
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -181,19 +181,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f4376b1fbf326c41badc4e28d28cfaf
-      internalID: 1499216631
+      spriteID: ecc257770e7eb8c459c580fabd92a3b7
+      internalID: 1958990036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_4
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_4
       rect:
         serializedVersion: 2
-        x: 1040
+        x: 1044
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -202,19 +202,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76dabf37e07340a43bfeda27e9a39f73
-      internalID: 1179585924
+      spriteID: 139f65c045d5a784787ea343b91a14f3
+      internalID: -356955151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_5
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_5
       rect:
         serializedVersion: 2
-        x: 1300
+        x: 1305
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -223,19 +223,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0141a0e6403e0004e9dcfe7a4f21236f
-      internalID: -1113089178
+      spriteID: 9afacfba20cfe3a4c9c0ee5cb2b37163
+      internalID: -1039329696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_6
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_6
       rect:
         serializedVersion: 2
-        x: 1560
+        x: 1566
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -244,19 +244,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e88ed5f9ce9b5f34486a17a623e6c1be
-      internalID: 436936620
+      spriteID: fefcf8850796a6843ae9d3b2042d7a91
+      internalID: 750222532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_7
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_7
       rect:
         serializedVersion: 2
-        x: 1820
+        x: 1827
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -265,19 +265,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01b5224d747c22644befba5372420e7e
-      internalID: 1570483892
+      spriteID: 3854435f864857546a7c8bcade3a1920
+      internalID: -819660404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_8
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_8
       rect:
         serializedVersion: 2
-        x: 2080
+        x: 2088
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -286,19 +286,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a2664f6683e5c242898755d17c649f0
-      internalID: -1614742349
+      spriteID: f817019c75160464086700ccf81ae1ef
+      internalID: -232386117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_9
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_9
       rect:
         serializedVersion: 2
-        x: 2340
+        x: 2349
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -307,19 +307,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d691cabedb6c4da459244b3c5598961b
-      internalID: -1987952088
+      spriteID: 7615d22b985f4b749a96c16aa4f4c559
+      internalID: -801019379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_10
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_10
       rect:
         serializedVersion: 2
-        x: 2600
+        x: 2610
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -328,19 +328,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b636403df0c149e4d9850ce0fa784d6b
-      internalID: -1626670858
+      spriteID: 7324fcc1416b8c54e9b86be70655effc
+      internalID: 62661001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_11
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_11
       rect:
         serializedVersion: 2
-        x: 2860
+        x: 2871
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -349,19 +349,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd0a687f78de3cb40b3c0393becbc67e
-      internalID: 1236839544
+      spriteID: acb6f26881fb475419dd46cf2e51de6d
+      internalID: 1764025925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_12
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_12
       rect:
         serializedVersion: 2
-        x: 3120
+        x: 3132
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -370,19 +370,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 474cdc2f5f6f78b49a955a5e6c80e9e4
-      internalID: 285120674
+      spriteID: a3e5ef342ae47e340ae2987d8a261d22
+      internalID: 1759459672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_13
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_13
       rect:
         serializedVersion: 2
-        x: 3380
+        x: 3393
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -391,19 +391,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76882b29aafa1e8418c09add078d7f5d
-      internalID: -1145539748
+      spriteID: acf8b127b1e015f40a76c212d220eb8f
+      internalID: -271084340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_14
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_14
       rect:
         serializedVersion: 2
-        x: 3640
+        x: 3654
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -412,19 +412,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77c9482482b4be14cbb7e84b6206a66c
-      internalID: -1394199911
+      spriteID: f1dfc73117a2bc24eb7a9204cab58569
+      internalID: 918541784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_15
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_15
       rect:
         serializedVersion: 2
-        x: 3900
+        x: 3915
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -433,19 +433,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa11c623098bfd64a93262d7f03e5d5f
-      internalID: -484349594
+      spriteID: fca7f37aecce3f542b84e9afed7f71d9
+      internalID: 758690497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_16
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_16
       rect:
         serializedVersion: 2
-        x: 4160
+        x: 4176
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -454,19 +454,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fb7500b88a89cd4b95323c03a0f23f3
-      internalID: -1664652264
+      spriteID: a35282b63a4a9c84bb72916eef7b5682
+      internalID: 1468774672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_17
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_17
       rect:
         serializedVersion: 2
-        x: 4420
+        x: 4437
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -475,19 +475,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92b9fd4a47bf2c440bb9ebc6826d3b98
-      internalID: 1200711697
+      spriteID: 2e788061be9c89b4eb4d16754e21ec2e
+      internalID: 303112035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_18
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_18
       rect:
         serializedVersion: 2
-        x: 4680
+        x: 4698
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -496,19 +496,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4dc88deaf52ac104ca96e715f8496929
-      internalID: -1396689064
+      spriteID: d5cd3894744b6f0498679a4226c01096
+      internalID: 905881537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_19
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_19
       rect:
         serializedVersion: 2
-        x: 4940
+        x: 4959
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -517,19 +517,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ced0f848fa8e0b64ea4236a1656b1cbe
-      internalID: -1498106221
+      spriteID: b96f8a95aa7a7aa4a9746b75f861bb2a
+      internalID: 1852974688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_20
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_20
       rect:
         serializedVersion: 2
-        x: 5200
+        x: 5220
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -538,19 +538,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52395bb3f3f009b48a21c9b043ea8922
-      internalID: -299784542
+      spriteID: 08e7a9007d97bc346a0e0b8cba9cba87
+      internalID: -1309766718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_21
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_21
       rect:
         serializedVersion: 2
-        x: 5460
+        x: 5481
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -559,19 +559,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 470b4906022096b47a2365e6c69310d9
-      internalID: 1002483675
+      spriteID: 23426b10700c09b44ab62e97b9e597c8
+      internalID: -987328846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_22
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_22
       rect:
         serializedVersion: 2
-        x: 5720
+        x: 5742
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -580,19 +580,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d92dac01955310439acd59dbf961394
-      internalID: -471363882
+      spriteID: 46cd4167aad58204da66b798f79d54e8
+      internalID: 1957023344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_23
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_23
       rect:
         serializedVersion: 2
-        x: 5980
+        x: 6003
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -601,19 +601,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e940d1ab0dd10bb49b0a95036f57f200
-      internalID: 1184651085
+      spriteID: c0fe5adaa6d5378479fddd0be2e85522
+      internalID: -2132691589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_24
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_24
       rect:
         serializedVersion: 2
-        x: 6240
+        x: 6264
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -622,19 +622,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b0d99a744ba41546a8ee7cb29b14cfe
-      internalID: -1045099056
+      spriteID: b4d562c6449c12b4887972ca86bca35b
+      internalID: -1158475725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_25
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_25
       rect:
         serializedVersion: 2
-        x: 6500
+        x: 6525
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -643,19 +643,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41aa10f3df24fff45a0e1e924e4b05ca
-      internalID: 1699958628
+      spriteID: 202b0be2c4074634f9a3ee99302fbf05
+      internalID: 2139344206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_26
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_26
       rect:
         serializedVersion: 2
-        x: 6760
+        x: 6786
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -664,19 +664,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67ec8e1aa9a739449ba87c03854fb192
-      internalID: 1910609681
+      spriteID: 4301996ae38328f4c9b08e0da8d20c24
+      internalID: -679973764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_27
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_27
       rect:
         serializedVersion: 2
-        x: 7020
+        x: 7047
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -685,19 +685,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f7b966880149244899029b9de15048f
-      internalID: -1971638331
+      spriteID: 1ad48b143b0580d40af5f57917e5d625
+      internalID: -1328206945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_28
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_28
       rect:
         serializedVersion: 2
-        x: 7280
+        x: 7308
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -706,19 +706,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5baf4fc45377ebf48941a76cf60bd78d
-      internalID: 1139192147
+      spriteID: 44d7e4952ae5cab41bc5cda4e3ec00b1
+      internalID: -630598371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_29
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_29
       rect:
         serializedVersion: 2
-        x: 7540
+        x: 7569
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -727,19 +727,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45e83736ae800e64da629c9ecc45e38d
-      internalID: 2053048691
+      spriteID: 906a3cacc8c1222419c79c82d13c8ff7
+      internalID: 1019613625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_30
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_30
       rect:
         serializedVersion: 2
-        x: 7800
+        x: 7830
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -748,19 +748,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f46d05721c5218d45bfdced1e3674f79
-      internalID: -344742755
+      spriteID: c4cb871faa86d354a94f901e990fed69
+      internalID: 502562445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_31
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_31
       rect:
         serializedVersion: 2
-        x: 8060
+        x: 8091
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -769,19 +769,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65c6970826eb7e64db08215ee75aeba1
-      internalID: 951011075
+      spriteID: 36af57b7e9dca2143bc76b5f96433883
+      internalID: 374647447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_32
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_32
       rect:
         serializedVersion: 2
-        x: 8320
+        x: 8352
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -790,19 +790,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 697771f6a589e9c4abba56580de9a95b
-      internalID: -1356974298
+      spriteID: 4e6d267522bef6343bc3df4f02406880
+      internalID: 1788694665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_33
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_33
       rect:
         serializedVersion: 2
-        x: 8580
+        x: 8613
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -811,19 +811,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16efedcec68ea1c409f0b918f9a40fbe
-      internalID: 1636983910
+      spriteID: 4ac315d4f8be31344a05e37deeb39419
+      internalID: 253235345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_34
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_34
       rect:
         serializedVersion: 2
-        x: 8840
+        x: 8874
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -832,19 +832,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99a71c2f6ecd8a64ea7d114af5ce0e44
-      internalID: 1488071306
+      spriteID: 4360fb048b72f724394cf51aea75e6bf
+      internalID: 1445009629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_35
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_35
       rect:
         serializedVersion: 2
-        x: 9100
+        x: 9135
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -853,19 +853,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73d0a91d02837574d876a1076ebe2a79
-      internalID: -317706212
+      spriteID: e00e8d7c4d4f7cc4b8238351abad7434
+      internalID: 1535809415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_36
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_36
       rect:
         serializedVersion: 2
-        x: 9360
+        x: 9396
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -874,19 +874,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bccfeecb66c7254eaf9e4011ef0472c
-      internalID: -1168013971
+      spriteID: 9d6086fa8fffea2499dd4c614782d2ac
+      internalID: 1633227316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_37
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_37
       rect:
         serializedVersion: 2
-        x: 9620
+        x: 9657
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -895,19 +895,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80fdad289af9fd64bbf4b6ea04aa38b2
-      internalID: 63175486
+      spriteID: 5365768744745664a8debb9c5a2a0cd1
+      internalID: -5837670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_38
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_38
       rect:
         serializedVersion: 2
-        x: 9880
+        x: 9918
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -916,19 +916,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c64b1471ac5a8640b71df683153d9f1
-      internalID: 1532077458
+      spriteID: abb9a977af2e4b34aa924cdc03720a13
+      internalID: 1748453226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_39
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_39
       rect:
         serializedVersion: 2
-        x: 10140
+        x: 10179
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -937,19 +937,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e9f0b6d53816eb4fb29bf6b06adf719
-      internalID: -2025184901
+      spriteID: b5c7509a5de49764aa06e3e2be345c28
+      internalID: -639248349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_40
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_40
       rect:
         serializedVersion: 2
-        x: 10400
+        x: 10440
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -958,19 +958,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a505ea2562057fe4a9cb9bac47a694e9
-      internalID: -1356541230
+      spriteID: 9fccf0670473551468156bc6e9476c36
+      internalID: -967694107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_41
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_41
       rect:
         serializedVersion: 2
-        x: 10660
+        x: 10701
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -979,19 +979,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcff008c9e4147447b4113fe6b588771
-      internalID: -1922233241
+      spriteID: 017a455bd68064742948c11a900cdcef
+      internalID: -623470714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SmokeSpritesheet_42
+      name: Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_42
       rect:
         serializedVersion: 2
-        x: 10920
+        x: 10962
         y: 0
-        width: 260
+        width: 261.06976
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1000,8 +1000,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 685beb07c6335ac4eb456aa085f6017b
-      internalID: 1840887276
+      spriteID: 82011abafea4b564a93434a4f0921a45
+      internalID: 883890082
       vertices: []
       indices: 
       edges: []
@@ -1017,49 +1017,49 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SmokeSpritesheet_35: -317706212
-      SmokeSpritesheet_31: 951011075
-      SmokeSpritesheet_6: 436936620
-      SmokeSpritesheet_5: -1113089178
-      SmokeSpritesheet_19: -1498106221
-      SmokeSpritesheet_40: -1356541230
-      SmokeSpritesheet_13: -1145539748
-      SmokeSpritesheet_39: -2025184901
-      SmokeSpritesheet_22: -471363882
-      SmokeSpritesheet_11: 1236839544
-      SmokeSpritesheet_38: 1532077458
-      SmokeSpritesheet_20: -299784542
-      SmokeSpritesheet_23: 1184651085
-      SmokeSpritesheet_3: 1499216631
-      SmokeSpritesheet_37: 63175486
-      SmokeSpritesheet_28: 1139192147
-      SmokeSpritesheet_25: 1699958628
-      SmokeSpritesheet_34: 1488071306
-      SmokeSpritesheet_0: -1390421660
-      SmokeSpritesheet_8: -1614742349
-      SmokeSpritesheet_18: -1396689064
-      SmokeSpritesheet_26: 1910609681
-      SmokeSpritesheet_27: -1971638331
-      SmokeSpritesheet_12: 285120674
-      SmokeSpritesheet_36: -1168013971
-      SmokeSpritesheet_32: -1356974298
-      SmokeSpritesheet_41: -1922233241
-      SmokeSpritesheet_29: 2053048691
-      SmokeSpritesheet_9: -1987952088
-      SmokeSpritesheet_21: 1002483675
-      SmokeSpritesheet_33: 1636983910
-      SmokeSpritesheet_17: 1200711697
-      SmokeSpritesheet_16: -1664652264
-      SmokeSpritesheet_24: -1045099056
-      SmokeSpritesheet_10: -1626670858
-      SmokeSpritesheet_30: -344742755
-      SmokeSpritesheet_4: 1179585924
-      SmokeSpritesheet_42: 1840887276
-      SmokeSpritesheet_2: 836176727
-      SmokeSpritesheet_14: -1394199911
-      SmokeSpritesheet_1: -605728092
-      SmokeSpritesheet_15: -484349594
-      SmokeSpritesheet_7: 1570483892
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_35: 1535809415
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_8: -232386117
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_9: -801019379
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_39: -639248349
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_15: 758690497
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_27: -1328206945
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_22: 1957023344
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_37: -5837670
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_3: 1958990036
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_21: -987328846
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_12: 1759459672
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_16: 1468774672
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_0: 343408727
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_33: 253235345
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_23: -2132691589
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_36: 1633227316
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_11: 1764025925
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_40: -967694107
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_5: -1039329696
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_18: 905881537
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_17: 303112035
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_14: 918541784
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_31: 374647447
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_6: 750222532
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_25: 2139344206
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_1: -1980089199
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_41: -623470714
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_34: 1445009629
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_29: 1019613625
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_4: -356955151
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_20: -1309766718
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_26: -679973764
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_28: -630598371
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_32: 1788694665
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_13: -271084340
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_10: 62661001
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_42: 883890082
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_24: -1158475725
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_19: 1852974688
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_7: -819660404
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_30: 502562445
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_2: -586708050
+      Hearth_Asset_Fumo_COL_Spritesheet_Ridotta_38: 1748453226
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

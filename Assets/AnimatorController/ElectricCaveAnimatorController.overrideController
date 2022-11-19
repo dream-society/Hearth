@@ -9,5 +9,5 @@ AnimatorOverrideController:
   m_Name: ElectricCaveAnimatorController
   m_Controller: {fileID: 9100000, guid: 4f660faae8903a146b1541a690a134ef, type: 2}
   m_Clips:
-  - m_OriginalClip: {fileID: 7400000, guid: d02d4b5067d1fc14292c512cc2d3abe0, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 9ea06140a55405e48b839820f6ffb371, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 55ae065169248224bb95d5fddee4437a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5afbb503bb9b3124684435b5affbd6ea, type: 2}

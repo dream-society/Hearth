@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a3eb194ccb1a86f4aa821ec1a316d8a5
+guid: 2198fd986aafe0c44b5118983926b7f1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SharpDiamondSpritesheet_0
+      name: Hearth_Asset_Pianta_COL_Spritesheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e717d5c4d6056444fb7efdb8dbf34047
-      internalID: -1724898995
+      spriteID: 8b9867f99d10d38478d130f1e5838057
+      internalID: 1915299932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SharpDiamondSpritesheet_1
+      name: Hearth_Asset_Pianta_COL_Spritesheet_1
       rect:
         serializedVersion: 2
         x: 520
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e92eeb4db0f7904196df0cde078302c
-      internalID: -265691637
+      spriteID: ad0d4f6096a86114995be0ab88487d35
+      internalID: -1146792602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SharpDiamondSpritesheet_2
+      name: Hearth_Asset_Pianta_COL_Spritesheet_2
       rect:
         serializedVersion: 2
         x: 1040
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 753925ff881ec48468ec33f6b77b851d
-      internalID: 1799350262
+      spriteID: cddf4dff5583bd5468f1383cbc5d1290
+      internalID: 1770066316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SharpDiamondSpritesheet_3
+      name: Hearth_Asset_Pianta_COL_Spritesheet_3
       rect:
         serializedVersion: 2
         x: 1560
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca2c8bdf6158f644cb65b7152f530d7f
-      internalID: -845226636
+      spriteID: 76d8f6c493f2264409bec10602eb5d72
+      internalID: 304712866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SharpDiamondSpritesheet_4
+      name: Hearth_Asset_Pianta_COL_Spritesheet_4
       rect:
         serializedVersion: 2
         x: 2080
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8af6e119ae8ff64297bcafe8b236f2a
-      internalID: -820642049
+      spriteID: 419d18f884834de45b7deed4a2da18b6
+      internalID: 604917247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SharpDiamondSpritesheet_5
+      name: Hearth_Asset_Pianta_COL_Spritesheet_5
       rect:
         serializedVersion: 2
         x: 2600
@@ -223,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c02ca040287ca74094bf3036a5277bb
-      internalID: 346892456
+      spriteID: 2103bd6c8745f2541b99481a101413f4
+      internalID: -865022306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SharpDiamondSpritesheet_6
+      name: Hearth_Asset_Pianta_COL_Spritesheet_6
       rect:
         serializedVersion: 2
         x: 3120
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8109e4c61564bad47aec8163fff300ae
-      internalID: 1006765109
+      spriteID: 062b7c0d81386c541900248518f1c062
+      internalID: 42249588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SharpDiamondSpritesheet_7
+      name: Hearth_Asset_Pianta_COL_Spritesheet_7
       rect:
         serializedVersion: 2
         x: 3640
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58319eed2f6ca504f9fa4c13dc599bac
-      internalID: 1618777765
+      spriteID: 28b1c790d9fe1b04b9b5dccc04fe6b88
+      internalID: -1711200768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SharpDiamondSpritesheet_8
+      name: Hearth_Asset_Pianta_COL_Spritesheet_8
       rect:
         serializedVersion: 2
         x: 4160
@@ -286,14 +286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88e2106151e77c14bb20a72e7d295105
-      internalID: 1089560749
+      spriteID: 096db8ac824316e49b4ac257aa346e23
+      internalID: 1143065351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SharpDiamondSpritesheet_9
+      name: Hearth_Asset_Pianta_COL_Spritesheet_9
       rect:
         serializedVersion: 2
         x: 4680
@@ -307,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ca167ce38c25c74c8a9df96b6227814
-      internalID: 1990734809
+      spriteID: c6ff5a3fbd1391f47a4b2bb64c2a6e60
+      internalID: 234876264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SharpDiamondSpritesheet_10
+      name: Hearth_Asset_Pianta_COL_Spritesheet_10
       rect:
         serializedVersion: 2
         x: 5200
@@ -328,14 +328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2216e97c69a473a42af5fc005cf6ad81
-      internalID: -144138557
+      spriteID: 40ad19e0135a69b4fa96e3cd00386f0a
+      internalID: 1088642198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SharpDiamondSpritesheet_11
+      name: Hearth_Asset_Pianta_COL_Spritesheet_11
       rect:
         serializedVersion: 2
         x: 5720
@@ -349,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0425ee026d00c94d8f5f2f061a135ce
-      internalID: 1890550307
+      spriteID: d2ffc929b86c4c14385fd2f7146967fc
+      internalID: -560847932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SharpDiamondSpritesheet_12
+      name: Hearth_Asset_Pianta_COL_Spritesheet_12
       rect:
         serializedVersion: 2
         x: 6240
@@ -370,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c84c278fb9dc91f40be637e8c81c6022
-      internalID: 1997233891
+      spriteID: 9fb75d3b209ab60498639ea820a361e5
+      internalID: 581974856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SharpDiamondSpritesheet_13
+      name: Hearth_Asset_Pianta_COL_Spritesheet_13
       rect:
         serializedVersion: 2
         x: 6760
@@ -391,14 +391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ec22645e62650d4c88bec59bd848f5d
-      internalID: -1301101836
+      spriteID: cfc1127b323ff7d46862f08f8d2d5447
+      internalID: 1434873017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SharpDiamondSpritesheet_14
+      name: Hearth_Asset_Pianta_COL_Spritesheet_14
       rect:
         serializedVersion: 2
         x: 7280
@@ -412,8 +412,218 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8a143012193a98448d604c04ce02ea2
-      internalID: -77508451
+      spriteID: f51643518c3749b41b7294e1d09da58d
+      internalID: -894203877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Pianta_COL_Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 7800
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6931fb8d1296464d8f5a5e940954b9c
+      internalID: -1972822242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Pianta_COL_Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 8320
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bd5e1ebcb0542459512ed97102bd93
+      internalID: 835659055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Pianta_COL_Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 8840
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136ec1bc7ad3a89498d4ce1d029c9355
+      internalID: 932870911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Pianta_COL_Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 9360
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7dfa90b0c3d1fd44989cc3c4150b8fe
+      internalID: 1813052668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Pianta_COL_Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 9880
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d808a26246e372947bb5e776e977f9cb
+      internalID: 538141784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Pianta_COL_Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 10400
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923ec73260b85f4478a8f2aeff4f95a7
+      internalID: 716230479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Pianta_COL_Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 10920
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3056b713d01ea9140ac7ae60b57fed2d
+      internalID: -123918015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Pianta_COL_Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 11440
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83163446cd4e87946aad0afcf94ccc7d
+      internalID: 1275839989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Pianta_COL_Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 11960
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c048fbdfa5558944a7e2f970a6e131b
+      internalID: -1826540384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Pianta_COL_Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 12480
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c4fb673b3ad6e4ba4bd3deb51bc4f6
+      internalID: -1854975751
       vertices: []
       indices: 
       edges: []
@@ -429,21 +639,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SharpDiamondSpritesheet_1: -265691637
-      SharpDiamondSpritesheet_2: 1799350262
-      SharpDiamondSpritesheet_11: 1890550307
-      SharpDiamondSpritesheet_7: 1618777765
-      SharpDiamondSpritesheet_5: 346892456
-      SharpDiamondSpritesheet_6: 1006765109
-      SharpDiamondSpritesheet_9: 1990734809
-      SharpDiamondSpritesheet_8: 1089560749
-      SharpDiamondSpritesheet_13: -1301101836
-      SharpDiamondSpritesheet_14: -77508451
-      SharpDiamondSpritesheet_12: 1997233891
-      SharpDiamondSpritesheet_10: -144138557
-      SharpDiamondSpritesheet_0: -1724898995
-      SharpDiamondSpritesheet_3: -845226636
-      SharpDiamondSpritesheet_4: -820642049
+      Hearth_Asset_Pianta_COL_Spritesheet_6: 42249588
+      Hearth_Asset_Pianta_COL_Spritesheet_17: 932870911
+      Hearth_Asset_Pianta_COL_Spritesheet_4: 604917247
+      Hearth_Asset_Pianta_COL_Spritesheet_14: -894203877
+      Hearth_Asset_Pianta_COL_Spritesheet_21: -123918015
+      Hearth_Asset_Pianta_COL_Spritesheet_5: -865022306
+      Hearth_Asset_Pianta_COL_Spritesheet_7: -1711200768
+      Hearth_Asset_Pianta_COL_Spritesheet_24: -1854975751
+      Hearth_Asset_Pianta_COL_Spritesheet_2: 1770066316
+      Hearth_Asset_Pianta_COL_Spritesheet_16: 835659055
+      Hearth_Asset_Pianta_COL_Spritesheet_18: 1813052668
+      Hearth_Asset_Pianta_COL_Spritesheet_8: 1143065351
+      Hearth_Asset_Pianta_COL_Spritesheet_13: 1434873017
+      Hearth_Asset_Pianta_COL_Spritesheet_10: 1088642198
+      Hearth_Asset_Pianta_COL_Spritesheet_11: -560847932
+      Hearth_Asset_Pianta_COL_Spritesheet_3: 304712866
+      Hearth_Asset_Pianta_COL_Spritesheet_19: 538141784
+      Hearth_Asset_Pianta_COL_Spritesheet_22: 1275839989
+      Hearth_Asset_Pianta_COL_Spritesheet_1: -1146792602
+      Hearth_Asset_Pianta_COL_Spritesheet_12: 581974856
+      Hearth_Asset_Pianta_COL_Spritesheet_9: 234876264
+      Hearth_Asset_Pianta_COL_Spritesheet_0: 1915299932
+      Hearth_Asset_Pianta_COL_Spritesheet_15: -1972822242
+      Hearth_Asset_Pianta_COL_Spritesheet_20: 716230479
+      Hearth_Asset_Pianta_COL_Spritesheet_23: -1826540384
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

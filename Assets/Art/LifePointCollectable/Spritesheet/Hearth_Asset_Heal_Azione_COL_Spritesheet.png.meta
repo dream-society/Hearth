@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b2b26d365aee19b41adffacf02e2cc57
+guid: f244c90e9ef88f6468a1265de2384b6e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lei_Asset_Heal_Azione_Spritesheet_0
+      name: Hearth_Asset_Heal_Azione_COL_Spritesheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfc9cd407e825ff468537f56a1f1b310
-      internalID: 1679045519
+      spriteID: 0307853d195698c45a1fed37ea4e1b74
+      internalID: -1434054394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lei_Asset_Heal_Azione_Spritesheet_1
+      name: Hearth_Asset_Heal_Azione_COL_Spritesheet_1
       rect:
         serializedVersion: 2
         x: 260
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c811e5e612a6fe94bbe33bfef4250f1d
-      internalID: -1254192395
+      spriteID: c5aa53b585e4f4d44af67047a3189665
+      internalID: -298422790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lei_Asset_Heal_Azione_Spritesheet_2
+      name: Hearth_Asset_Heal_Azione_COL_Spritesheet_2
       rect:
         serializedVersion: 2
         x: 520
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2780450373e08654a8a29fd2a9aedc55
-      internalID: 869960109
+      spriteID: d54b0c1cba573164fa708251678abdc5
+      internalID: -679702025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lei_Asset_Heal_Azione_Spritesheet_3
+      name: Hearth_Asset_Heal_Azione_COL_Spritesheet_3
       rect:
         serializedVersion: 2
         x: 780
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7033be5477f88d84f89fd91b02d08894
-      internalID: 1063000375
+      spriteID: 2f4025a4de642d4458795785b4f59fe4
+      internalID: 2076143661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lei_Asset_Heal_Azione_Spritesheet_4
+      name: Hearth_Asset_Heal_Azione_COL_Spritesheet_4
       rect:
         serializedVersion: 2
         x: 1040
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96094902d69e2114f8c57d13c22a61ee
-      internalID: 1056952135
+      spriteID: 8f1caf5a3c534ba4c88fc9d4e508182a
+      internalID: -439673687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lei_Asset_Heal_Azione_Spritesheet_5
+      name: Hearth_Asset_Heal_Azione_COL_Spritesheet_5
       rect:
         serializedVersion: 2
         x: 1300
@@ -223,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39507efc13733d649b876c788e037843
-      internalID: -640649949
+      spriteID: 9a1bc23a0f0114b4da3fc087f4131217
+      internalID: 1360060243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lei_Asset_Heal_Azione_Spritesheet_6
+      name: Hearth_Asset_Heal_Azione_COL_Spritesheet_6
       rect:
         serializedVersion: 2
         x: 1560
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e664f5f007fb9794985c927ac14b4f63
-      internalID: -1338516889
+      spriteID: bab1e6f509c6c7f4f96d720b1f55a533
+      internalID: -97724083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lei_Asset_Heal_Azione_Spritesheet_7
+      name: Hearth_Asset_Heal_Azione_COL_Spritesheet_7
       rect:
         serializedVersion: 2
         x: 1820
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15d2aebd003fcbe4893452c775c07904
-      internalID: 1277729722
+      spriteID: 069bfb64f30dd9d4db5ea084c20f62ea
+      internalID: 587123130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lei_Asset_Heal_Azione_Spritesheet_8
+      name: Hearth_Asset_Heal_Azione_COL_Spritesheet_8
       rect:
         serializedVersion: 2
         x: 2080
@@ -286,8 +286,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 045b589258a64b041ba651ec949fb144
-      internalID: -1785701831
+      spriteID: 1bdd2390a87ae434e9b133fe89afff5b
+      internalID: 2127281545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Heal_Azione_COL_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 0
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75d87bf653b6d34382e7d8ebcef7a89
+      internalID: 539790620
       vertices: []
       indices: 
       edges: []
@@ -303,15 +324,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Lei_Asset_Heal_Azione_Spritesheet_1: -1254192395
-      Lei_Asset_Heal_Azione_Spritesheet_0: 1679045519
-      Lei_Asset_Heal_Azione_Spritesheet_7: 1277729722
-      Lei_Asset_Heal_Azione_Spritesheet_2: 869960109
-      Lei_Asset_Heal_Azione_Spritesheet_4: 1056952135
-      Lei_Asset_Heal_Azione_Spritesheet_8: -1785701831
-      Lei_Asset_Heal_Azione_Spritesheet_3: 1063000375
-      Lei_Asset_Heal_Azione_Spritesheet_5: -640649949
-      Lei_Asset_Heal_Azione_Spritesheet_6: -1338516889
+      Hearth_Asset_Heal_Azione_COL_Spritesheet_0: -1434054394
+      Hearth_Asset_Heal_Azione_COL_Spritesheet_7: 587123130
+      Hearth_Asset_Heal_Azione_COL_Spritesheet_6: -97724083
+      Hearth_Asset_Heal_Azione_COL_Spritesheet_1: -298422790
+      Hearth_Asset_Heal_Azione_COL_Spritesheet_4: -439673687
+      Hearth_Asset_Heal_Azione_COL_Spritesheet_2: -679702025
+      Hearth_Asset_Heal_Azione_COL_Spritesheet_8: 2127281545
+      Hearth_Asset_Heal_Azione_COL_Spritesheet_9: 539790620
+      Hearth_Asset_Heal_Azione_COL_Spritesheet_3: 2076143661
+      Hearth_Asset_Heal_Azione_COL_Spritesheet_5: 1360060243
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

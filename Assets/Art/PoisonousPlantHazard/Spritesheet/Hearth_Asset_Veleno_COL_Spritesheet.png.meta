@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4243bff9ec2b4a44d879c1bb4849ae88
+guid: 8cd18248889a5eb43ab0851aebd2b299
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_0
+      name: Hearth_Asset_Veleno_COL_Spritesheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76b94c78455451a4f8e00ec4ca73d078
-      internalID: 1153958032
+      spriteID: 844123efbbcc6154893e4afe40a48f1d
+      internalID: 1701987239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_1
+      name: Hearth_Asset_Veleno_COL_Spritesheet_1
       rect:
         serializedVersion: 2
         x: 520
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c54a17c3e36b3f546af0c6ce9d88cf00
-      internalID: -14198395
+      spriteID: 057ccc288c6afad48a0256c3c385dd1b
+      internalID: 1657123628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_2
+      name: Hearth_Asset_Veleno_COL_Spritesheet_2
       rect:
         serializedVersion: 2
         x: 1040
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5cde6d1986f4044eab8480c6f2b22f7
-      internalID: 403642502
+      spriteID: 12913ec52db884c49abb4a93146d8309
+      internalID: -1736212141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_3
+      name: Hearth_Asset_Veleno_COL_Spritesheet_3
       rect:
         serializedVersion: 2
         x: 1560
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f63e14dd2a73fd248b95ae9f8086f704
-      internalID: 1894519225
+      spriteID: 9fcfb4a5e6f54bf4499ddb2de98a48c3
+      internalID: 519901953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_4
+      name: Hearth_Asset_Veleno_COL_Spritesheet_4
       rect:
         serializedVersion: 2
         x: 2080
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06fc867a9e238e74eab63b444b6cc39a
-      internalID: 1251805355
+      spriteID: 8b4a8d22b00ced34794af3694f5d31c2
+      internalID: 1548870484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_5
+      name: Hearth_Asset_Veleno_COL_Spritesheet_5
       rect:
         serializedVersion: 2
         x: 2600
@@ -223,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b192f7d1210c0e64fac7eebfcc997e84
-      internalID: 1614652994
+      spriteID: 72801f0cc4aab614aaaedd5e75462bb7
+      internalID: -1246417478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_6
+      name: Hearth_Asset_Veleno_COL_Spritesheet_6
       rect:
         serializedVersion: 2
         x: 3120
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b97728a645702704a8ea2a3fcc5604f6
-      internalID: 1220329613
+      spriteID: 4d3607c3631c1e041b85ea86705b9a17
+      internalID: -287882440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_7
+      name: Hearth_Asset_Veleno_COL_Spritesheet_7
       rect:
         serializedVersion: 2
         x: 3640
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab5b5697790065e4b9df0354caef62c7
-      internalID: -640088098
+      spriteID: 14055955dd9cb524cabced9629ef3f40
+      internalID: -221344546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_8
+      name: Hearth_Asset_Veleno_COL_Spritesheet_8
       rect:
         serializedVersion: 2
         x: 4160
@@ -286,14 +286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79416584a13869748892c864e7a27169
-      internalID: -850287601
+      spriteID: a5c01e5ff61a68f4d98b54ce185374db
+      internalID: 1841524853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_9
+      name: Hearth_Asset_Veleno_COL_Spritesheet_9
       rect:
         serializedVersion: 2
         x: 4680
@@ -307,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01474698049443443aac856ef2bfd7bc
-      internalID: -278334984
+      spriteID: f69b463409f4be942b2ef2f5d2731d25
+      internalID: -11261620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_10
+      name: Hearth_Asset_Veleno_COL_Spritesheet_10
       rect:
         serializedVersion: 2
         x: 5200
@@ -328,14 +328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25855cd5481b12b40bbc7bf25d839d8e
-      internalID: 42964731
+      spriteID: 8cd120c16eee8794282e94939ab39a90
+      internalID: 1129589709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_11
+      name: Hearth_Asset_Veleno_COL_Spritesheet_11
       rect:
         serializedVersion: 2
         x: 5720
@@ -349,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ea3983b0af4fdc47ba88133f6cddcb0
-      internalID: 1246147044
+      spriteID: 42a071905b018d44c84c98168efa4a0c
+      internalID: 1770442757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_12
+      name: Hearth_Asset_Veleno_COL_Spritesheet_12
       rect:
         serializedVersion: 2
         x: 6240
@@ -370,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e036a1dafd447d149b25bb810db2d2e1
-      internalID: 616293548
+      spriteID: c392992bc839c854888ec25109d375d5
+      internalID: -1294100744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_13
+      name: Hearth_Asset_Veleno_COL_Spritesheet_13
       rect:
         serializedVersion: 2
         x: 6760
@@ -391,14 +391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0b48941db98fef41b90b710b4e39707
-      internalID: -12501068
+      spriteID: b153617b793282149b60f63e1c7ddfee
+      internalID: 365351836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_14
+      name: Hearth_Asset_Veleno_COL_Spritesheet_14
       rect:
         serializedVersion: 2
         x: 7280
@@ -412,14 +412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82eb2845407da5643b3ef0af7520f811
-      internalID: 1073776820
+      spriteID: 3a6ae2c2a0acc014d8d6b0e1a5c27880
+      internalID: -1366415538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_15
+      name: Hearth_Asset_Veleno_COL_Spritesheet_15
       rect:
         serializedVersion: 2
         x: 7800
@@ -433,14 +433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: feb6dcd3922d0014f9721d17069fafaf
-      internalID: -1513862119
+      spriteID: 7b7ca55de3bde3e4a9b764c7f51e53de
+      internalID: 2050292144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_16
+      name: Hearth_Asset_Veleno_COL_Spritesheet_16
       rect:
         serializedVersion: 2
         x: 8320
@@ -454,14 +454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6717fd6f83fca44a99cc54e133049df
-      internalID: -304033950
+      spriteID: 87c7623f99bbcde43beea46b062e84b9
+      internalID: 866028486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_17
+      name: Hearth_Asset_Veleno_COL_Spritesheet_17
       rect:
         serializedVersion: 2
         x: 8840
@@ -475,14 +475,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a42854f80e00466439adeb5a3d69aeb5
-      internalID: -550217914
+      spriteID: c6c3838f8132a164ab6ff29297c7f30e
+      internalID: 445151919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_18
+      name: Hearth_Asset_Veleno_COL_Spritesheet_18
       rect:
         serializedVersion: 2
         x: 9360
@@ -496,14 +496,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c93760e5811a0f84685db605779227b1
-      internalID: 1920440589
+      spriteID: e429a7b1715c5264ebf82708bccf96ce
+      internalID: -1286011780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_19
+      name: Hearth_Asset_Veleno_COL_Spritesheet_19
       rect:
         serializedVersion: 2
         x: 9880
@@ -517,14 +517,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 159dcab81aad88b4ab4c2b4fc5e2ec4c
-      internalID: -1604986526
+      spriteID: 4de9e5f1de7302541893c782eacb728a
+      internalID: 785540266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_20
+      name: Hearth_Asset_Veleno_COL_Spritesheet_20
       rect:
         serializedVersion: 2
         x: 10400
@@ -538,14 +538,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea95854bb2be3614f9c87ef9580ae710
-      internalID: -191446901
+      spriteID: a6272d2f31cb27348b6a18fafbae9381
+      internalID: -1658344450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_21
+      name: Hearth_Asset_Veleno_COL_Spritesheet_21
       rect:
         serializedVersion: 2
         x: 10920
@@ -559,14 +559,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe175366d55ff34439f7939dce9d39c2
-      internalID: 1357779101
+      spriteID: 11ac4995a216d1e42825f6778bac5ee8
+      internalID: 1613856333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_22
+      name: Hearth_Asset_Veleno_COL_Spritesheet_22
       rect:
         serializedVersion: 2
         x: 11440
@@ -580,14 +580,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d7ba5a0cda81f24288b141b0de7c02f
-      internalID: -1187961511
+      spriteID: 83b42a380113ec441a3fdb7a49e50930
+      internalID: -794732575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_23
+      name: Hearth_Asset_Veleno_COL_Spritesheet_23
       rect:
         serializedVersion: 2
         x: 11960
@@ -601,14 +601,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27b1b3f5e95e5304ba9b669f7fe28399
-      internalID: -1573419692
+      spriteID: 25d83c1de8b3e404e951258c9c324091
+      internalID: -1889912181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PoisonousPlantSpritesheet_24
+      name: Hearth_Asset_Veleno_COL_Spritesheet_24
       rect:
         serializedVersion: 2
         x: 12480
@@ -622,8 +622,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb32f1fa9bf469d4ba3ca18a06f3fea4
-      internalID: -1633841864
+      spriteID: 3bb0a516a34845c4b99a090be1b78b0f
+      internalID: 1141702068
       vertices: []
       indices: 
       edges: []
@@ -639,31 +639,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PoisonousPlantSpritesheet_6: 1220329613
-      PoisonousPlantSpritesheet_15: -1513862119
-      PoisonousPlantSpritesheet_2: 403642502
-      PoisonousPlantSpritesheet_4: 1251805355
-      PoisonousPlantSpritesheet_8: -850287601
-      PoisonousPlantSpritesheet_13: -12501068
-      PoisonousPlantSpritesheet_14: 1073776820
-      PoisonousPlantSpritesheet_5: 1614652994
-      PoisonousPlantSpritesheet_18: 1920440589
-      PoisonousPlantSpritesheet_24: -1633841864
-      PoisonousPlantSpritesheet_1: -14198395
-      PoisonousPlantSpritesheet_17: -550217914
-      PoisonousPlantSpritesheet_22: -1187961511
-      PoisonousPlantSpritesheet_11: 1246147044
-      PoisonousPlantSpritesheet_9: -278334984
-      PoisonousPlantSpritesheet_16: -304033950
-      PoisonousPlantSpritesheet_3: 1894519225
-      PoisonousPlantSpritesheet_12: 616293548
-      PoisonousPlantSpritesheet_23: -1573419692
-      PoisonousPlantSpritesheet_10: 42964731
-      PoisonousPlantSpritesheet_7: -640088098
-      PoisonousPlantSpritesheet_21: 1357779101
-      PoisonousPlantSpritesheet_20: -191446901
-      PoisonousPlantSpritesheet_0: 1153958032
-      PoisonousPlantSpritesheet_19: -1604986526
+      Hearth_Asset_Veleno_COL_Spritesheet_24: 1141702068
+      Hearth_Asset_Veleno_COL_Spritesheet_6: -287882440
+      Hearth_Asset_Veleno_COL_Spritesheet_11: 1770442757
+      Hearth_Asset_Veleno_COL_Spritesheet_14: -1366415538
+      Hearth_Asset_Veleno_COL_Spritesheet_23: -1889912181
+      Hearth_Asset_Veleno_COL_Spritesheet_4: 1548870484
+      Hearth_Asset_Veleno_COL_Spritesheet_13: 365351836
+      Hearth_Asset_Veleno_COL_Spritesheet_22: -794732575
+      Hearth_Asset_Veleno_COL_Spritesheet_0: 1701987239
+      Hearth_Asset_Veleno_COL_Spritesheet_20: -1658344450
+      Hearth_Asset_Veleno_COL_Spritesheet_2: -1736212141
+      Hearth_Asset_Veleno_COL_Spritesheet_1: 1657123628
+      Hearth_Asset_Veleno_COL_Spritesheet_7: -221344546
+      Hearth_Asset_Veleno_COL_Spritesheet_21: 1613856333
+      Hearth_Asset_Veleno_COL_Spritesheet_8: 1841524853
+      Hearth_Asset_Veleno_COL_Spritesheet_19: 785540266
+      Hearth_Asset_Veleno_COL_Spritesheet_17: 445151919
+      Hearth_Asset_Veleno_COL_Spritesheet_9: -11261620
+      Hearth_Asset_Veleno_COL_Spritesheet_12: -1294100744
+      Hearth_Asset_Veleno_COL_Spritesheet_18: -1286011780
+      Hearth_Asset_Veleno_COL_Spritesheet_5: -1246417478
+      Hearth_Asset_Veleno_COL_Spritesheet_10: 1129589709
+      Hearth_Asset_Veleno_COL_Spritesheet_3: 519901953
+      Hearth_Asset_Veleno_COL_Spritesheet_15: 2050292144
+      Hearth_Asset_Veleno_COL_Spritesheet_16: 866028486
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

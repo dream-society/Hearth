@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 33d5e9004f0f4cf4c85fa1523c2e2c74
+guid: 45b8a3774f1e04b4681efde56051c749
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LeverIdleSpritesheet_0
+      name: Hearth_Asset_Cespuglio_Spinoso_COL_Spritesheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 260
-        height: 260
+        width: 520
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,41 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7afcef5828e78764f9b76eda928e1073
-      internalID: 1100418779
+      spriteID: 88ccadae412eaea42bec7dc8af25449f
+      internalID: -1229083236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeverIdleSpritesheet_1
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 0
-        width: 260
-        height: 260
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3bae6d294c1f0840bd5c1b4f096ca4a
-      internalID: -1754089287
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LeverIdleSpritesheet_2
+      name: Hearth_Asset_Cespuglio_Spinoso_COL_Spritesheet_1
       rect:
         serializedVersion: 2
         x: 520
         y: 0
-        width: 260
-        height: 260
+        width: 520
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,41 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bfb81adfd1ec0f4c87c9a046fb81f6d
-      internalID: -1141783985
+      spriteID: 8acd47486892548438722abbe1f28ac0
+      internalID: 1412400175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeverIdleSpritesheet_3
-      rect:
-        serializedVersion: 2
-        x: 780
-        y: 0
-        width: 260
-        height: 260
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ea8b59f1bd004f48b9dcf589de38082
-      internalID: -1820211029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LeverIdleSpritesheet_4
+      name: Hearth_Asset_Cespuglio_Spinoso_COL_Spritesheet_2
       rect:
         serializedVersion: 2
         x: 1040
         y: 0
-        width: 260
-        height: 260
+        width: 520
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,41 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25ceac5a9c08ad3469e3afd48caaf1a9
-      internalID: -1225054443
+      spriteID: 8b4eff4606a981c4ea081901ff8d81fe
+      internalID: -1459671295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeverIdleSpritesheet_5
-      rect:
-        serializedVersion: 2
-        x: 1300
-        y: 0
-        width: 260
-        height: 260
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef0f79757509ec042b179f48cce5c027
-      internalID: -734248497
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: LeverIdleSpritesheet_6
+      name: Hearth_Asset_Cespuglio_Spinoso_COL_Spritesheet_3
       rect:
         serializedVersion: 2
         x: 1560
         y: 0
-        width: 260
-        height: 260
+        width: 520
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e12a69acb597d94da417738562c9fdc
-      internalID: 1230084200
+      spriteID: da374794bfc0a7843a90c9bded7e321c
+      internalID: -685716533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeverIdleSpritesheet_7
+      name: Hearth_Asset_Cespuglio_Spinoso_COL_Spritesheet_4
       rect:
         serializedVersion: 2
-        x: 1820
+        x: 2080
         y: 0
-        width: 260
-        height: 260
+        width: 520
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,8 +202,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e971220e50d5daf4a9e5e64f7f7bc1c3
-      internalID: -1130450322
+      spriteID: 091a802c37440c54ca355c62bc7eec94
+      internalID: -1593281884
       vertices: []
       indices: 
       edges: []
@@ -282,14 +219,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      LeverIdleSpritesheet_2: -1141783985
-      LeverIdleSpritesheet_3: -1820211029
-      LeverIdleSpritesheet_7: -1130450322
-      LeverIdleSpritesheet_6: 1230084200
-      LeverIdleSpritesheet_0: 1100418779
-      LeverIdleSpritesheet_5: -734248497
-      LeverIdleSpritesheet_1: -1754089287
-      LeverIdleSpritesheet_4: -1225054443
+      Hearth_Asset_Cespuglio_Spinoso_COL_Spritesheet_4: -1593281884
+      Hearth_Asset_Cespuglio_Spinoso_COL_Spritesheet_0: -1229083236
+      Hearth_Asset_Cespuglio_Spinoso_COL_Spritesheet_3: -685716533
+      Hearth_Asset_Cespuglio_Spinoso_COL_Spritesheet_1: 1412400175
+      Hearth_Asset_Cespuglio_Spinoso_COL_Spritesheet_2: -1459671295
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

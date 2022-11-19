@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: aabf4ea07d236ec4fb6db395578d9415
+guid: cb87f278b644217439b9377b6edd6185
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lei_Asset_Heal_Statica_Spritesheet_0
+      name: Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 260
-        height: 260
+        width: 520
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,41 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73c94d8bf54497f4abfc4cd9d6c2539c
-      internalID: 1224025547
+      spriteID: 6422e2eb804b0494fbaa377ee0771c47
+      internalID: 15782195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lei_Asset_Heal_Statica_Spritesheet_1
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 0
-        width: 260
-        height: 260
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5661876473300947bf590845caf1d85
-      internalID: 1820111580
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lei_Asset_Heal_Statica_Spritesheet_2
+      name: Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_1
       rect:
         serializedVersion: 2
         x: 520
         y: 0
-        width: 260
-        height: 260
+        width: 520
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,41 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4497a14acd401a4f97673882e0f12fc
-      internalID: 1869089769
+      spriteID: 61fd5b67782ffd84a97a789c8f568777
+      internalID: 1010047275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lei_Asset_Heal_Statica_Spritesheet_3
-      rect:
-        serializedVersion: 2
-        x: 780
-        y: 0
-        width: 260
-        height: 260
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4266d06db76c5be41b8d438e1f344315
-      internalID: -1730561957
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lei_Asset_Heal_Statica_Spritesheet_4
+      name: Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_2
       rect:
         serializedVersion: 2
         x: 1040
         y: 0
-        width: 260
-        height: 260
+        width: 520
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,41 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9528372be78b8f41898b420efd85f11
-      internalID: -500775393
+      spriteID: 23c2e506122ecea43924ae4df10f580c
+      internalID: -1136499309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lei_Asset_Heal_Statica_Spritesheet_5
-      rect:
-        serializedVersion: 2
-        x: 1300
-        y: 0
-        width: 260
-        height: 260
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e844ce796fa55b14382411ed218af541
-      internalID: 1738020085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Lei_Asset_Heal_Statica_Spritesheet_6
+      name: Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_3
       rect:
         serializedVersion: 2
         x: 1560
         y: 0
-        width: 260
-        height: 260
+        width: 520
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7f8fe2e27f59ad418efb9bdad55acfb
-      internalID: 1458257420
+      spriteID: 09c3fd87b3cfa44449e61e3f86e70c4c
+      internalID: -1058301225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lei_Asset_Heal_Statica_Spritesheet_7
+      name: Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_4
       rect:
         serializedVersion: 2
-        x: 1820
+        x: 2080
         y: 0
-        width: 260
-        height: 260
+        width: 520
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,8 +202,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 762dd8b33e2cee74686fb10f443c2264
-      internalID: -1780042334
+      spriteID: ab845f6d2383fe242bd9a97aee746e14
+      internalID: 358705828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422004f5b8319be4b9ddea0bcc3a7aba
+      internalID: 2100168164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b46c28ef6f9494b99718abd1f79e9d
+      internalID: 474263856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a437a10cf974b4c8ab6cb7ae619bb8
+      internalID: -1308048283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0dbf917daca6145be733f1562e2590
+      internalID: 1645551151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bf4969f2cedff4b9cab7369d91b4ce
+      internalID: 2082612365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cab39e077561e46afcd84e768379ee
+      internalID: -1339275988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 5720
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f502f48e1c11f4b4cb8d188538f98f0a
+      internalID: -1637867427
       vertices: []
       indices: 
       edges: []
@@ -282,14 +366,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Lei_Asset_Heal_Statica_Spritesheet_4: -500775393
-      Lei_Asset_Heal_Statica_Spritesheet_1: 1820111580
-      Lei_Asset_Heal_Statica_Spritesheet_3: -1730561957
-      Lei_Asset_Heal_Statica_Spritesheet_2: 1869089769
-      Lei_Asset_Heal_Statica_Spritesheet_6: 1458257420
-      Lei_Asset_Heal_Statica_Spritesheet_5: 1738020085
-      Lei_Asset_Heal_Statica_Spritesheet_7: -1780042334
-      Lei_Asset_Heal_Statica_Spritesheet_0: 1224025547
+      Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_1: 1010047275
+      Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_9: 2082612365
+      Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_3: -1058301225
+      Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_7: -1308048283
+      Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_6: 474263856
+      Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_2: -1136499309
+      Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_10: -1339275988
+      Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_8: 1645551151
+      Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_5: 2100168164
+      Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_0: 15782195
+      Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_11: -1637867427
+      Hearth_Asset_Filo_elettrico_2_COL_Spritesheet_4: 358705828
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

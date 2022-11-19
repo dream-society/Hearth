@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8f041c79e99274d428a26ae81f4a1c8b
+guid: 5ea58c373f1772842b90c0ad40a1e98f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hearth_Bottiglia_SpriteSheet_0
+      name: Hearth_Asset_Leva_Azione_COL_Spritesheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 520
-        height: 520
+        width: 260
+        height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +118,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da8cbe114f9ccfd47a8af2fa9ba99270
-      internalID: 1809358367
+      spriteID: 000a20d1b1168dd49874b119887a527c
+      internalID: -1190550058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hearth_Bottiglia_SpriteSheet_1
+      name: Hearth_Asset_Leva_Azione_COL_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd03e1d02d1d82743b450acf43884f58
+      internalID: -1081704219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Leva_Azione_COL_Spritesheet_2
       rect:
         serializedVersion: 2
         x: 520
         y: 0
-        width: 520
-        height: 520
+        width: 260
+        height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +160,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6eb89bdcafe69f48ac8770f82b9f8ce
-      internalID: -347709781
+      spriteID: 81c46030f4b369c4e90dbf6205d096e8
+      internalID: 1087987649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hearth_Bottiglia_SpriteSheet_2
+      name: Hearth_Asset_Leva_Azione_COL_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74e7ad98d88ae64fbfcfc5e0ecdbe1b
+      internalID: 1568861401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Leva_Azione_COL_Spritesheet_4
       rect:
         serializedVersion: 2
         x: 1040
         y: 0
-        width: 520
-        height: 520
+        width: 260
+        height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +202,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57168b2cbc3c1d443b3512aa8b4d11ab
-      internalID: -1872615947
+      spriteID: e0b050e4cde68fe4fbdd4dabefe42f33
+      internalID: 1812077383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hearth_Bottiglia_SpriteSheet_3
+      name: Hearth_Asset_Leva_Azione_COL_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144a41078536b9f4588ae2572f6670b2
+      internalID: -1424728714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Leva_Azione_COL_Spritesheet_6
       rect:
         serializedVersion: 2
         x: 1560
         y: 0
-        width: 520
-        height: 520
+        width: 260
+        height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6393c90d2244c747aef761c0048c904
-      internalID: 680898903
+      spriteID: 6ab1d57cd90471242b7ba60d013af611
+      internalID: 813423793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hearth_Bottiglia_SpriteSheet_4
+      name: Hearth_Asset_Leva_Azione_COL_Spritesheet_7
       rect:
         serializedVersion: 2
-        x: 2080
+        x: 1820
         y: 0
-        width: 520
-        height: 520
+        width: 260
+        height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,92 +265,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07a3f1705c02bca489de836747367a7f
-      internalID: 91769121
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hearth_Bottiglia_SpriteSheet_5
-      rect:
-        serializedVersion: 2
-        x: 2600
-        y: 0
-        width: 520
-        height: 520
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b15f29b38a5578d40a9274e629b7386d
-      internalID: 1828476733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hearth_Bottiglia_SpriteSheet_6
-      rect:
-        serializedVersion: 2
-        x: 3120
-        y: 0
-        width: 520
-        height: 520
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9936ac1394adf5349b5e45aae606611c
-      internalID: 2128740879
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hearth_Bottiglia_SpriteSheet_7
-      rect:
-        serializedVersion: 2
-        x: 3640
-        y: 0
-        width: 520
-        height: 520
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8a97c8742993894c862aa65cfea1293
-      internalID: 1726116050
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Hearth_Bottiglia_SpriteSheet_8
-      rect:
-        serializedVersion: 2
-        x: 4160
-        y: 0
-        width: 520
-        height: 520
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: abc9c80dde03e244da2f862b13c18013
-      internalID: -780956649
+      spriteID: b9935cad609ba0b48b8c4ead24e7d9c2
+      internalID: 1230071131
       vertices: []
       indices: 
       edges: []
@@ -303,15 +282,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hearth_Bottiglia_SpriteSheet_2: -1872615947
-      Hearth_Bottiglia_SpriteSheet_6: 2128740879
-      Hearth_Bottiglia_SpriteSheet_4: 91769121
-      Hearth_Bottiglia_SpriteSheet_3: 680898903
-      Hearth_Bottiglia_SpriteSheet_5: 1828476733
-      Hearth_Bottiglia_SpriteSheet_1: -347709781
-      Hearth_Bottiglia_SpriteSheet_7: 1726116050
-      Hearth_Bottiglia_SpriteSheet_8: -780956649
-      Hearth_Bottiglia_SpriteSheet_0: 1809358367
+      Hearth_Asset_Leva_Azione_COL_Spritesheet_0: -1190550058
+      Hearth_Asset_Leva_Azione_COL_Spritesheet_1: -1081704219
+      Hearth_Asset_Leva_Azione_COL_Spritesheet_4: 1812077383
+      Hearth_Asset_Leva_Azione_COL_Spritesheet_6: 813423793
+      Hearth_Asset_Leva_Azione_COL_Spritesheet_2: 1087987649
+      Hearth_Asset_Leva_Azione_COL_Spritesheet_7: 1230071131
+      Hearth_Asset_Leva_Azione_COL_Spritesheet_5: -1424728714
+      Hearth_Asset_Leva_Azione_COL_Spritesheet_3: 1568861401
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

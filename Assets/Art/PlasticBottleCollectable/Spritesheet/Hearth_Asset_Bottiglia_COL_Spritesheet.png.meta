@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a31b712e8f71e584d9ce475aab037364
+guid: 6885b7a81d638ac4a9c8bc16d525bcc2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hearth_Cespuglio_Spinoso_Spritesheet_0
+      name: Hearth_Asset_Bottiglia_COL_Spritesheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb304892c450e954a854170cfb7ffe27
-      internalID: 1046150135
+      spriteID: 911f45348dea77b4fa9b1967e872f0bb
+      internalID: -1449138480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hearth_Cespuglio_Spinoso_Spritesheet_1
+      name: Hearth_Asset_Bottiglia_COL_Spritesheet_1
       rect:
         serializedVersion: 2
         x: 520
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79862816be957a04d90fd9f47a4cef46
-      internalID: 1815714974
+      spriteID: 002bc3bf9f98fea438de5e8aabf8c74a
+      internalID: -772736300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hearth_Cespuglio_Spinoso_Spritesheet_2
+      name: Hearth_Asset_Bottiglia_COL_Spritesheet_2
       rect:
         serializedVersion: 2
         x: 1040
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 722812d7907f6764589a89d24aec59ca
-      internalID: -1997107161
+      spriteID: 52649d7bc9d1fda469ceaf0947505407
+      internalID: -2111161737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hearth_Cespuglio_Spinoso_Spritesheet_3
+      name: Hearth_Asset_Bottiglia_COL_Spritesheet_3
       rect:
         serializedVersion: 2
         x: 1560
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02a75a83abe6c6d41ad846e5ad04ad3f
-      internalID: -896343027
+      spriteID: dda8ba9541cc2fc47893080fa56d5b9d
+      internalID: 2113700396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hearth_Cespuglio_Spinoso_Spritesheet_4
+      name: Hearth_Asset_Bottiglia_COL_Spritesheet_4
       rect:
         serializedVersion: 2
         x: 2080
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16b87afed147e0246aca9370d8b32afe
-      internalID: -54989933
+      spriteID: e48cb93015e58fc4cabea9e283655dfa
+      internalID: -500204589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hearth_Cespuglio_Spinoso_Spritesheet_5
+      name: Hearth_Asset_Bottiglia_COL_Spritesheet_5
       rect:
         serializedVersion: 2
         x: 2600
@@ -223,8 +223,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be8f547200cbe94458b38debdf26466b
-      internalID: 637654675
+      spriteID: 923c95a148584c84abaa1d494f16d5fe
+      internalID: -70167345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Bottiglia_COL_Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b485b25f62348841bde9a0af949cbc2
+      internalID: -1444872950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Bottiglia_COL_Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca67e7848727f39449069af71d35dbb8
+      internalID: 1591833137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Bottiglia_COL_Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 0
+        width: 520
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d6eb80920f6b8419d13ef91a9bcffd
+      internalID: -1462562155
       vertices: []
       indices: 
       edges: []
@@ -240,12 +303,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hearth_Cespuglio_Spinoso_Spritesheet_1: 1815714974
-      Hearth_Cespuglio_Spinoso_Spritesheet_0: 1046150135
-      Hearth_Cespuglio_Spinoso_Spritesheet_2: -1997107161
-      Hearth_Cespuglio_Spinoso_Spritesheet_5: 637654675
-      Hearth_Cespuglio_Spinoso_Spritesheet_4: -54989933
-      Hearth_Cespuglio_Spinoso_Spritesheet_3: -896343027
+      Hearth_Asset_Bottiglia_COL_Spritesheet_5: -70167345
+      Hearth_Asset_Bottiglia_COL_Spritesheet_2: -2111161737
+      Hearth_Asset_Bottiglia_COL_Spritesheet_6: -1444872950
+      Hearth_Asset_Bottiglia_COL_Spritesheet_1: -772736300
+      Hearth_Asset_Bottiglia_COL_Spritesheet_7: 1591833137
+      Hearth_Asset_Bottiglia_COL_Spritesheet_4: -500204589
+      Hearth_Asset_Bottiglia_COL_Spritesheet_0: -1449138480
+      Hearth_Asset_Bottiglia_COL_Spritesheet_3: 2113700396
+      Hearth_Asset_Bottiglia_COL_Spritesheet_8: -1462562155
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

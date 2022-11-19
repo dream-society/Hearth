@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b99ddfa5ada4a774bbd537eab07b43de
+guid: 2c03e06c0fc09ab4193653fa45e16019
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ElectricCaveSpritesheet_Spritesheet_0
+      name: Hearth_Asset_Leva_Statica_COL_Spritesheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 520
-        height: 520
+        width: 260
+        height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +118,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 610dff7638e2c3d45829a2befdb95c0e
-      internalID: -484150253
+      spriteID: 355aaa0c583e7cb43b12300abc195bfa
+      internalID: 398325678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElectricCaveSpritesheet_Spritesheet_1
+      name: Hearth_Asset_Leva_Statica_COL_Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b8ebd49f1651e4ab45193b3854f3b4
+      internalID: 406923883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Leva_Statica_COL_Spritesheet_2
       rect:
         serializedVersion: 2
         x: 520
         y: 0
-        width: 520
-        height: 520
+        width: 260
+        height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +160,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06d667d9c25952c42a9c17ecd623c861
-      internalID: -50028405
+      spriteID: fe2c9a8effc7f504ebe641e0afc5127d
+      internalID: -1959250160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElectricCaveSpritesheet_Spritesheet_2
+      name: Hearth_Asset_Leva_Statica_COL_Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc298a62c1e56584193bea98d39895e3
+      internalID: 1052490407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Leva_Statica_COL_Spritesheet_4
       rect:
         serializedVersion: 2
         x: 1040
         y: 0
-        width: 520
-        height: 520
+        width: 260
+        height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +202,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de55a3e501d3ab94aa669d2f0303d5c0
-      internalID: -1835097453
+      spriteID: cb1383e925f218b4db632ff7d57ef56c
+      internalID: -1152636574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElectricCaveSpritesheet_Spritesheet_3
+      name: Hearth_Asset_Leva_Statica_COL_Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e49094c326e3f342baaa3b527173c50
+      internalID: -436737618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hearth_Asset_Leva_Statica_COL_Spritesheet_6
       rect:
         serializedVersion: 2
         x: 1560
         y: 0
-        width: 520
-        height: 520
+        width: 260
+        height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +244,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46e02088a4f1c8f449a68054f24a0eaf
-      internalID: 1417260037
+      spriteID: 05f16277d89608241a9140e7bdf56b81
+      internalID: 1777858851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ElectricCaveSpritesheet_Spritesheet_4
+      name: Hearth_Asset_Leva_Statica_COL_Spritesheet_7
       rect:
         serializedVersion: 2
-        x: 2080
+        x: 1820
         y: 0
-        width: 520
-        height: 520
+        width: 260
+        height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,155 +265,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f75dd9b704784a4469aab1e8d8e0c315
-      internalID: -142713856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElectricCaveSpritesheet_Spritesheet_5
-      rect:
-        serializedVersion: 2
-        x: 2600
-        y: 0
-        width: 520
-        height: 520
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a02ebd962d2e1f247bcf2000bdda5592
-      internalID: 1467908128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElectricCaveSpritesheet_Spritesheet_6
-      rect:
-        serializedVersion: 2
-        x: 3120
-        y: 0
-        width: 520
-        height: 520
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6764d39b80e9ff540979d9055d1e2f9c
-      internalID: 1790265539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElectricCaveSpritesheet_Spritesheet_7
-      rect:
-        serializedVersion: 2
-        x: 3640
-        y: 0
-        width: 520
-        height: 520
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0332388a9bf8b4141b7b84614607c158
-      internalID: -590546864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElectricCaveSpritesheet_Spritesheet_8
-      rect:
-        serializedVersion: 2
-        x: 4160
-        y: 0
-        width: 520
-        height: 520
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da765856c7a7be847915ebd7c0fb2544
-      internalID: -515027870
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElectricCaveSpritesheet_Spritesheet_9
-      rect:
-        serializedVersion: 2
-        x: 4680
-        y: 0
-        width: 520
-        height: 520
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fddd65857c2ab6b4787f8d31892dd0ab
-      internalID: 1181135295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElectricCaveSpritesheet_Spritesheet_10
-      rect:
-        serializedVersion: 2
-        x: 5200
-        y: 0
-        width: 520
-        height: 520
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 079889e014c676f45b05e9af965c0730
-      internalID: -532328959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ElectricCaveSpritesheet_Spritesheet_11
-      rect:
-        serializedVersion: 2
-        x: 5720
-        y: 0
-        width: 520
-        height: 520
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b35da4939efe19f4b9e70e5b25cd3067
-      internalID: -1600366445
+      spriteID: 08f342baf0dccc544943a59e6803493b
+      internalID: -113866899
       vertices: []
       indices: 
       edges: []
@@ -366,18 +282,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ElectricCaveSpritesheet_Spritesheet_0: -484150253
-      ElectricCaveSpritesheet_Spritesheet_5: 1467908128
-      ElectricCaveSpritesheet_Spritesheet_7: -590546864
-      ElectricCaveSpritesheet_Spritesheet_10: -532328959
-      ElectricCaveSpritesheet_Spritesheet_8: -515027870
-      ElectricCaveSpritesheet_Spritesheet_2: -1835097453
-      ElectricCaveSpritesheet_Spritesheet_3: 1417260037
-      ElectricCaveSpritesheet_Spritesheet_1: -50028405
-      ElectricCaveSpritesheet_Spritesheet_11: -1600366445
-      ElectricCaveSpritesheet_Spritesheet_6: 1790265539
-      ElectricCaveSpritesheet_Spritesheet_9: 1181135295
-      ElectricCaveSpritesheet_Spritesheet_4: -142713856
+      Hearth_Asset_Leva_Statica_COL_Spritesheet_3: 1052490407
+      Hearth_Asset_Leva_Statica_COL_Spritesheet_7: -113866899
+      Hearth_Asset_Leva_Statica_COL_Spritesheet_1: 406923883
+      Hearth_Asset_Leva_Statica_COL_Spritesheet_2: -1959250160
+      Hearth_Asset_Leva_Statica_COL_Spritesheet_0: 398325678
+      Hearth_Asset_Leva_Statica_COL_Spritesheet_5: -436737618
+      Hearth_Asset_Leva_Statica_COL_Spritesheet_4: -1152636574
+      Hearth_Asset_Leva_Statica_COL_Spritesheet_6: 1777858851
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

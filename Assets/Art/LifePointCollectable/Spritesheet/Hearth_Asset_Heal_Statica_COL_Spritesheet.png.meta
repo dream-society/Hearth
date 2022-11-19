@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0813990ba3e6643449f5ce32d694cd1f
+guid: e0a56a30940c55f4f833b7717d073759
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,7 +104,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LeverInteractSpritesheet_0
+      name: Hearth_Asset_Heal_Statica_COL_Spritesheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -118,14 +118,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38eeae1636dd81f47b0206bb46808c3a
-      internalID: -232196349
+      spriteID: 90ad2f7fe631f6843943d696f083b8a2
+      internalID: 49458259
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeverInteractSpritesheet_1
+      name: Hearth_Asset_Heal_Statica_COL_Spritesheet_1
       rect:
         serializedVersion: 2
         x: 260
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3638a84642a47b349aac04aa898754a1
-      internalID: 247215630
+      spriteID: d475b1a80a98ca443adb300442737da4
+      internalID: -1372506566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeverInteractSpritesheet_2
+      name: Hearth_Asset_Heal_Statica_COL_Spritesheet_2
       rect:
         serializedVersion: 2
         x: 520
@@ -160,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9c46eefd85ee1a448912fd0d9a01b43
-      internalID: -1046216302
+      spriteID: 8d3de6f389e34b644b60c2a153d668ce
+      internalID: 1290403441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeverInteractSpritesheet_3
+      name: Hearth_Asset_Heal_Statica_COL_Spritesheet_3
       rect:
         serializedVersion: 2
         x: 780
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62d58b6e96e317a41a4109dad74d874d
-      internalID: -446100017
+      spriteID: 66f881cd4222e874391fb01bf24de54c
+      internalID: -1085267598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeverInteractSpritesheet_4
+      name: Hearth_Asset_Heal_Statica_COL_Spritesheet_4
       rect:
         serializedVersion: 2
         x: 1040
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65f1393f2d70e8445b6fed2b92095f00
-      internalID: 1852590140
+      spriteID: 5a66b59e7be1ca747941081e68bad7b4
+      internalID: -1060850637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeverInteractSpritesheet_5
+      name: Hearth_Asset_Heal_Statica_COL_Spritesheet_5
       rect:
         serializedVersion: 2
         x: 1300
@@ -223,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 902f567c0fd1ab24083c63a5791866ce
-      internalID: -1568184486
+      spriteID: 07e8e7a10ba7cf8429cdf493f75615c8
+      internalID: -1773452779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeverInteractSpritesheet_6
+      name: Hearth_Asset_Heal_Statica_COL_Spritesheet_6
       rect:
         serializedVersion: 2
         x: 1560
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6908f3cfa3206c4692c4d39ddbdded0
-      internalID: -2124569787
+      spriteID: ca6923b1690343048b25ba00d5644837
+      internalID: 1456954255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LeverInteractSpritesheet_7
+      name: Hearth_Asset_Heal_Statica_COL_Spritesheet_7
       rect:
         serializedVersion: 2
         x: 1820
@@ -265,8 +265,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 965ebb8c18d98fa43beead41efb07499
-      internalID: -152049931
+      spriteID: 622893eeac45d184b99f22db82300b0d
+      internalID: -967019605
       vertices: []
       indices: 
       edges: []
@@ -282,14 +282,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      LeverInteractSpritesheet_5: -1568184486
-      LeverInteractSpritesheet_7: -152049931
-      LeverInteractSpritesheet_6: -2124569787
-      LeverInteractSpritesheet_3: -446100017
-      LeverInteractSpritesheet_4: 1852590140
-      LeverInteractSpritesheet_0: -232196349
-      LeverInteractSpritesheet_1: 247215630
-      LeverInteractSpritesheet_2: -1046216302
+      Hearth_Asset_Heal_Statica_COL_Spritesheet_3: -1085267598
+      Hearth_Asset_Heal_Statica_COL_Spritesheet_0: 49458259
+      Hearth_Asset_Heal_Statica_COL_Spritesheet_5: -1773452779
+      Hearth_Asset_Heal_Statica_COL_Spritesheet_6: 1456954255
+      Hearth_Asset_Heal_Statica_COL_Spritesheet_4: -1060850637
+      Hearth_Asset_Heal_Statica_COL_Spritesheet_1: -1372506566
+      Hearth_Asset_Heal_Statica_COL_Spritesheet_7: -967019605
+      Hearth_Asset_Heal_Statica_COL_Spritesheet_2: 1290403441
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
