@@ -1,21 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    public void Test1()
+    public void LoadPlayScene()
     {
-        Debug.Log("Test1");
+        SceneManager.LoadScene("Gym");
     }
 
-    public void Test2()
+    public void LoadSettingsScene()
     {
-        Debug.Log("Test2");
+        SceneManager.LoadScene("Settings");
     }
 
-    public void Test3()
+    public void Quit()
     {
-        Debug.Log("Test3");
+        Application.Quit();
     }
 }
