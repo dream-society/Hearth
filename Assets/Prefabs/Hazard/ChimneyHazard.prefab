@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 7306925879446898522}
   - component: {fileID: 7306925879446898501}
   - component: {fileID: 7306925879446898500}
+  - component: {fileID: 2818276411858393727}
   m_Layer: 0
-  m_Name: Chimney
+  m_Name: ChimneyHazard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -106,6 +107,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2818276411858393727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7306925879446898503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a79eb1f4b10fa7499bbd959cd9a9d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
 --- !u!1 &7306925879863081733
 GameObject:
   m_ObjectHideFlags: 0
