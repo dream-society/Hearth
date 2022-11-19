@@ -16527,7 +16527,23 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 645033363, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: m_Size.x
+      value: 5.1250052
+      objectReference: {fileID: 0}
+    - target: {fileID: 645033363, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: m_Size.y
+      value: 5.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 645033363, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1147807886, guid: 6b6df43aa98fbb3468287cbda9629e68, type: 3}
+    - target: {fileID: 645033363, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 645033363, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 903278968, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
@@ -16535,8 +16551,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 903278971, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 300230213, guid: a70b88510355b6c4880260a26ddd008c, type: 3}
+    - target: {fileID: 903278971, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: m_SortingOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 903278971, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1439355388932429960, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: m_Name
@@ -16585,6 +16609,26 @@ PrefabInstance:
     - target: {fileID: 1439355388932429971, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439355388932429972, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439355388932429972, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439355388932429972, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1216180652, guid: fe176174ccac2b44e8529e701b31debf, type: 3}
+    - target: {fileID: 1439355388932429972, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439355388932429972, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1439355389117721276, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: m_IsActive
