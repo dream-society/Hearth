@@ -16623,6 +16623,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1439355388932429970, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1439355388932429971, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -16687,10 +16691,22 @@ PrefabInstance:
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1439355389117721275, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: m_Lens.m_SensorSize.x
+      value: 1.7777778
+      objectReference: {fileID: 0}
     - target: {fileID: 1439355389117721276, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3794964717343921372, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3794964717343921372, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: inputHandler
+      value: 
+      objectReference: {fileID: 11400000, guid: 2d08b32a33e8a2c439895acb0349c911, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
 --- !u!1001 &2166784795746225667
