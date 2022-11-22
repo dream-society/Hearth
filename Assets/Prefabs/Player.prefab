@@ -229,6 +229,7 @@ GameObject:
   - component: {fileID: 371518266}
   - component: {fileID: 371518275}
   - component: {fileID: 6913516799564935645}
+  - component: {fileID: 3794964717343921372}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -581,6 +582,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   graceTime: 0.5
+--- !u!114 &3794964717343921372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439355388932429960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c296d7a9960a624cbd19e5ed1e0c108, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputHandler: {fileID: 11400000, guid: 2d08b32a33e8a2c439895acb0349c911, type: 2}
+  gravity: 9.81
+  speed: 6
+  corpoSpriteRenderer: {fileID: 1439355388932429972}
+  capelliSpriteRenderer: {fileID: 903278971}
+  sciarpaSpriteRenderer: {fileID: 645033363}
 --- !u!1 &1439355389117721276
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,7 +662,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.0534189, y: 1}
+    m_SensorSize: {x: 2.4636753, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0

@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Hearth.Player;
 using UnityEngine;
 
 public enum Power
@@ -23,6 +24,14 @@ public class PlayerPowerManagement : MonoBehaviour
     private bool haveRagnoPower;
     private bool isOnGazzaForm;
     public float timeIngGazzaForm;
+    private CharacterRun runComponent;
+    private CharacterFly flyComponent;
+
+    private void Awake()
+    {
+        runComponent = GetComponent<CharacterRun>();
+        flyComponent = GetComponent<CharacterFly>();
+    }
 
     private void Start()
     {
@@ -118,11 +127,15 @@ public class PlayerPowerManagement : MonoBehaviour
                 break;
         }
     }
-    
+
     private IEnumerator GazzaPowerCoroutine()
     {
         //Make her Fly
+        runComponent.enabled = false;
+        flyComponent.enabled = true;
         yield return new WaitForSeconds(timeIngGazzaForm);
+        runComponent.enabled = true;
+        flyComponent.enabled = false;
         isOnGazzaForm = false;
     }
 }
