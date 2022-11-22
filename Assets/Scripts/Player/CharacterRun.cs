@@ -14,6 +14,7 @@ namespace Hearth.Player
         [SerializeField] private float runSpeed = 6f;
         [SerializeField] private float maxSpeed = 6f;
         [SerializeField] private float speed;
+        private CoyoteTime coyoteTime;
         private CharacterController2D controller;
         private Vector3 velocity;
         private float gravityScale = 1f;
@@ -40,6 +41,7 @@ namespace Hearth.Player
         {
             controller = GetComponent<CharacterController2D>();
             speed = walkSpeed;
+            coyoteTime = GetComponent<CoyoteTime>();
         }
 
         private void OnEnable()
@@ -83,7 +85,7 @@ namespace Hearth.Player
                 animatorController.StartFallAnimation();
                 isInAir = true;
             }
-            if (controller.isGrounded && jumpInput)
+            if ((controller.isGrounded || coyoteTime.Active) && jumpInput)
             {
                 Jump();
             }
@@ -172,7 +174,7 @@ namespace Hearth.Player
                 isJumping = false;
             }
         }
-    
+
         private void Interact()
         {
             animatorController.StartInteract();
