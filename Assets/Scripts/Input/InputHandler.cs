@@ -51,10 +51,10 @@ public class InputHandler : ScriptableObject, Input.IPlayerActions, Input.IUIAct
         Cursor.lockState = CursorLockMode.Confined;
     }
 
-    public void EnableCompanionInput()
+    public void EnableUIInput()
     {
         input.Player.Disable();
-        input.UI.Disable();
+        input.UI.Enable();
 
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Confined;
