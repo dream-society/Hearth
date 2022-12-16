@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -892,7 +892,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Hearth_Asset_Interact_Sciarpa_COL_Spritesheet_Ridotto_29: -799197520
-      Hearth_Asset_Interact_Sciarpa_COL_Spritesheet_Ridotto_28: 300633830
+      Hearth_Asset_Interact_Sciarpa_COL_Spritesheet_Ridotto_14: 152810494
       Hearth_Asset_Interact_Sciarpa_COL_Spritesheet_Ridotto_26: -704067025
       Hearth_Asset_Interact_Sciarpa_COL_Spritesheet_Ridotto_5: 665869519
       Hearth_Asset_Interact_Sciarpa_COL_Spritesheet_Ridotto_27: 845187471
@@ -926,8 +926,8 @@ TextureImporter:
       Hearth_Asset_Interact_Sciarpa_COL_Spritesheet_Ridotto_34: -2034265545
       Hearth_Asset_Interact_Sciarpa_COL_Spritesheet_Ridotto_24: 2028343027
       Hearth_Asset_Interact_Sciarpa_COL_Spritesheet_Ridotto_21: -1099570057
-      Hearth_Asset_Interact_Sciarpa_COL_Spritesheet_Ridotto_14: 152810494
       Hearth_Asset_Interact_Sciarpa_COL_Spritesheet_Ridotto_25: -418298577
+      Hearth_Asset_Interact_Sciarpa_COL_Spritesheet_Ridotto_28: 300633830
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -109,7 +109,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -118,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01601dc870c97224f944111b511c5052
-      internalID: -1205421967
+      spriteID: 7e3d90e67f86d6b43b1e2ab07e075493
+      internalID: 996523588
       vertices: []
       indices: 
       edges: []
@@ -128,9 +128,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_1
       rect:
         serializedVersion: 2
-        x: 261
+        x: 260
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -139,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6d24076b62303240a6b84b9a8490c2d
-      internalID: -463508456
+      spriteID: 887382a7696561543994bf8246d72ea1
+      internalID: -1059133547
       vertices: []
       indices: 
       edges: []
@@ -149,9 +149,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_2
       rect:
         serializedVersion: 2
-        x: 522
+        x: 520
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c13249a608e1b744899d0aed50dcd5cb
-      internalID: -1673411055
+      spriteID: e390888d9db059e42a3879f842f6efbd
+      internalID: -216956615
       vertices: []
       indices: 
       edges: []
@@ -170,9 +170,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_3
       rect:
         serializedVersion: 2
-        x: 783
+        x: 780
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ef513e0831d1d54297d8d885e6c348a
-      internalID: 1216928223
+      spriteID: 8187c0f026052074ba776e4eb7b1dc57
+      internalID: -459127778
       vertices: []
       indices: 
       edges: []
@@ -191,9 +191,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_4
       rect:
         serializedVersion: 2
-        x: 1044
+        x: 1040
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -202,8 +202,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c035b8d77191ad43a21e4a58de39b03
-      internalID: 826215493
+      spriteID: af88adbd46a4dbc4eaee1fe99165cea4
+      internalID: -1630593623
       vertices: []
       indices: 
       edges: []
@@ -212,9 +212,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_5
       rect:
         serializedVersion: 2
-        x: 1305
+        x: 1300
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -223,8 +223,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c7bbd6220c505742a660dc1505b9072
-      internalID: -1902229296
+      spriteID: d70bb851d357b6f4891614e582c6790c
+      internalID: -1987388748
       vertices: []
       indices: 
       edges: []
@@ -233,9 +233,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_6
       rect:
         serializedVersion: 2
-        x: 1566
+        x: 1560
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -244,8 +244,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a869e1aa7b8c094ba8e60a906029fcd
-      internalID: 1298889230
+      spriteID: 0b613f9c383d3624fb5b1af5d43c626b
+      internalID: 359517829
       vertices: []
       indices: 
       edges: []
@@ -254,9 +254,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_7
       rect:
         serializedVersion: 2
-        x: 1827
+        x: 1820
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -265,8 +265,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5afbcac390683f4290b4932ab5bf3eb
-      internalID: 1400539049
+      spriteID: 5c701eff54f60ab4a896142a7aa4b1e3
+      internalID: 2075909313
       vertices: []
       indices: 
       edges: []
@@ -275,9 +275,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_8
       rect:
         serializedVersion: 2
-        x: 2088
+        x: 2080
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -286,8 +286,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ab542b0c06a3364f8baf41549979701
-      internalID: 2095416020
+      spriteID: b9eed30592c622143a2ab5fd79c4ef3a
+      internalID: -1301262674
       vertices: []
       indices: 
       edges: []
@@ -296,9 +296,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_9
       rect:
         serializedVersion: 2
-        x: 2349
+        x: 2340
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -307,8 +307,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46d47d432e9c4f54cabb868ce6f34e02
-      internalID: 1779810756
+      spriteID: 48668d998ffc4c6499be789591ea322e
+      internalID: -678069736
       vertices: []
       indices: 
       edges: []
@@ -317,9 +317,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_10
       rect:
         serializedVersion: 2
-        x: 2610
+        x: 2600
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -328,8 +328,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 309207f67954f1341850a21fe7434b9e
-      internalID: 1621293251
+      spriteID: 5589635f03a131a45ace14d551f2dd59
+      internalID: -1446494275
       vertices: []
       indices: 
       edges: []
@@ -338,9 +338,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_11
       rect:
         serializedVersion: 2
-        x: 2871
+        x: 2860
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -349,8 +349,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b90f86d2b83a9946aa9d3aac01d9088
-      internalID: 1126226091
+      spriteID: 4c2c236a2679bec4db6a24f1b2260d13
+      internalID: 1985330284
       vertices: []
       indices: 
       edges: []
@@ -359,9 +359,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_12
       rect:
         serializedVersion: 2
-        x: 3132
+        x: 3120
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -370,8 +370,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79b396abe447d484697b24af5067ffc9
-      internalID: -1639220914
+      spriteID: 7afdeb4f47c0e4a41a0f566004e79b49
+      internalID: -14385222
       vertices: []
       indices: 
       edges: []
@@ -380,9 +380,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_13
       rect:
         serializedVersion: 2
-        x: 3393
+        x: 3380
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -391,8 +391,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f39e560f5ee2cf645a6e8bdd41344b83
-      internalID: 2102093611
+      spriteID: 2f4fb7260825d154bbf7694c8c8544e1
+      internalID: 102221805
       vertices: []
       indices: 
       edges: []
@@ -401,9 +401,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_14
       rect:
         serializedVersion: 2
-        x: 3654
+        x: 3640
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -412,8 +412,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 747e816bc087c3c4c8b0fc3e04d3949c
-      internalID: -2068269509
+      spriteID: 0cf998cb24b549349b75316aa75f0e7c
+      internalID: 547100733
       vertices: []
       indices: 
       edges: []
@@ -422,9 +422,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_15
       rect:
         serializedVersion: 2
-        x: 3915
+        x: 3900
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -433,8 +433,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4737f4fc1149dc4c8ea68f7c105c74c
-      internalID: 1773804682
+      spriteID: c4f8cce47b8d1644ba542480d826ad65
+      internalID: -485307399
       vertices: []
       indices: 
       edges: []
@@ -443,9 +443,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_16
       rect:
         serializedVersion: 2
-        x: 4176
+        x: 4160
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -454,8 +454,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 226ee836d55ba0741bc4f070d4cb289f
-      internalID: -2095418545
+      spriteID: 24098782f8cc426419431596533a0074
+      internalID: 801403637
       vertices: []
       indices: 
       edges: []
@@ -464,9 +464,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_17
       rect:
         serializedVersion: 2
-        x: 4437
+        x: 4420
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -475,8 +475,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c9e99b2bacd2534b996e8282a300d22
-      internalID: -1627590074
+      spriteID: ab8d844ecbaf8354fbd829debc810659
+      internalID: -23411842
       vertices: []
       indices: 
       edges: []
@@ -485,9 +485,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_18
       rect:
         serializedVersion: 2
-        x: 4698
+        x: 4680
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -496,8 +496,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d4e2272ba976f54294ebaa8a61ab497
-      internalID: -1001711349
+      spriteID: be69fdff304cd5a47ae2291c932247aa
+      internalID: -508671834
       vertices: []
       indices: 
       edges: []
@@ -506,9 +506,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_19
       rect:
         serializedVersion: 2
-        x: 4959
+        x: 4940
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -517,8 +517,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cb45cb57f9d3404fb9ec28cf738414a
-      internalID: 1792143454
+      spriteID: 9a98e5290926d784ca1b7ce1ac06fe15
+      internalID: -338736829
       vertices: []
       indices: 
       edges: []
@@ -527,9 +527,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_20
       rect:
         serializedVersion: 2
-        x: 5220
+        x: 5200
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -538,8 +538,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5176e95e40adaaf4a9e52951c5b67c70
-      internalID: 1164677843
+      spriteID: ef419978aa8a084429360d8b21d28784
+      internalID: -1167915804
       vertices: []
       indices: 
       edges: []
@@ -548,9 +548,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_21
       rect:
         serializedVersion: 2
-        x: 5481
+        x: 5460
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -559,8 +559,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0085606ecc3478440b976192dfd8a210
-      internalID: 1308346881
+      spriteID: ab36979dcc5159c48ac1bdcdc018fc78
+      internalID: -1223700294
       vertices: []
       indices: 
       edges: []
@@ -569,9 +569,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_22
       rect:
         serializedVersion: 2
-        x: 5742
+        x: 5720
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -580,8 +580,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f10c514f35b1f2143b9562efe10e94d8
-      internalID: -894310455
+      spriteID: 9787e1d1ebede8a45a63c1f8d72b0a8b
+      internalID: -1617337521
       vertices: []
       indices: 
       edges: []
@@ -590,9 +590,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_23
       rect:
         serializedVersion: 2
-        x: 6003
+        x: 5980
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -601,8 +601,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f13d5e98b1610a4684c39dd32d859ac
-      internalID: 226371920
+      spriteID: f33a68a0f9ffc1242b51162802328c68
+      internalID: -1150391018
       vertices: []
       indices: 
       edges: []
@@ -611,9 +611,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_24
       rect:
         serializedVersion: 2
-        x: 6264
+        x: 6240
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -622,8 +622,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 388f30b0d45cef4478063df25f53fe7e
-      internalID: -1171908396
+      spriteID: 3a4c12aa2ed01cb4680f3dcd22a435c4
+      internalID: -1077466599
       vertices: []
       indices: 
       edges: []
@@ -632,9 +632,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_25
       rect:
         serializedVersion: 2
-        x: 6525
+        x: 6500
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -643,8 +643,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ad3a06950003e1439ebaf223547b6f8
-      internalID: -1435923276
+      spriteID: 6c461b288b75fb545b5088f994ff6a81
+      internalID: 1846576582
       vertices: []
       indices: 
       edges: []
@@ -653,9 +653,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_26
       rect:
         serializedVersion: 2
-        x: 6786
+        x: 6760
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -664,8 +664,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8d08b21681593a459e2cb2fad95aded
-      internalID: -1600150434
+      spriteID: f6fe56b275fbfc34dbeb9c8ac8c93657
+      internalID: 1824612233
       vertices: []
       indices: 
       edges: []
@@ -674,9 +674,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_27
       rect:
         serializedVersion: 2
-        x: 7047
+        x: 7020
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -685,8 +685,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a364a76a3d13b1e43b2692b59d40b45f
-      internalID: 1531726047
+      spriteID: 3a3bfd5a333e92c488a839369af98874
+      internalID: 575476309
       vertices: []
       indices: 
       edges: []
@@ -695,9 +695,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_28
       rect:
         serializedVersion: 2
-        x: 7308
+        x: 7280
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -706,8 +706,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc5700b6f5f17744c85b738a3cee0ef2
-      internalID: 2024111599
+      spriteID: 550aeabe2973ca441bf42d2a73db6a63
+      internalID: 1585538153
       vertices: []
       indices: 
       edges: []
@@ -716,9 +716,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_29
       rect:
         serializedVersion: 2
-        x: 7569
+        x: 7540
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -727,8 +727,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f26abe88607c4b4986abe39bf1b97de
-      internalID: -1889424307
+      spriteID: f84ef15c68d5cac4bbcbaf88462ec955
+      internalID: -1596121834
       vertices: []
       indices: 
       edges: []
@@ -737,9 +737,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_30
       rect:
         serializedVersion: 2
-        x: 7830
+        x: 7800
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -748,8 +748,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80bc38567eaa8834aaf005f77d7def1e
-      internalID: 1460462594
+      spriteID: e70f396cd5261694287930b3e5ba12f2
+      internalID: 1439776775
       vertices: []
       indices: 
       edges: []
@@ -758,9 +758,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_31
       rect:
         serializedVersion: 2
-        x: 8091
+        x: 8060
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -769,8 +769,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 562ec1b4d850bc441815191eb40d065b
-      internalID: -1310140590
+      spriteID: f8bac4883f44d0f40a548917578400a9
+      internalID: 1605060069
       vertices: []
       indices: 
       edges: []
@@ -779,9 +779,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_32
       rect:
         serializedVersion: 2
-        x: 8352
+        x: 8320
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -790,8 +790,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f223a1ff42bbaf546a85d3bb4d8506fd
-      internalID: -302668979
+      spriteID: 0607eac799c62a647b4fc2d225f7f060
+      internalID: 73013688
       vertices: []
       indices: 
       edges: []
@@ -800,9 +800,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_33
       rect:
         serializedVersion: 2
-        x: 8613
+        x: 8580
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -811,8 +811,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93745d9464df9b441bf4838bb19bc500
-      internalID: 427654501
+      spriteID: 600717ef23a66b64381de8b31025d0f5
+      internalID: 1142455554
       vertices: []
       indices: 
       edges: []
@@ -821,9 +821,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_34
       rect:
         serializedVersion: 2
-        x: 8874
+        x: 8840
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -832,8 +832,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2657bf34b7874247a4cab24b798a2c7
-      internalID: -1377334873
+      spriteID: 96e7304813e298940ba8150ea5b855be
+      internalID: 372847502
       vertices: []
       indices: 
       edges: []
@@ -842,9 +842,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_35
       rect:
         serializedVersion: 2
-        x: 9135
+        x: 9100
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -853,8 +853,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80fb28597c56ccd499a5d84483dc8b4c
-      internalID: -1238298742
+      spriteID: d28a3eb6b5c22a046a133d58e0343cbf
+      internalID: -553950894
       vertices: []
       indices: 
       edges: []
@@ -863,9 +863,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_36
       rect:
         serializedVersion: 2
-        x: 9396
+        x: 9360
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -874,8 +874,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6f40ed405ac2ec44bb14fc7ea56d971
-      internalID: -418122532
+      spriteID: 00389ffea77fbf443b7ec58ac11b997a
+      internalID: 640146193
       vertices: []
       indices: 
       edges: []
@@ -884,9 +884,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_37
       rect:
         serializedVersion: 2
-        x: 9657
+        x: 9620
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -895,8 +895,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bfe3ff3c706adb4a984366ae38bdc26
-      internalID: -1475202104
+      spriteID: 0a01849e44a775e4e8a9da594ab4f564
+      internalID: -802493834
       vertices: []
       indices: 
       edges: []
@@ -905,9 +905,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_38
       rect:
         serializedVersion: 2
-        x: 9918
+        x: 9880
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -916,8 +916,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 198c465ebe3820644b935a94b9f145c9
-      internalID: 54309145
+      spriteID: bb61c4e24eafa064c85211f6563fdbf4
+      internalID: -884428590
       vertices: []
       indices: 
       edges: []
@@ -926,9 +926,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_39
       rect:
         serializedVersion: 2
-        x: 10179
+        x: 10140
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -937,8 +937,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af5c30f4e09aa0d489e4d8b14ec0093f
-      internalID: 529847776
+      spriteID: 2656450e988156846bb95f390ed6b11b
+      internalID: -961840115
       vertices: []
       indices: 
       edges: []
@@ -947,9 +947,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_40
       rect:
         serializedVersion: 2
-        x: 10440
+        x: 10400
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -958,8 +958,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3a21c2858e50094ea26b6b3924c2c48
-      internalID: 358562888
+      spriteID: c8ea9ce0e9720da4aa4e2d02b549d42b
+      internalID: -1536061653
       vertices: []
       indices: 
       edges: []
@@ -968,9 +968,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_41
       rect:
         serializedVersion: 2
-        x: 10701
+        x: 10660
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -979,8 +979,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a1723571f306ff46925c1fc94cf5188
-      internalID: 1416371899
+      spriteID: 50a0ae3442fb6d94b8bcf74ee8408f00
+      internalID: 1614212396
       vertices: []
       indices: 
       edges: []
@@ -989,9 +989,9 @@ TextureImporter:
       name: Hearth_Asset_Camino_COL_Spritesheet_Ridotta_42
       rect:
         serializedVersion: 2
-        x: 10962
+        x: 10920
         y: 0
-        width: 261.06976
+        width: 260
         height: 260
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1000,8 +1000,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b2cce9dec6a6fa4493bdb7dd20f8e35
-      internalID: -386749870
+      spriteID: 53a660d1019220946b680e4986f1ff3c
+      internalID: -44692169
       vertices: []
       indices: 
       edges: []
@@ -1017,49 +1017,49 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_10: 1621293251
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_12: -1639220914
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_39: 529847776
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_41: 1416371899
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_3: 1216928223
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_22: -894310455
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_40: 358562888
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_20: 1164677843
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_28: 2024111599
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_5: -1902229296
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_38: 54309145
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_29: -1889424307
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_18: -1001711349
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_2: -1673411055
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_19: 1792143454
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_36: -418122532
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_13: 2102093611
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_26: -1600150434
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_8: 2095416020
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_21: 1308346881
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_1: -463508456
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_24: -1171908396
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_30: 1460462594
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_6: 1298889230
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_7: 1400539049
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_17: -1627590074
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_11: 1126226091
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_27: 1531726047
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_35: -1238298742
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_9: 1779810756
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_15: 1773804682
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_33: 427654501
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_23: 226371920
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_14: -2068269509
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_34: -1377334873
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_42: -386749870
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_32: -302668979
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_16: -2095418545
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_25: -1435923276
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_37: -1475202104
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_0: -1205421967
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_31: -1310140590
-      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_4: 826215493
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_10: -1446494275
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_12: -14385222
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_39: -961840115
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_41: 1614212396
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_3: -459127778
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_22: -1617337521
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_40: -1536061653
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_20: -1167915804
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_28: 1585538153
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_5: -1987388748
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_38: -884428590
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_29: -1596121834
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_18: -508671834
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_2: -216956615
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_19: -338736829
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_36: 640146193
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_13: 102221805
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_26: 1824612233
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_8: -1301262674
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_21: -1223700294
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_1: -1059133547
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_24: -1077466599
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_30: 1439776775
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_6: 359517829
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_7: 2075909313
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_17: -23411842
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_11: 1985330284
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_27: 575476309
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_35: -553950894
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_9: -678069736
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_15: -485307399
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_33: 1142455554
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_23: -1150391018
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_14: 547100733
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_34: 372847502
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_42: -44692169
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_32: 73013688
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_16: 801403637
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_25: 1846576582
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_37: -802493834
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_0: 996523588
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_31: 1605060069
+      Hearth_Asset_Camino_COL_Spritesheet_Ridotta_4: -1630593623
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

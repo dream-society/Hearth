@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -283,12 +283,12 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Hearth_Asset_Leva_Statica_COL_Spritesheet_3: 1052490407
-      Hearth_Asset_Leva_Statica_COL_Spritesheet_7: -113866899
+      Hearth_Asset_Leva_Statica_COL_Spritesheet_4: -1152636574
       Hearth_Asset_Leva_Statica_COL_Spritesheet_1: 406923883
       Hearth_Asset_Leva_Statica_COL_Spritesheet_2: -1959250160
       Hearth_Asset_Leva_Statica_COL_Spritesheet_0: 398325678
       Hearth_Asset_Leva_Statica_COL_Spritesheet_5: -436737618
-      Hearth_Asset_Leva_Statica_COL_Spritesheet_4: -1152636574
+      Hearth_Asset_Leva_Statica_COL_Spritesheet_7: -113866899
       Hearth_Asset_Leva_Statica_COL_Spritesheet_6: 1777858851
   spritePackingTag: 
   pSDRemoveMatte: 0
