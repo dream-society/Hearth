@@ -72,6 +72,14 @@ namespace Hearth.Player
             if (controller.isGrounded)
             {
                 velocity.y = 0;
+                if (controller.collisionState.platformBelow.GetComponent<MovingPlatform>() != null)
+                {
+                    transform.parent = controller.collisionState.platformBelow;
+                }
+                else
+                {
+                    transform.parent = null;
+                }
             }
             else
             {
@@ -179,5 +187,6 @@ namespace Hearth.Player
         {
             animatorController.StartInteract();
         }
+    
     }
 }
