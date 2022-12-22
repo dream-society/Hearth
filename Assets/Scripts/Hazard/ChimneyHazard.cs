@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class ChimneyHazard : HazardBase
 {
+    private BoxCollider2D bc2D;
+    private void Awake()
+    {
+        bc2D = GetComponent<BoxCollider2D>(); 
+    }
+
     public void Open()
     {
-        canDamage= true;
+        bc2D.enabled = true;
+        canDamage = true;
     }
 
     public void Close()
     {
-        canDamage= false;
+        bc2D.enabled = false;
+        canDamage = false;
     }
 }

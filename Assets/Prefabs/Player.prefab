@@ -73,16 +73,16 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -1587805662, guid: 9c0859f11eb018b47b5ef86223aeb776, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -1147807886, guid: 6b6df43aa98fbb3468287cbda9629e68, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.12, y: 5.1299996}
+  m_Size: {x: 5.1250052, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &645033362
@@ -178,8 +178,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -1343791768, guid: 7afe92ac71f5d5648af0f337921c6bbe, type: 3}
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 300230213, guid: a70b88510355b6c4880260a26ddd008c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -187,7 +187,7 @@ SpriteRenderer:
   m_Size: {x: 5.12, y: 5.1299996}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &903278970
@@ -295,8 +295,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 1825441102, guid: 1848c1752db13fb409603e1e4be1c416, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 1216180652, guid: fe176174ccac2b44e8529e701b31debf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -304,7 +304,7 @@ SpriteRenderer:
   m_Size: {x: 5.12, y: 5.1299996}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &1439355388932429973
@@ -324,7 +324,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.12, y: 5.1299996}
+    oldSize: {x: 5.12, y: 5.12}
     newSize: {x: 5.12, y: 5.1299996}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -567,8 +567,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputHandler: {fileID: 11400000, guid: 2d08b32a33e8a2c439895acb0349c911, type: 2}
   currentPower: 3
-  haveGazzaPower: 0
-  timeIngGazzaForm: 0
+  haveGazzaPower: 1
+  timeIngGazzaForm: 3
 --- !u!114 &6913516799564935645
 MonoBehaviour:
   m_ObjectHideFlags: 0
