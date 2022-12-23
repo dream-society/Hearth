@@ -569,6 +569,10 @@ MonoBehaviour:
   currentPower: 3
   haveGazzaPower: 1
   timeIngGazzaForm: 3
+  sciarpa: {fileID: 645033361}
+  sciarpaColorPowers:
+  - {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 0}
+  - {r: 0, g: 0.602689, b: 0.7924528, a: 0}
 --- !u!114 &6913516799564935645
 MonoBehaviour:
   m_ObjectHideFlags: 0

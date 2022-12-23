@@ -26,8 +26,10 @@ public class PlayerPowerManagement : MonoBehaviour
     public float timeIngGazzaForm;
     private CharacterRun runComponent;
     private CharacterFly flyComponent;
+    [SerializeField] private SpriteRenderer sciarpa;
+    [SerializeField] private Color[] sciarpaColorPowers;
 
-    private void Awake()
+   private void Awake()
     {
         runComponent = GetComponent<CharacterRun>();
         flyComponent = GetComponent<CharacterFly>();
@@ -36,6 +38,7 @@ public class PlayerPowerManagement : MonoBehaviour
     private void Start()
     {
         currentPower = Power.NONE;
+        sciarpa.color = sciarpaColorPowers[0];
     }
 
     private void OnEnable()
@@ -100,12 +103,18 @@ public class PlayerPowerManagement : MonoBehaviour
         currentPower = power;
     }
 
+    public void ChangePowerGazza() 
+    {
+        ChangePower(Power.GAZZA);
+    }
+
     private void GazzaPower()
     {
         if (!isOnGazzaForm)
         {
             isOnGazzaForm = true;
             PlayerUI.OnUsePower(timeIngGazzaForm);
+            sciarpa.color = sciarpaColorPowers[1];
             StartCoroutine(GazzaPowerCoroutine());
         }
     }
@@ -130,12 +139,12 @@ public class PlayerPowerManagement : MonoBehaviour
 
     private IEnumerator GazzaPowerCoroutine()
     {
-        //Make her Fly
         runComponent.enabled = false;
         flyComponent.enabled = true;
         yield return new WaitForSeconds(timeIngGazzaForm);
         runComponent.enabled = true;
         flyComponent.enabled = false;
         isOnGazzaForm = false;
+        sciarpa.color = sciarpaColorPowers[0];
     }
 }
