@@ -3,18 +3,30 @@ using UnityEngine;
 
 public class MovingPlatform : MonoBehaviour
 {
+    [SerializeField] private bool oneShot;
+    [SerializeField] private bool autoMove;
     [SerializeField] private float Duration;
     [SerializeField] private int TargetToStart;
     [SerializeField] private Transform[] TargetsPosition;
+    private bool isMoving;
     private int index;
 
     private void Awake()
     {
         index = TargetToStart;
+        if (autoMove)
+        {
+            Move();
+        }
     }
 
     public void Move()
     {
+        if (isMoving) 
+        {
+            return;
+        }
+        isMoving = true;
         Vector3 startPosition = TargetsPosition[index].position;
         index = index == TargetsPosition.Length - 1 ? 0 : index += 1;
         Vector3 targetPosition = TargetsPosition[index].position;
@@ -31,6 +43,10 @@ public class MovingPlatform : MonoBehaviour
             yield return null;
         }
         transform.position = targetPosition;
-        Move();
+        isMoving = false;
+        if (!oneShot)
+        {
+            Move();
+        }
     }
 }
