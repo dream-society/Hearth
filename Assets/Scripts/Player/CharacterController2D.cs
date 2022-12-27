@@ -28,6 +28,7 @@ namespace Hearth.Player
             public bool wasGroundedLastFrame;
             public bool movingDownSlope;
             public float slopeAngle;
+            public Transform platformBelow;
 
             public bool hasCollision()
             {
@@ -391,6 +392,7 @@ namespace Hearth.Player
                     {
                         deltaMovement.y += _skinWidth;
                         collisionState.below = true;
+                        collisionState.platformBelow = _raycastHit.collider.transform;
                     }
 
                     _raycastHitsThisFrame.Add(_raycastHit);
