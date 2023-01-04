@@ -9,63 +9,156 @@ public class AnimatorController : MonoBehaviour
     [SerializeField] private Animator capelliAnimator;
     [SerializeField] private Animator sciarpaAnimator;
 
-    public void StartWalkAnimation()
+    public void StartIdleAnimation()
     {
-        corpoAnimator.SetBool("Walk", true);
-        capelliAnimator.SetBool("Walk", true);
-        sciarpaAnimator.SetBool("Walk", true);
+        StopMoveAnimation();
+        StopJumpAnimation();
+        StopLandAnimation();
+        StopHitAnimation();
+        StopInteractAnimation();
+        StopSurrendAnimation();
+        corpoAnimator.SetBool("idle", true);
+        capelliAnimator.SetBool("idle", true);
+        sciarpaAnimator.SetBool("idle", true);
     }
 
-    public void StopWalkAnimation()
+    public void StopIdleAnimation()
     {
-        corpoAnimator.SetBool("Walk", false);
-        capelliAnimator.SetBool("Walk", false);
-        sciarpaAnimator.SetBool("Walk", false);
+        corpoAnimator.SetBool("idle", false);
+        capelliAnimator.SetBool("idle", false);
+        sciarpaAnimator.SetBool("idle", false);
     }
 
-    public void StartRunAnimation()
+    public void StartMoveAnimation()
     {
-        corpoAnimator.SetBool("Run", true);
-        capelliAnimator.SetBool("Run", true);
-        sciarpaAnimator.SetBool("Run", true);
+        StopIdleAnimation();
+        StopJumpAnimation();
+        StopLandAnimation();
+        StopHitAnimation();
+        StopInteractAnimation();
+        StopSurrendAnimation();
+        corpoAnimator.SetBool("move", true);
+        capelliAnimator.SetBool("move", true);
+        sciarpaAnimator.SetBool("move", true);
     }
 
-    public void StopRunAnimation()
+    public void StopMoveAnimation()
     {
-        corpoAnimator.SetBool("Run", false);
-        capelliAnimator.SetBool("Run", false);
-        sciarpaAnimator.SetBool("Run", false);
+        corpoAnimator.SetBool("move", false);
+        capelliAnimator.SetBool("move", false);
+        sciarpaAnimator.SetBool("move", false);
     }
-
+    
     public void StartJumpAnimation()
     {
-        corpoAnimator.SetTrigger("Jump");
-        capelliAnimator.SetTrigger("Jump");
-        sciarpaAnimator.SetTrigger("Jump");
+        StopIdleAnimation();
+        StopMoveAnimation();
+        StopLandAnimation();
+        StopHitAnimation();
+        StopInteractAnimation();
+        StopSurrendAnimation();
+        corpoAnimator.SetBool("inAir", true);
+        capelliAnimator.SetBool("inAir", true);
+        sciarpaAnimator.SetBool("inAir", true);
     }
 
-    public void StartFallAnimation()
+    public void StopJumpAnimation()
     {
-        corpoAnimator.SetBool("Fall", true);
-        capelliAnimator.SetBool("Fall", true);
-        sciarpaAnimator.SetBool("Fall", true);
+        corpoAnimator.SetBool("inAir", false);
+        capelliAnimator.SetBool("inAir", false);
+        sciarpaAnimator.SetBool("inAir", false);
     }
 
-    public void StopFallAnimation()
-    {
-        corpoAnimator.SetBool("Fall", false);
-        capelliAnimator.SetBool("Fall", false);
-        sciarpaAnimator.SetBool("Fall", false);
-    }
     public void StartLandAnimation()
     {
-        corpoAnimator.SetTrigger("Land");
-        capelliAnimator.SetTrigger("Land");
-        sciarpaAnimator.SetTrigger("Land");
+        StopIdleAnimation();
+        StopMoveAnimation();
+        StopJumpAnimation();
+        StopHitAnimation();
+        StopInteractAnimation();
+        StopSurrendAnimation();
+        corpoAnimator.SetBool("land", true);
+        capelliAnimator.SetBool("land", true);
+        sciarpaAnimator.SetBool("land", true);
     }
 
-    public void StartInteract()
+    public void StopLandAnimation()
     {
-        sciarpaAnimator.SetTrigger("Interact");
+        corpoAnimator.SetBool("land", false);
+        capelliAnimator.SetBool("land", false);
+        sciarpaAnimator.SetBool("land", false);
+    }
+
+    public void StartHitAnimation()
+    {
+        StopIdleAnimation();
+        StopMoveAnimation();
+        StopJumpAnimation();
+        StopLandAnimation();
+        StopInteractAnimation();
+        StopSurrendAnimation();
+        corpoAnimator.SetBool("hit", true);
+        capelliAnimator.SetBool("hit", true);
+        sciarpaAnimator.SetBool("hit", true);
+    }
+
+    public void StopHitAnimation()
+    {
+        corpoAnimator.SetBool("hit", false);
+        capelliAnimator.SetBool("hit", false);
+        sciarpaAnimator.SetBool("hit", false);
+    }
+
+    public void StartInteractAnimation()
+    {
+        StopIdleAnimation();
+        StopMoveAnimation();
+        StopJumpAnimation();
+        StopLandAnimation();
+        StopHitAnimation();
+        StopSurrendAnimation();
+        corpoAnimator.SetBool("interact", true);
+        capelliAnimator.SetBool("interact", true);
+        sciarpaAnimator.SetBool("interact", true);
+    }
+
+    public void StopInteractAnimation()
+    {
+        corpoAnimator.SetBool("interact", false);
+        capelliAnimator.SetBool("interact", false);
+        sciarpaAnimator.SetBool("interact", false);
+    }
+
+    public void StartSurrendAnimation()
+    {
+        StopIdleAnimation();
+        StopMoveAnimation();
+        StopJumpAnimation();
+        StopLandAnimation();
+        StopHitAnimation();
+        StopInteractAnimation();
+        corpoAnimator.SetBool("surrend", true);
+        capelliAnimator.SetBool("surrend", true);
+        sciarpaAnimator.SetBool("surrend", true);
+    }
+
+    public void StopSurrendAnimation()
+    {
+        corpoAnimator.SetBool("surrend", false);
+        capelliAnimator.SetBool("surrend", false);
+        sciarpaAnimator.SetBool("surrend", false);
+    }
+
+    public void SetYVelocity(float yVelocity)
+    {
+        corpoAnimator.SetFloat("yVelocity", yVelocity);
+        capelliAnimator.SetFloat("yVelocity", yVelocity);
+        sciarpaAnimator.SetFloat("yVelocity", yVelocity);
+    }
+    public void SetXVelocity(float xVelocity)
+    {
+        corpoAnimator.SetFloat("xVelocity", xVelocity);
+        capelliAnimator.SetFloat("xVelocity", xVelocity);
+        sciarpaAnimator.SetFloat("xVelocity", xVelocity);
     }
 }

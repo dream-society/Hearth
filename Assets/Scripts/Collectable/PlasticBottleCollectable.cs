@@ -5,7 +5,7 @@ using Hearth.Player;
 
 public class PlasticBottleCollectable : CollectableBase
 {
-    public override void Collect(CharacterController2D player)
+    public override void Collect(CharacterRun player)
     {
         player.CollectPlasticBottle(value);
         base.Collect(player);

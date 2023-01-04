@@ -5,7 +5,7 @@ using Hearth.Player;
 
 public class LifePointCollectable : CollectableBase
 {
-    public override void Collect(CharacterController2D player)
+    public override void Collect(CharacterRun player)
     {
         player.GetHealed(value);
         Animator animator = GetComponent<Animator>();
@@ -13,7 +13,7 @@ public class LifePointCollectable : CollectableBase
         collected = true;
     }
 
-    public void Deactive(CharacterController2D player)
+    public void Deactive(CharacterRun player)
     {
         base.Collect(player);
     }

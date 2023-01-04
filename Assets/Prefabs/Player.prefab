@@ -226,10 +226,10 @@ GameObject:
   - component: {fileID: 1439355388932429970}
   - component: {fileID: 6352361798827130934}
   - component: {fileID: 1952406299576244168}
-  - component: {fileID: 371518266}
   - component: {fileID: 371518275}
   - component: {fileID: 6913516799564935645}
   - component: {fileID: 3794964717343921372}
+  - component: {fileID: 754754600}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -414,7 +414,6 @@ MonoBehaviour:
     m_RotationOrder: 4
   totalHorizontalRays: 8
   totalVerticalRays: 4
-  Lifes: 3
 --- !u!114 &1439355388932429970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -428,12 +427,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputHandler: {fileID: 11400000, guid: 2d08b32a33e8a2c439895acb0349c911, type: 2}
-  animatorController: {fileID: 371518266}
   gravity: 9.81
   walkSpeed: 3
   runSpeed: 6
   maxSpeed: 6
   speed: 3
+  Lifes: 3
   jumpForce: 30
   variableJumpMult: 0.4
   jumpBufferTime: 0.2
@@ -528,7 +527,7 @@ Animator:
   m_GameObject: {fileID: 1439355388932429960}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b57e162a63599824391c81e4d95c831a, type: 2}
+  m_Controller: {fileID: 9100000, guid: c7fc1894ae520484e99c70eb14fe337d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -538,21 +537,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &371518266
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1439355388932429960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 996b4be1bffbd0e4bb1475b164427929, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  corpoAnimator: {fileID: 1952406299576244168}
-  capelliAnimator: {fileID: 903278970}
-  sciarpaAnimator: {fileID: 645033362}
 --- !u!114 &371518275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -604,6 +588,21 @@ MonoBehaviour:
   corpoSpriteRenderer: {fileID: 1439355388932429972}
   capelliSpriteRenderer: {fileID: 903278971}
   sciarpaSpriteRenderer: {fileID: 645033363}
+--- !u!114 &754754600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439355388932429960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4c89b8a0cf3844488178349563b189d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  corpoAnimator: {fileID: 1952406299576244168}
+  capelliAnimator: {fileID: 903278970}
+  sciarpaAnimator: {fileID: 645033362}
 --- !u!1 &1439355389117721276
 GameObject:
   m_ObjectHideFlags: 0

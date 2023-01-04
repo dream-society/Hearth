@@ -8,7 +8,7 @@ public abstract class CollectableBase : MonoBehaviour, ICollectable
     protected bool collected;
     public int value = 1;
 
-    public virtual void Collect(CharacterController2D player)
+    public virtual void Collect(CharacterRun player)
     {
         collected = true;
         gameObject.SetActive(false);
@@ -18,7 +18,7 @@ public abstract class CollectableBase : MonoBehaviour, ICollectable
     {
         if (collision.tag == "Player" && !collected)
         {
-            CharacterController2D player = collision.GetComponent<CharacterController2D>();
+            CharacterRun player = collision.GetComponent<CharacterRun>();
             Collect(player);
         }
     }

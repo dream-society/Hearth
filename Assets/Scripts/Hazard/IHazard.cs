@@ -5,5 +5,5 @@ using Hearth.Player;
 
 public interface IHazard
 {
-    public void Damage(CharacterController2D player);
+    public void Damage(CharacterRun player);
 }

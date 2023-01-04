@@ -1,12 +1,13 @@
+using Hearth.Player;
 using UnityEngine;
 
 public class LeverInteractable : InteractableBase
 {
     [SerializeField] private MovingPlatform Platform;
 
-    public override void Interact()
+    public override void Interact(CharacterRun player)
     {
-        base.Interact();
+        base.Interact(player);
         Debug.Log("Interact with Lever");
         Animator animator = GetComponent<Animator>();
         animator.SetTrigger("Interact");
