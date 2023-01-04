@@ -19,6 +19,7 @@ public class UIManager : MonoBehaviour
 
     private void OpenPauseMenu()
     {
+        Time.timeScale = 0.0f;
         input.pausePressed -= OpenPauseMenu;
         input.pausePressed += ClosePauseMenu;
 
@@ -35,6 +36,7 @@ public class UIManager : MonoBehaviour
 
     private void ClosePauseMenu()
     {
+        Time.timeScale = 1.0f;
         input.pausePressed -= ClosePauseMenu;
         input.pausePressed += OpenPauseMenu;
 
