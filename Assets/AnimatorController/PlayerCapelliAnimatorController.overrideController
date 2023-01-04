@@ -7,10 +7,8 @@ AnimatorOverrideController:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PlayerCapelliAnimatorController
-  m_Controller: {fileID: 9100000, guid: b57e162a63599824391c81e4d95c831a, type: 2}
+  m_Controller: {fileID: 9100000, guid: c7fc1894ae520484e99c70eb14fe337d, type: 2}
   m_Clips:
-  - m_OriginalClip: {fileID: 7400000, guid: 758f167e8d2d03348bcbc6b513f2598a, type: 2}
-    m_OverrideClip: {fileID: 7400000, guid: 54a54512b5cf31f4386767be431a086c, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: 33d918d3f90ea414dbff80fa647d6f61, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: 4788555a1d9c2b04989434a4aab46250, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: 8943af8d054315448ba2455c3b0ff459, type: 2}
@@ -23,6 +21,8 @@ AnimatorOverrideController:
     m_OverrideClip: {fileID: 7400000, guid: c39ada3deee07074b8766d5afbf7ad49, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: 2afb337809f9f3a43b0aafc8fc51d304, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: 4768c7b960e5ea64dbfe7f657cddce0f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 758f167e8d2d03348bcbc6b513f2598a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 54a54512b5cf31f4386767be431a086c, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: 8fd4c3146aedb9247b2f965d5d6c45c9, type: 2}
     m_OverrideClip: {fileID: 7400000, guid: b127828296b0c0d41bae3d7d398e8299, type: 2}
   - m_OriginalClip: {fileID: 7400000, guid: d05047b912edfb64d827848073915f7b, type: 2}
