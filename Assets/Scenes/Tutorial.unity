@@ -2050,7 +2050,7 @@ GameObject:
   - component: {fileID: 688260051}
   - component: {fileID: 688260050}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Start_Cutscene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
