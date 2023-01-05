@@ -5,5 +5,5 @@ using Hearth.Player;
 
 public interface ICollectable
 {
-    public void Collect(CharacterController2D player);
+    public void Collect(CharacterRun player);
 }

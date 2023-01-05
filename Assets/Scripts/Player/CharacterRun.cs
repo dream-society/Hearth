@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using UnityEngine;
 
@@ -6,7 +7,6 @@ namespace Hearth.Player
     public class CharacterRun : MonoBehaviour
     {
         [SerializeField] private InputHandler inputHandler;
-        [SerializeField] private AnimatorController animatorController;
 
         [Header("Move")]
         [SerializeField] private float gravity = 9.81f;
@@ -22,6 +22,10 @@ namespace Hearth.Player
         private bool runInput;
         private Vector2 movement;
 
+        public int Lifes = 3;
+
+        private AnimatorController animatorController;
+        
         [Header("Jump")]
         [SerializeField] private float jumpForce = 0f;
         [SerializeField] private float variableJumpMult = 0.5f;
@@ -42,6 +46,7 @@ namespace Hearth.Player
             controller = GetComponent<CharacterController2D>();
             speed = walkSpeed;
             coyoteTime = GetComponent<CoyoteTime>();
+            animatorController = GetComponent<AnimatorController>();
         }
 
         private void OnEnable()
@@ -67,7 +72,21 @@ namespace Hearth.Player
 
 
         void Update()
-        {
+        {   
+            // anim
+
+            if (controller.isGrounded && velocity.x == 0)
+            {
+                animatorController.StartIdleAnimation();
+            }
+            if (velocity.x != 0 && controller.isGrounded)
+            {
+                animatorController.StartMoveAnimation();
+            }
+            animatorController.SetYVelocity(velocity.y);
+            animatorController.SetXVelocity(speed / runSpeed);
+
+
             // Apply gravity before move
             if (controller.isGrounded)
             {
@@ -75,10 +94,6 @@ namespace Hearth.Player
                 if (controller.collisionState.platformBelow.GetComponent<MovingPlatform>() != null)
                 {
                     transform.parent = controller.collisionState.platformBelow;
-                }
-                else
-                {
-                    transform.parent = null;
                 }
             }
             else
@@ -90,7 +105,6 @@ namespace Hearth.Player
 
             if (velocity.y <= -1)
             {
-                animatorController.StartFallAnimation();
                 isInAir = true;
             }
             if ((controller.isGrounded || coyoteTime.Active) && jumpInput)
@@ -100,7 +114,6 @@ namespace Hearth.Player
             if (controller.isGrounded && isInAir && velocity.y <= 0)
             {
                 isInAir = false;
-                animatorController.StopFallAnimation();
                 animatorController.StartLandAnimation();
             }
             speed = runInput ? runSpeed : walkSpeed;
@@ -113,20 +126,6 @@ namespace Hearth.Player
                 corpoSpriteRenderer.flipX = velocity.x < 0;
                 capelliSpriteRenderer.flipX = velocity.x < 0;
                 sciarpaSpriteRenderer.flipX = velocity.x < 0;
-                if (speed == walkSpeed)
-                {
-                    animatorController.StartWalkAnimation();
-                    animatorController.StopRunAnimation();
-                }
-                else if (speed == runSpeed)
-                {
-                    animatorController.StartRunAnimation();
-                }
-            }
-            else
-            {
-                animatorController.StopRunAnimation();
-                animatorController.StopWalkAnimation();
             }
         }
 
@@ -149,6 +148,7 @@ namespace Hearth.Player
 
         private void Jump()
         {
+            transform.parent = null;
             isJumping = true;
             isInAir = true;
             velocity.y = Mathf.Sqrt(2f * jumpForce);
@@ -183,10 +183,42 @@ namespace Hearth.Player
             }
         }
 
-        private void Interact()
+        public void Interact()
         {
-            animatorController.StartInteract();
+            animatorController.StartInteractAnimation();
         }
-    
+
+        public void GetDamaged(int dmg)
+        {
+            if (Lifes > 1)
+            {
+                Lifes -= dmg;
+                PlayerUI.OnUpdateLife?.Invoke(Lifes);
+                animatorController.StartHitAnimation();
+            }
+            else
+            {
+                Death();
+            }
+        }
+
+        private void Death()
+        {
+            animatorController.StartSurrendAnimation();
+        }
+
+        public void CollectPlasticBottle(int value)
+        {
+            PlayerUI.OnUpdatePlasticBottle?.Invoke(value);
+        }
+
+        public void GetHealed(int heal)
+        {
+            if (Lifes < 3)
+            {
+                Lifes += heal;
+                PlayerUI.OnUpdateLife?.Invoke(Lifes);
+            }
+        }
     }
 }

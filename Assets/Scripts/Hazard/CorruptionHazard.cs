@@ -46,7 +46,7 @@ public class CorruptionHazard : HazardBase
             {
                 if (canDamage)
                 {
-                    CharacterController2D player = collision.GetComponent<CharacterController2D>();
+                    CharacterRun player = collision.GetComponent<CharacterRun>();
                     Damage(player);
                 }
             }

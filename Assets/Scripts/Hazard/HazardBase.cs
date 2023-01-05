@@ -6,7 +6,7 @@ public class HazardBase : MonoBehaviour, IHazard
     protected bool canDamage = true;
     public int damage = 1;
 
-    public virtual void Damage(CharacterController2D player)
+    public virtual void Damage(CharacterRun player)
     {
         player.GetDamaged(damage);
     }
@@ -17,7 +17,7 @@ public class HazardBase : MonoBehaviour, IHazard
         {
             if (canDamage)
             {
-                CharacterController2D player = collision.GetComponent<CharacterController2D>();
+                CharacterRun player = collision.GetComponent<CharacterRun>();
                 Damage(player);
             }
         }

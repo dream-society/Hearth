@@ -107,7 +107,6 @@ namespace Hearth.Player
 
         bool _isGoingUpSlope = false;
 
-        public int Lifes = 3;
 
         #region Monobehaviour
 
@@ -214,38 +213,6 @@ namespace Hearth.Player
 
             var colliderUseableWidth = boxCollider.size.x * Mathf.Abs(transform.localScale.x) - (2f * _skinWidth);
             _horizontalDistanceBetweenRays = colliderUseableWidth / (totalVerticalRays - 1);
-        }
-
-        public void GetDamaged(int dmg)
-        {
-            if (Lifes > 0)
-            {
-                Lifes -= dmg;
-                PlayerUI.OnUpdateLife?.Invoke(Lifes);
-            }
-            else
-            {
-                Death();
-            }
-        }
-
-        private void Death()
-        {
-            
-        }
-
-        public void CollectPlasticBottle(int value)
-        {
-            PlayerUI.OnUpdatePlasticBottle?.Invoke(value);
-        }
-        
-        public void GetHealed(int heal)
-        {
-            if (Lifes < 3)
-            {
-                Lifes += heal;
-                PlayerUI.OnUpdateLife?.Invoke(Lifes);
-            }
         }
 
         #endregion
