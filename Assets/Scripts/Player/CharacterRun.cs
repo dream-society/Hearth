@@ -95,6 +95,10 @@ namespace Hearth.Player
                 {
                     transform.parent = controller.collisionState.platformBelow;
                 }
+                else
+                {
+                    transform.parent = null;
+                }
             }
             else
             {
@@ -148,7 +152,6 @@ namespace Hearth.Player
 
         private void Jump()
         {
-            transform.parent = null;
             isJumping = true;
             isInAir = true;
             velocity.y = Mathf.Sqrt(2f * jumpForce);

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7391729520554337467}
   - component: {fileID: 7391729520554337468}
   - component: {fileID: 7391729520554337465}
-  m_Layer: 10
+  m_Layer: 6
   m_Name: MovingPlatform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,11 +98,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b3642b7997667945b249d6647d5de50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oneShot: 0
-  autoMove: 0
   Duration: 0
   TargetToStart: 0
   TargetsPosition: []
+  autoMove: 0
 --- !u!61 &7391729520554337465
 BoxCollider2D:
   m_ObjectHideFlags: 0
