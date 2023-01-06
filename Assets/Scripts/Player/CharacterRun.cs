@@ -80,11 +80,11 @@ namespace Hearth.Player
             {
                 if (velocity.x == 0)
                 {
-                    animatorController.StartIdleAnimation();
+                    //animatorController.StartIdleAnimation();
                 }
                 else
                 {
-                    animatorController.StartMoveAnimation();
+                    //animatorController.StartMoveAnimation();
                 }
             }
             animatorController.SetXVelocity(speed / runSpeed);
@@ -102,7 +102,7 @@ namespace Hearth.Player
             {
                 //isInAir = true;
                 //velocity.y += -gravity * gravityScale * Time.deltaTime;
-                animatorController.SetYVelocity(velocity.y);
+                //animatorController.SetYVelocity(velocity.y);
             }
 
             CheckVariableJump();
@@ -113,7 +113,7 @@ namespace Hearth.Player
             }
             if (controller.isGrounded && !controller.collisionState.wasGroundedLastFrame)
             {
-                animatorController.StartLandAnimation();
+                //animatorController.StartLandAnimation();
             }
             speed = runInput ? runSpeed : walkSpeed;
             velocity.x = movement != Vector2.zero ? movement.x * speed : 0;
@@ -196,12 +196,16 @@ namespace Hearth.Player
         {
             Lifes -= dmg;
             PlayerUI.OnUpdateLife?.Invoke(Lifes);
-            animatorController.StartHitAnimation();
 
             if (Lifes <= 0)
             {
                 Death();
             }
+            else
+            {
+                animatorController.StartHitAnimation();
+            }
+
         }
 
         private void Death()
