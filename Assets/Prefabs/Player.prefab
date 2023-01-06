@@ -230,7 +230,6 @@ GameObject:
   - component: {fileID: 6913516799564935645}
   - component: {fileID: 3794964717343921372}
   - component: {fileID: 754754600}
-  - component: {fileID: 6592832280227148973}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -437,6 +436,7 @@ MonoBehaviour:
   jumpForce: 30
   variableJumpMult: 0.4
   jumpBufferTime: 0.2
+  isJumping: 0
   corpoSpriteRenderer: {fileID: 1439355388932429972}
   capelliSpriteRenderer: {fileID: 903278971}
   sciarpaSpriteRenderer: {fileID: 645033363}
@@ -604,21 +604,6 @@ MonoBehaviour:
   corpoAnimator: {fileID: 1952406299576244168}
   capelliAnimator: {fileID: 903278970}
   sciarpaAnimator: {fileID: 645033362}
---- !u!114 &6592832280227148973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1439355388932429960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4c89b8a0cf3844488178349563b189d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  corpoAnimator: {fileID: 1952406299576244168}
-  capelliAnimator: {fileID: 0}
-  sciarpaAnimator: {fileID: 0}
 --- !u!1 &1439355389117721276
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,16 +9,18 @@ public class CoyoteTime : MonoBehaviour
 
     private float coyoteTimeStart;
     private CharacterController2D controller;
+    private CharacterRun characterRun;
     private bool groundedPreviousFrame = false;
 
     private void Awake()
     {
         controller = GetComponent<CharacterController2D>();
+        characterRun = GetComponent<CharacterRun>();
     }
 
     private void Update()
     {
-        if (groundedPreviousFrame && !controller.isGrounded)
+        if (groundedPreviousFrame && !controller.isGrounded && !characterRun.isJumping)
         {
             StartCoyoteTime();
         }

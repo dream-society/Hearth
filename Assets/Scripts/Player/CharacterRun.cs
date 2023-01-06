@@ -30,7 +30,7 @@ namespace Hearth.Player
         [SerializeField] private float jumpForce = 0f;
         [SerializeField] private float variableJumpMult = 0.5f;
         [SerializeField] private float jumpBufferTime = 0.2f;
-        private bool isJumping;
+        public bool isJumping;
         private bool jumpInput;
         private bool jumpInputStop;
         private float jumpInputStartTime;
@@ -72,25 +72,27 @@ namespace Hearth.Player
 
 
         void Update()
-        {   
-            // anim
+        {
+            velocity.y += -gravity * gravityScale * Time.deltaTime;
 
-            if (controller.isGrounded && velocity.x == 0)
+            // anim
+            if (controller.isGrounded)
             {
-                animatorController.StartIdleAnimation();
+                if (velocity.x == 0)
+                {
+                    animatorController.StartIdleAnimation();
+                }
+                else
+                {
+                    animatorController.StartMoveAnimation();
+                }
             }
-            if (velocity.x != 0 && controller.isGrounded)
-            {
-                animatorController.StartMoveAnimation();
-            }
-            animatorController.SetYVelocity(velocity.y);
             animatorController.SetXVelocity(speed / runSpeed);
 
 
             // Apply gravity before move
             if (controller.isGrounded)
             {
-                velocity.y = 0;
                 if (controller.collisionState.platformBelow.GetComponent<MovingPlatform>() != null)
                 {
                     transform.parent = controller.collisionState.platformBelow;
@@ -98,22 +100,19 @@ namespace Hearth.Player
             }
             else
             {
-                velocity.y += -gravity * gravityScale * Time.deltaTime;
+                //isInAir = true;
+                //velocity.y += -gravity * gravityScale * Time.deltaTime;
+                animatorController.SetYVelocity(velocity.y);
             }
 
             CheckVariableJump();
 
-            if (velocity.y <= -1)
-            {
-                isInAir = true;
-            }
             if ((controller.isGrounded || coyoteTime.Active) && jumpInput)
             {
                 Jump();
             }
-            if (controller.isGrounded && isInAir && velocity.y <= 0)
+            if (controller.isGrounded && !controller.collisionState.wasGroundedLastFrame)
             {
-                isInAir = false;
                 animatorController.StartLandAnimation();
             }
             speed = runInput ? runSpeed : walkSpeed;
@@ -121,11 +120,16 @@ namespace Hearth.Player
             controller.move(velocity * Time.deltaTime);
             velocity = controller.velocity;
 
-            if (velocity.x != 0)
+            CheckFlip();
+        }
+
+        private void CheckFlip()
+        {
+            if (movement.x != 0)
             {
-                corpoSpriteRenderer.flipX = velocity.x < 0;
-                capelliSpriteRenderer.flipX = velocity.x < 0;
-                sciarpaSpriteRenderer.flipX = velocity.x < 0;
+                corpoSpriteRenderer.flipX = movement.x < 0;
+                capelliSpriteRenderer.flipX = movement.x < 0;
+                sciarpaSpriteRenderer.flipX = movement.x < 0;
             }
         }
 
@@ -190,13 +194,11 @@ namespace Hearth.Player
 
         public void GetDamaged(int dmg)
         {
-            if (Lifes > 1)
-            {
-                Lifes -= dmg;
-                PlayerUI.OnUpdateLife?.Invoke(Lifes);
-                animatorController.StartHitAnimation();
-            }
-            else
+            Lifes -= dmg;
+            PlayerUI.OnUpdateLife?.Invoke(Lifes);
+            animatorController.StartHitAnimation();
+
+            if (Lifes <= 0)
             {
                 Death();
             }
