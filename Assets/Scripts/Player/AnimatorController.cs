@@ -1,6 +1,3 @@
-using Hearth.Player;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AnimatorController : MonoBehaviour
@@ -8,18 +5,24 @@ public class AnimatorController : MonoBehaviour
     [SerializeField] private Animator corpoAnimator;
     [SerializeField] private Animator capelliAnimator;
     [SerializeField] private Animator sciarpaAnimator;
+    private CharacterController2D controller;
+
+    private void Awake()
+    {
+        controller = GetComponent<CharacterController2D>();
+    }
 
     public void StartIdleAnimation()
     {
         StopMoveAnimation();
         StopJumpAnimation();
         StopLandAnimation();
-        StopHitAnimation();
-        StopInteractAnimation();
-        StopSurrendAnimation();
         corpoAnimator.SetBool("idle", true);
         capelliAnimator.SetBool("idle", true);
-        sciarpaAnimator.SetBool("idle", true);
+        if (!sciarpaAnimator.GetBool("interact"))
+        {
+            sciarpaAnimator.SetBool("idle", true);
+        }
     }
 
     public void StopIdleAnimation()
@@ -34,12 +37,12 @@ public class AnimatorController : MonoBehaviour
         StopIdleAnimation();
         StopJumpAnimation();
         StopLandAnimation();
-        StopHitAnimation();
-        StopInteractAnimation();
-        StopSurrendAnimation();
         corpoAnimator.SetBool("move", true);
         capelliAnimator.SetBool("move", true);
-        sciarpaAnimator.SetBool("move", true);
+        if (!sciarpaAnimator.GetBool("interact"))
+        {
+            sciarpaAnimator.SetBool("move", true);
+        }
     }
 
     public void StopMoveAnimation()
@@ -48,15 +51,13 @@ public class AnimatorController : MonoBehaviour
         capelliAnimator.SetBool("move", false);
         sciarpaAnimator.SetBool("move", false);
     }
-    
+
     public void StartJumpAnimation()
     {
         StopIdleAnimation();
         StopMoveAnimation();
         StopLandAnimation();
-        StopHitAnimation();
         StopInteractAnimation();
-        StopSurrendAnimation();
         corpoAnimator.SetBool("inAir", true);
         capelliAnimator.SetBool("inAir", true);
         sciarpaAnimator.SetBool("inAir", true);
@@ -74,9 +75,7 @@ public class AnimatorController : MonoBehaviour
         StopIdleAnimation();
         StopMoveAnimation();
         StopJumpAnimation();
-        StopHitAnimation();
         StopInteractAnimation();
-        StopSurrendAnimation();
         corpoAnimator.SetBool("land", true);
         capelliAnimator.SetBool("land", true);
         sciarpaAnimator.SetBool("land", true);
@@ -96,7 +95,6 @@ public class AnimatorController : MonoBehaviour
         StopJumpAnimation();
         StopLandAnimation();
         StopInteractAnimation();
-        StopSurrendAnimation();
         corpoAnimator.SetBool("hit", true);
         capelliAnimator.SetBool("hit", true);
         sciarpaAnimator.SetBool("hit", true);
@@ -115,17 +113,11 @@ public class AnimatorController : MonoBehaviour
         StopMoveAnimation();
         StopJumpAnimation();
         StopLandAnimation();
-        StopHitAnimation();
-        StopSurrendAnimation();
-        corpoAnimator.SetBool("interact", true);
-        capelliAnimator.SetBool("interact", true);
         sciarpaAnimator.SetBool("interact", true);
     }
 
     public void StopInteractAnimation()
     {
-        corpoAnimator.SetBool("interact", false);
-        capelliAnimator.SetBool("interact", false);
         sciarpaAnimator.SetBool("interact", false);
     }
 
@@ -155,10 +147,37 @@ public class AnimatorController : MonoBehaviour
         capelliAnimator.SetFloat("yVelocity", yVelocity);
         sciarpaAnimator.SetFloat("yVelocity", yVelocity);
     }
+
     public void SetXVelocity(float xVelocity)
     {
         corpoAnimator.SetFloat("xVelocity", xVelocity);
         capelliAnimator.SetFloat("xVelocity", xVelocity);
         sciarpaAnimator.SetFloat("xVelocity", xVelocity);
+    }
+
+    private void Update()
+    {
+        if (!corpoAnimator.GetBool("hit") && !corpoAnimator.GetBool("surrend"))
+        {
+            if (controller.isGrounded)
+            {
+                if (controller.velocity.x == 0)
+                {
+                    StartIdleAnimation();
+                }
+                else
+                {
+                    StartMoveAnimation();
+                }
+            }
+            if (controller.isGrounded && !controller.collisionState.wasGroundedLastFrame)
+            {
+                StartLandAnimation();
+            }
+            else
+            {
+                SetYVelocity(controller.velocity.y);
+            }
+        }
     }
 }
