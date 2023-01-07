@@ -13201,6 +13201,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.07120645
       objectReference: {fileID: 0}
+    - target: {fileID: 1439355388932429975, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      propertyPath: triggerMask.m_Bits
+      value: 2944
+      objectReference: {fileID: 0}
     - target: {fileID: 1439355389117721275, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
       value: 1.7777778

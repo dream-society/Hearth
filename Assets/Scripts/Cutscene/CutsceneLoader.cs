@@ -4,12 +4,12 @@ using UnityEngine.Video;
 
 public class CutsceneLoader : MonoBehaviour
 {
-    [SerializeField] private VideoClip clip;
-    [SerializeField] private string sceneName;
+    public VideoClip Clip;
+    public string SceneName;
 
     // Start is called before the first frame update
     void Start()
     {
-        VideoPlayerManager.CutsceneStart.Invoke(clip, sceneName);
+        VideoPlayerManager.CutsceneStart.Invoke(Clip, SceneName);
     }
 }
