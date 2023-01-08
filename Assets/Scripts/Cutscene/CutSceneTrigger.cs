@@ -14,6 +14,7 @@ public class CutSceneTrigger : MonoBehaviour
     {
         if (collision.tag == "Player" && !interacted)
         {
+            interacted = true;
             VideoPlayerManager.CutsceneStart.Invoke(clip, sceneName);
         }
     }

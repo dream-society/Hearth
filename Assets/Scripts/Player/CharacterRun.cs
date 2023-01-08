@@ -2,6 +2,7 @@ using JetBrains.Annotations;
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Video;
 
 namespace Hearth.Player
 {
@@ -61,6 +62,7 @@ namespace Hearth.Player
             inputHandler.runPressed += StartRun;
             inputHandler.runReleased += StopRun;
             inputHandler.interactPressed += Interact;
+            VideoPlayerManager.CutsceneStart += OnCutSceneStart;
         }
 
         private void OnDisable()
@@ -71,25 +73,22 @@ namespace Hearth.Player
             inputHandler.runPressed -= StartRun;
             inputHandler.runReleased -= StopRun;
             inputHandler.interactPressed -= Interact;
+            VideoPlayerManager.CutsceneStart -= OnCutSceneStart;
         }
 
+        private void OnCutSceneStart(VideoClip arg0, string arg1)
+        {
+            speed = 0;
+            controller.velocity = Vector3.zero;
+            velocity = Vector3.zero;
+            movement = Vector2.zero;
+            enabled = false;
+        }
 
         void Update()
         {
             velocity.y += -gravity * gravityScale * Time.deltaTime;
 
-            // anim
-            if (controller.isGrounded)
-            {
-                if (velocity.x == 0)
-                {
-                    //animatorController.StartIdleAnimation();
-                }
-                else
-                {
-                    //animatorController.StartMoveAnimation();
-                }
-            }
             animatorController.SetXVelocity(speed / runSpeed);
 
 
@@ -101,22 +100,12 @@ namespace Hearth.Player
                     transform.parent = controller.collisionState.platformBelow;
                 }
             }
-            else
-            {
-                //isInAir = true;
-                //velocity.y += -gravity * gravityScale * Time.deltaTime;
-                //animatorController.SetYVelocity(velocity.y);
-            }
 
             CheckVariableJump();
 
             if ((controller.isGrounded || coyoteTime.Active) && jumpInput)
             {
                 Jump();
-            }
-            if (controller.isGrounded && !controller.collisionState.wasGroundedLastFrame)
-            {
-                //animatorController.StartLandAnimation();
             }
             speed = runInput ? runSpeed : walkSpeed;
             velocity.x = movement != Vector2.zero ? movement.x * speed : 0;

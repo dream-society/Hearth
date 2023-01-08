@@ -135,18 +135,12 @@ public class CharacterController2D : MonoBehaviour
 
     private void OnEnable()
     {
-        VideoPlayerManager.CutsceneStart += OnCutSceneStart;
         VideoPlayerManager.CutsceneEnd += OnCutSceneEnd;
     }
 
     private void OnDisable()
     {
-        VideoPlayerManager.CutsceneStart += OnCutSceneStart;
-        VideoPlayerManager.CutsceneEnd += OnCutSceneEnd;
-    }
-    private void OnCutSceneStart(VideoClip clip, string scene)
-    {
-		GetComponent<CharacterRun>().enabled = false;
+        VideoPlayerManager.CutsceneEnd -= OnCutSceneEnd;
     }
 
     private void OnCutSceneEnd()
