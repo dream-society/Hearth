@@ -3172,7 +3172,7 @@ PrefabInstance:
       objectReference: {fileID: 32900000, guid: 2bf18ae270a338642b3c316431bb8bde, type: 3}
     - target: {fileID: 3077356606653211662, guid: ff085278045ba304c9b03bcc90302775, type: 3}
       propertyPath: SceneName
-      value: MainMenu
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3670883536221747983, guid: ff085278045ba304c9b03bcc90302775, type: 3}
       propertyPath: m_RootOrder
