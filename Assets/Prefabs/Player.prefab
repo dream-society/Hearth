@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 645033361}
   - component: {fileID: 645033363}
   - component: {fileID: 645033362}
+  - component: {fileID: 4381139966737974594}
   m_Layer: 0
   m_Name: Sciarpa
   m_TagString: Untagged
@@ -79,7 +80,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.1250052, y: 5.12}
+  m_Size: {x: 5.12, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -105,6 +106,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4381139966737974594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645033360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c75123a0c2d4484a943297bc9ad06d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sciarpaAnimator: {fileID: 645033362}
 --- !u!1 &903278968
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,7 +334,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.075556755, y: -0.047635317}
+  m_Offset: {x: -0.075556755, y: -0.07120645}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -331,7 +345,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.71616554, y: 4.25806}
+  m_Size: {x: 0.71616554, y: 4.3052025}
   m_EdgeRadius: 0
 --- !u!50 &1439355388932429974
 Rigidbody2D:
@@ -373,47 +387,16 @@ MonoBehaviour:
     m_Bits: 64
   triggerMask:
     serializedVersion: 2
-    m_Bits: 896
+    m_Bits: 2944
   oneWayPlatformMask:
     serializedVersion: 2
     m_Bits: 1024
-  slopeLimit: 30
-  jumpingThreshold: 0.07
-  slopeSpeedMultiplier:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: -90
-      value: 1.5
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 90
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
   totalHorizontalRays: 8
   totalVerticalRays: 4
+  transform: {fileID: 0}
+  boxCollider: {fileID: 0}
+  rigidBody2D: {fileID: 0}
+  velocity: {x: 0, y: 0, z: 0}
 --- !u!114 &1439355388932429970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -558,6 +541,8 @@ MonoBehaviour:
   sciarpaColorPowers:
   - {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 1}
   - {r: 0, g: 0.602689, b: 0.7924528, a: 1}
+  - {r: 1, g: 0.75744927, b: 0.042452812, a: 1}
+  interactTime: 0.5
 --- !u!114 &6913516799564935645
 MonoBehaviour:
   m_ObjectHideFlags: 0

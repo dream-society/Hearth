@@ -19,10 +19,7 @@ public class AnimatorController : MonoBehaviour
         StopLandAnimation();
         corpoAnimator.SetBool("idle", true);
         capelliAnimator.SetBool("idle", true);
-        if (!sciarpaAnimator.GetBool("interact"))
-        {
-            sciarpaAnimator.SetBool("idle", true);
-        }
+        sciarpaAnimator.SetBool("idle", true);
     }
 
     public void StopIdleAnimation()
@@ -39,10 +36,7 @@ public class AnimatorController : MonoBehaviour
         StopLandAnimation();
         corpoAnimator.SetBool("move", true);
         capelliAnimator.SetBool("move", true);
-        if (!sciarpaAnimator.GetBool("interact"))
-        {
-            sciarpaAnimator.SetBool("move", true);
-        }
+        sciarpaAnimator.SetBool("move", true);
     }
 
     public void StopMoveAnimation()
@@ -57,7 +51,6 @@ public class AnimatorController : MonoBehaviour
         StopIdleAnimation();
         StopMoveAnimation();
         StopLandAnimation();
-        StopInteractAnimation();
         corpoAnimator.SetBool("inAir", true);
         capelliAnimator.SetBool("inAir", true);
         sciarpaAnimator.SetBool("inAir", true);
@@ -75,7 +68,6 @@ public class AnimatorController : MonoBehaviour
         StopIdleAnimation();
         StopMoveAnimation();
         StopJumpAnimation();
-        StopInteractAnimation();
         corpoAnimator.SetBool("land", true);
         capelliAnimator.SetBool("land", true);
         sciarpaAnimator.SetBool("land", true);
@@ -94,7 +86,6 @@ public class AnimatorController : MonoBehaviour
         StopMoveAnimation();
         StopJumpAnimation();
         StopLandAnimation();
-        StopInteractAnimation();
         corpoAnimator.SetBool("hit", true);
         capelliAnimator.SetBool("hit", true);
         sciarpaAnimator.SetBool("hit", true);
@@ -107,20 +98,6 @@ public class AnimatorController : MonoBehaviour
         sciarpaAnimator.SetBool("hit", false);
     }
 
-    public void StartInteractAnimation()
-    {
-        StopIdleAnimation();
-        StopMoveAnimation();
-        StopJumpAnimation();
-        StopLandAnimation();
-        sciarpaAnimator.SetBool("interact", true);
-    }
-
-    public void StopInteractAnimation()
-    {
-        sciarpaAnimator.SetBool("interact", false);
-    }
-
     public void StartSurrendAnimation()
     {
         StopIdleAnimation();
@@ -128,7 +105,6 @@ public class AnimatorController : MonoBehaviour
         StopJumpAnimation();
         StopLandAnimation();
         StopHitAnimation();
-        StopInteractAnimation();
         corpoAnimator.SetBool("surrend", true);
         capelliAnimator.SetBool("surrend", true);
         sciarpaAnimator.SetBool("surrend", true);

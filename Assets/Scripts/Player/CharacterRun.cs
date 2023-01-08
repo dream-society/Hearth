@@ -181,7 +181,7 @@ namespace Hearth.Player
 
         public void Interact()
         {
-            animatorController.StartInteractAnimation();
+            GetComponent<PlayerPowerManagement>().Interact();
         }
 
         public void GetDamaged(int dmg)

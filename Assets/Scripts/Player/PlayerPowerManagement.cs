@@ -28,7 +28,7 @@ public class PlayerPowerManagement : MonoBehaviour
     private CharacterFly flyComponent;
     [SerializeField] private SpriteRenderer sciarpa;
     [SerializeField] private Color[] sciarpaColorPowers;
-
+    [SerializeField] private float interactTime;
    private void Awake()
     {
         runComponent = GetComponent<CharacterRun>();
@@ -146,5 +146,20 @@ public class PlayerPowerManagement : MonoBehaviour
         flyComponent.enabled = false;
         isOnGazzaForm = false;
         sciarpa.color = sciarpaColorPowers[0];
+    }
+
+    private IEnumerator InteractCoroutine()
+    {
+        yield return new WaitForSeconds(interactTime);
+        if (sciarpa.color == sciarpaColorPowers[2])
+        {
+            sciarpa.color = sciarpaColorPowers[0];
+        }
+    }
+
+    public void Interact()
+    {
+        sciarpa.color = sciarpaColorPowers[2];
+        StartCoroutine(InteractCoroutine());
     }
 }
