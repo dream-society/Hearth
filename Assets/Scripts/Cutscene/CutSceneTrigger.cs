@@ -7,16 +7,14 @@ using UnityEngine.Video;
 public class CutSceneTrigger : MonoBehaviour
 {
     private bool interacted;
-    [SerializeField] Transform cutSceneLoader;
-    [SerializeField] VideoClip Clip;
-    [SerializeField] string SceneName;
+    [SerializeField] private VideoClip clip;
+    [SerializeField] private string sceneName;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player" && !interacted)
         {
-            cutSceneLoader.GetComponent<CutsceneLoader>().Clip = Clip;
-            cutSceneLoader.GetComponent<CutsceneLoader>().SceneName = SceneName;
-            Instantiate(cutSceneLoader);
+            VideoPlayerManager.CutsceneStart.Invoke(clip, sceneName);
         }
     }
 }

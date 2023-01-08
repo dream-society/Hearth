@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -6,6 +7,9 @@ namespace Hearth.Player
 {
     public class CharacterRun : MonoBehaviour
     {
+        public static Action EnablePlayerInput;
+        public static Action DisablePlayerInput;
+
         [SerializeField] private InputHandler inputHandler;
 
         [Header("Move")]
@@ -58,7 +62,6 @@ namespace Hearth.Player
             inputHandler.runReleased += StopRun;
             inputHandler.interactPressed += Interact;
         }
-
 
         private void OnDisable()
         {
