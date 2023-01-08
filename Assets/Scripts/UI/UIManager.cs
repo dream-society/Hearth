@@ -1,4 +1,7 @@
+using HNC;
+using System;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class UIManager : MonoBehaviour
 {
@@ -6,15 +9,24 @@ public class UIManager : MonoBehaviour
     [SerializeField] private PlayerUI playerUI;
     [SerializeField] private PauseMenu pauseMenu;
     [SerializeField] private SettingsMenu settingsMenu;
+    [SerializeField] private SceneTransition SceneTransition;
 
     private void OnEnable()
     {
         input.pausePressed += OpenPauseMenu;
+        VideoPlayerManager.CutsceneStart += OnCutSceneStart;
+        VideoPlayerManager.CutsceneEnd += OnCutSceneEnd;
     }
 
     private void OnDisable()
     {
         input.pausePressed -= OpenPauseMenu;
+        VideoPlayerManager.CutsceneEnd -= OnCutSceneEnd;
+    }
+
+    private void Start()
+    {
+        SceneTransition.gameObject.SetActive(false);
     }
 
     private void OpenPauseMenu()
@@ -78,4 +90,17 @@ public class UIManager : MonoBehaviour
         settingsMenu.gameObject.SetActive(false);
         pauseMenu.gameObject.SetActive(true);
     }
+
+    private void OnCutSceneStart(VideoClip clip, string scene)
+    {
+        playerUI.gameObject.SetActive(false);
+    }
+
+
+    private void OnCutSceneEnd()
+    {
+        playerUI.gameObject.SetActive(true);
+        SceneTransition.gameObject.SetActive(true);
+    }
+
 }

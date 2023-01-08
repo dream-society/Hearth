@@ -1,3 +1,4 @@
+using HNC;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,6 +10,7 @@ using UnityEngine.Video;
 public class VideoPlayerManager : MonoBehaviour
 {
     public static UnityAction<VideoClip, string> CutsceneStart;
+    public static UnityAction CutsceneEnd;
 
     private VideoPlayer player;
     private string sceneName;
@@ -36,6 +38,8 @@ public class VideoPlayerManager : MonoBehaviour
     private void EndReached(VideoPlayer source)
     {
         player.enabled = false;
+
+        CutsceneEnd?.Invoke();
 
         if (sceneName == "")
         {
