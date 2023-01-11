@@ -18,6 +18,11 @@ public class LifeBarHandler : MonoBehaviour
         PlayerUI.OnUpdateLife += OnUpdateLife;
     }
 
+    private void OnDisable()
+    {
+        PlayerUI.OnUpdateLife -= OnUpdateLife;
+    }
+
     private void OnUpdateLife(int currentValue)
     {
         mask.padding = new Vector4(0, 0, (3 - currentValue) * 118, 0);

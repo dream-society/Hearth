@@ -2,6 +2,7 @@ using JetBrains.Annotations;
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 
 namespace Hearth.Player
@@ -12,6 +13,7 @@ namespace Hearth.Player
         public static Action DisablePlayerInput;
 
         [SerializeField] private InputHandler inputHandler;
+        [SerializeField] private SaveSystem saveSystem;
 
         [Header("Move")]
         [SerializeField] private float gravity = 9.81f;
@@ -30,7 +32,7 @@ namespace Hearth.Player
         public int Lifes = 3;
 
         private AnimatorController animatorController;
-        
+
         [Header("Jump")]
         [SerializeField] private float jumpForce = 0f;
         [SerializeField] private float variableJumpMult = 0.5f;
@@ -45,6 +47,8 @@ namespace Hearth.Player
         [SerializeField] private SpriteRenderer corpoSpriteRenderer;
         [SerializeField] private SpriteRenderer capelliSpriteRenderer;
         [SerializeField] private SpriteRenderer sciarpaSpriteRenderer;
+        private int plasticBottles = 0;
+        public int PlasticBottles { get => plasticBottles; }
 
         void Awake()
         {
@@ -83,6 +87,14 @@ namespace Hearth.Player
             velocity = Vector3.zero;
             movement = Vector2.zero;
             enabled = false;
+        }
+
+        private void Start()
+        {
+            if (saveSystem.SaveData.Player.Position != Vector3.zero)
+            {
+                transform.position = saveSystem.SaveData.Player.Position;
+            }
         }
 
         void Update()
@@ -203,10 +215,14 @@ namespace Hearth.Player
         private void Death()
         {
             animatorController.StartSurrendAnimation();
+
+            // TODO: reload scene in death animation end
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
         public void CollectPlasticBottle(int value)
         {
+            plasticBottles++;
             PlayerUI.OnUpdatePlasticBottle?.Invoke(value);
         }
 
