@@ -100,11 +100,11 @@ public class UIManager : MonoBehaviour
         playerUI.gameObject.SetActive(false);
     }
 
-
     private void OnCutSceneEnd()
     {
         playerUI.gameObject.SetActive(true);
         SceneTransition.gameObject.SetActive(true);
+        SceneTransition.TransitionFadeIn.Invoke();
     }
 
 }
