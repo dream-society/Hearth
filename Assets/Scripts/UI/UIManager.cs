@@ -43,6 +43,8 @@ public class UIManager : MonoBehaviour
         pauseMenu.SetMenuScreen();
         input.EnableUIInput();
 
+        Cursor.visible = true;
+
         Debug.Log("Open pause menu");
     }
 
@@ -58,6 +60,8 @@ public class UIManager : MonoBehaviour
 
         pauseMenu.gameObject.SetActive(false);
         input.EnablePlayerInput();
+
+        Cursor.visible = false;
     }
 
     private void ResumeButtonPressed()

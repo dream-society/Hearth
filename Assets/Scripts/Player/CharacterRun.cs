@@ -215,8 +215,10 @@ namespace Hearth.Player
         private void Death()
         {
             animatorController.StartSurrendAnimation();
+        }
 
-            // TODO: reload scene in death animation end
+        public void EndDeath()
+        {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
