@@ -11,7 +11,7 @@ public class SaveSystem : ScriptableObject
     private SaveData saveData = new SaveData();
     public SaveData SaveData => saveData;
 
-    public static UnityAction<Scene, Transform> PlayerSave;
+    public static UnityAction<Scene, Transform, int, bool> PlayerSave;
     public static UnityAction<Scene, Transform> LevelStarted;
     public static UnityAction<Scene> LevelFinished;
     public static UnityAction<float, float, float> AudioSettingsSave;
@@ -35,12 +35,14 @@ public class SaveSystem : ScriptableObject
         AudioSettingsSave -= OnAudioSettingsSave;
     }
 
-    private void OnPlayerSave(Scene scene, Transform player)
+    private void OnPlayerSave(Scene scene, Transform player, int bottles, bool powerUnlocked)
     {
         saveData.Player = new Player
         {
             Scene = scene.name,
             Position = player.position + Vector3.forward * 2,
+            Bottles = bottles,
+            PowerUnlocked = powerUnlocked,
         };
 
         SaveGameDataToDisk();

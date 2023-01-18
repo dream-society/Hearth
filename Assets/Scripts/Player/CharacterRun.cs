@@ -1,12 +1,19 @@
 using JetBrains.Annotations;
+using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 namespace Hearth.Player
 {
     public class CharacterRun : MonoBehaviour
     {
+        public static Action EnablePlayerInput;
+        public static Action DisablePlayerInput;
+
         [SerializeField] private InputHandler inputHandler;
+        [SerializeField] private SaveSystem saveSystem;
 
         [Header("Move")]
         [SerializeField] private float gravity = 9.81f;
@@ -25,7 +32,7 @@ namespace Hearth.Player
         public int Lifes = 3;
 
         private AnimatorController animatorController;
-        
+
         [Header("Jump")]
         [SerializeField] private float jumpForce = 0f;
         [SerializeField] private float variableJumpMult = 0.5f;
@@ -40,6 +47,8 @@ namespace Hearth.Player
         [SerializeField] private SpriteRenderer corpoSpriteRenderer;
         [SerializeField] private SpriteRenderer capelliSpriteRenderer;
         [SerializeField] private SpriteRenderer sciarpaSpriteRenderer;
+        private int plasticBottles = 0;
+        public int PlasticBottles { get => plasticBottles; }
 
         void Awake()
         {
@@ -57,8 +66,8 @@ namespace Hearth.Player
             inputHandler.runPressed += StartRun;
             inputHandler.runReleased += StopRun;
             inputHandler.interactPressed += Interact;
+            VideoPlayerManager.CutsceneStart += OnCutSceneStart;
         }
-
 
         private void OnDisable()
         {
@@ -68,25 +77,30 @@ namespace Hearth.Player
             inputHandler.runPressed -= StartRun;
             inputHandler.runReleased -= StopRun;
             inputHandler.interactPressed -= Interact;
+            VideoPlayerManager.CutsceneStart -= OnCutSceneStart;
         }
 
+        private void OnCutSceneStart(VideoClip arg0, string arg1)
+        {
+            speed = 0;
+            controller.velocity = Vector3.zero;
+            velocity = Vector3.zero;
+            movement = Vector2.zero;
+            enabled = false;
+        }
+
+        private void Start()
+        {
+            if (saveSystem.SaveData.Player.Position != Vector3.zero)
+            {
+                transform.position = saveSystem.SaveData.Player.Position;
+            }
+        }
 
         void Update()
         {
             velocity.y += -gravity * gravityScale * Time.deltaTime;
 
-            // anim
-            if (controller.isGrounded)
-            {
-                if (velocity.x == 0)
-                {
-                    animatorController.StartIdleAnimation();
-                }
-                else
-                {
-                    animatorController.StartMoveAnimation();
-                }
-            }
             animatorController.SetXVelocity(speed / runSpeed);
 
 
@@ -97,16 +111,6 @@ namespace Hearth.Player
                 {
                     transform.parent = controller.collisionState.platformBelow;
                 }
-                else
-                {
-                    transform.parent = null;
-                }
-            }
-            else
-            {
-                //isInAir = true;
-                //velocity.y += -gravity * gravityScale * Time.deltaTime;
-                animatorController.SetYVelocity(velocity.y);
             }
 
             CheckVariableJump();
@@ -114,10 +118,6 @@ namespace Hearth.Player
             if ((controller.isGrounded || coyoteTime.Active) && jumpInput)
             {
                 Jump();
-            }
-            if (controller.isGrounded && !controller.collisionState.wasGroundedLastFrame)
-            {
-                animatorController.StartLandAnimation();
             }
             speed = runInput ? runSpeed : walkSpeed;
             velocity.x = movement != Vector2.zero ? movement.x * speed : 0;
@@ -156,6 +156,7 @@ namespace Hearth.Player
 
         private void Jump()
         {
+            transform.parent = null;
             isJumping = true;
             isInAir = true;
             velocity.y = Mathf.Sqrt(2f * jumpForce);
@@ -192,19 +193,23 @@ namespace Hearth.Player
 
         public void Interact()
         {
-            animatorController.StartInteractAnimation();
+            GetComponent<PlayerPowerManagement>().Interact();
         }
 
         public void GetDamaged(int dmg)
         {
             Lifes -= dmg;
             PlayerUI.OnUpdateLife?.Invoke(Lifes);
-            animatorController.StartHitAnimation();
 
             if (Lifes <= 0)
             {
                 Death();
             }
+            else
+            {
+                animatorController.StartHitAnimation();
+            }
+
         }
 
         private void Death()
@@ -212,8 +217,14 @@ namespace Hearth.Player
             animatorController.StartSurrendAnimation();
         }
 
+        public void EndDeath()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+
         public void CollectPlasticBottle(int value)
         {
+            plasticBottles++;
             PlayerUI.OnUpdatePlasticBottle?.Invoke(value);
         }
 

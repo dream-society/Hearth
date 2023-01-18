@@ -5,8 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    private void Start()
+    {
+        Cursor.visible= true;
+    }
+
     public void LoadPlayScene()
     {
+        Cursor.visible = false;
         SceneManager.LoadScene("Gym");
     }
 
