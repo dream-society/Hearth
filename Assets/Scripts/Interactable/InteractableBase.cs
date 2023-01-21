@@ -17,6 +17,7 @@ public class InteractableBase : MonoBehaviour, IInteractable
         if (collision.tag == "Player" && !interacted)
         {
             CharacterRun player = collision.GetComponent<CharacterRun>();
+            interacted = true;
             Interact(player);
         }
     }

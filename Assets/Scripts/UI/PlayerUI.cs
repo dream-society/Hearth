@@ -39,6 +39,8 @@ public class PlayerUI : MonoBehaviour
 
     private void UpdatePlasticBottleText(int plasticBottle)
     {
+        int prev = int.Parse(plasticBottleTxt.text);
+        plasticBottle += prev;
         plasticBottleTxt.text = plasticBottle.ToString();
     }
 

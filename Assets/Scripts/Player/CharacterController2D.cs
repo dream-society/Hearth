@@ -1,9 +1,10 @@
 #define DEBUG_CC2D_RAYS
 
+using Hearth.Player;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Video;
 
 [RequireComponent(typeof(BoxCollider2D), typeof(Rigidbody2D))]
 public class CharacterController2D : MonoBehaviour
@@ -130,9 +131,24 @@ public class CharacterController2D : MonoBehaviour
 	float _verticalDistanceBetweenRays;
 	float _horizontalDistanceBetweenRays;
 
-	#region Monobehaviour
+    #region Monobehaviour
 
-	void Awake()
+    private void OnEnable()
+    {
+        VideoPlayerManager.CutsceneEnd += OnCutSceneEnd;
+    }
+
+    private void OnDisable()
+    {
+        VideoPlayerManager.CutsceneEnd -= OnCutSceneEnd;
+    }
+
+    private void OnCutSceneEnd()
+    {
+		GetComponent<CharacterRun>().enabled = true;
+    }
+
+    void Awake()
 	{
         // add our one-way platforms to our normal platform mask so that we can land on them from above
 		platformMask |= oneWayPlatformMask;

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5547903203517662549}
   - component: {fileID: 5203454545051935614}
-  - component: {fileID: 2946964920707877358}
+  - component: {fileID: 5528064560297659151}
   m_Layer: 5
   m_Name: Mask
   m_TagString: Untagged
@@ -53,7 +53,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding: {x: 0, y: 0, z: 0, w: 0}
   m_Softness: {x: 0, y: 0}
---- !u!114 &2946964920707877358
+--- !u!114 &5528064560297659151
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -62,7 +62,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2398335080395126126}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d0aea16eb4bcb544a90ddb8e683544e, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ebbec01e42166940a042009f9ac1150, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4659011129445767123
