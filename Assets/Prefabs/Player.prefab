@@ -522,7 +522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputHandler: {fileID: 11400000, guid: 2d08b32a33e8a2c439895acb0349c911, type: 2}
   currentPower: 3
-  haveGazzaPower: 1
+  haveGazzaPower: 0
   timeIngGazzaForm: 3
   sciarpa: {fileID: 645033363}
   sciarpaColorPowers:

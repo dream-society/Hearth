@@ -100,7 +100,10 @@ public class PlayerPowerManagement : MonoBehaviour
 
     private void ChangePower(Power power)
     {
-        currentPower = power;
+        if (CheckForPower(power))
+        {
+            currentPower = power;
+        }
     }
 
     public void ChangePowerGazza() 

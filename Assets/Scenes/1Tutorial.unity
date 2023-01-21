@@ -128,6 +128,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5106146757784431528, guid: 9300596dfeff2414f897e6ad7e68c89e, type: 3}
   m_PrefabInstance: {fileID: 431087671}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &40329190 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 371518275, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+  m_PrefabInstance: {fileID: 1439355388565749255}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7941da265065349bfd606c66c4e2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &40343915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15032,7 +15043,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 371518275, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: haveGazzaPower
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 371518275, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: timeIngGazzaForm
@@ -15176,7 +15187,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1439355389117721275, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 1.7777778
+      value: 1.8288288
       objectReference: {fileID: 0}
     - target: {fileID: 1439355389117721276, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: m_IsActive
@@ -15199,6 +15210,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 295972864, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 40329190}
+    - target: {fileID: 295972864, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangePowerGazza
+      objectReference: {fileID: 0}
     - target: {fileID: 336775542135722405, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -15420,6 +15439,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2166784796633739698, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166784796926155168, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}

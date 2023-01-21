@@ -12260,7 +12260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 371518275, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: haveGazzaPower
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 371518275, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: timeIngGazzaForm
@@ -12427,6 +12427,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 295972864, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 371518275, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+    - target: {fileID: 295972864, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ChangePowerGazza
+      objectReference: {fileID: 0}
     - target: {fileID: 336775542135722405, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1

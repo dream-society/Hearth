@@ -583,6 +583,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneTransitionUI
       objectReference: {fileID: 0}
+    - target: {fileID: 239731764092271936, guid: b94ce21f97fc7c4449ca09d41383c997, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3571479782116151074, guid: b94ce21f97fc7c4449ca09d41383c997, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
