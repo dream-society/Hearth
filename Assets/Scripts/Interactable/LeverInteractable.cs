@@ -1,9 +1,11 @@
 using Hearth.Player;
+using RoaREngine;
 using UnityEngine;
 
 public class LeverInteractable : InteractableBase
 {
     [SerializeField] private MovingPlatform Platform;
+    public bool Audio;
 
     public override void Interact(CharacterRun player)
     {
@@ -16,4 +18,13 @@ public class LeverInteractable : InteractableBase
             Platform.Move();
         }
     }
+
+    public void PlayLeverSFX()
+    {
+        if (Audio)
+        {
+            RoarManager.CallPlay("Switch", null);
+        }
+    }
+
 }
