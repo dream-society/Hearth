@@ -12256,11 +12256,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 371518275, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: currentPower
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 371518275, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: haveGazzaPower
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 371518275, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: timeIngGazzaForm
