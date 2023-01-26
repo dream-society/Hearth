@@ -1,3 +1,4 @@
+using RoaREngine;
 using System.Collections;
 using UnityEngine;
 
@@ -11,9 +12,14 @@ public class MovingPlatform : MonoBehaviour
     private bool isMoving;
     private int index;
 
+    public bool Audio;
     private void Awake()
     {
         index = TargetToStart;
+    }
+
+    private void Start()
+    {
         if (autoMove)
         {
             Move();
@@ -22,9 +28,13 @@ public class MovingPlatform : MonoBehaviour
 
     public void Move()
     {
-        if (isMoving) 
+        if (isMoving)
         {
             return;
+        }
+        if (Audio)
+        {
+            RoarManager.CallPlay("MovingPlatform", null);
         }
         isMoving = true;
         Vector3 startPosition = TargetsPosition[index].position;
@@ -38,12 +48,16 @@ public class MovingPlatform : MonoBehaviour
         float time = 0f;
         while (time < Duration)
         {
-            transform.position = Vector3.Lerp(startPosition, targetPosition, time/Duration);  
+            transform.position = Vector3.Lerp(startPosition, targetPosition, time / Duration);
             time += Time.deltaTime;
             yield return null;
         }
         transform.position = targetPosition;
         isMoving = false;
+        if (Audio)
+        {
+            RoarManager.CallStop("MovingPlatform");
+        }
         if (!oneShot)
         {
             Move();

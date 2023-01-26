@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a40a706a97ae15748886a939301dd4c2, type: 3}
+  m_Name: RoarContainersBank
+  m_EditorClassIdentifier: 
+  RoarContainers:
+  - {fileID: 11400000, guid: d9a6e900ec3473146849c4b52018d271, type: 2}
+  - {fileID: 11400000, guid: 8d57a3f3d22d3214aa8b90cdbc8db09b, type: 2}
+  - {fileID: 11400000, guid: 11fa960d6dc643744977b2840bf83fda, type: 2}
+  - {fileID: 11400000, guid: 264f0ed4c4900104db7956433b8b27fa, type: 2}
+  - {fileID: 11400000, guid: 97d35de1166b87142bc24841c822c157, type: 2}
+  - {fileID: 11400000, guid: 591a932991de44e43aaabde09c95970e, type: 2}

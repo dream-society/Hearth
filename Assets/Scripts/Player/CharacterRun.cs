@@ -1,4 +1,4 @@
-using JetBrains.Annotations;
+using RoaREngine;
 using System;
 using System.Collections;
 using UnityEngine;
@@ -49,6 +49,8 @@ namespace Hearth.Player
         [SerializeField] private SpriteRenderer sciarpaSpriteRenderer;
         private int plasticBottles = 0;
         public int PlasticBottles { get => plasticBottles; }
+
+        public bool Audio;
 
         void Awake()
         {
@@ -234,6 +236,29 @@ namespace Hearth.Player
             {
                 Lifes += heal;
                 PlayerUI.OnUpdateLife?.Invoke(Lifes);
+            }
+        }
+
+        public void PlayFootstepSFX()
+        {
+            if (Audio)
+            {
+                RoarManager.CallPlay("Footsteps", null);
+            }
+        }
+
+        public void PlayHurtSFX()
+        {
+            if (Audio)
+            {
+                RoarManager.CallPlay("Hurt", null);
+            }
+        }
+        public void PlaySurrendSFX()
+        {
+            if (Audio)
+            {
+                RoarManager.CallPlay("Surrend", null);
             }
         }
     }
