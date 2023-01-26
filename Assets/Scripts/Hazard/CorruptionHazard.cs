@@ -6,6 +6,7 @@ using Hearth.Player;
 public class CorruptionHazard : HazardBase
 {
     private BoxCollider2D boxCollider;
+    private SpriteRenderer sp;
     private float delta = 0.1f;
     private float counter = 0f;
     public float TimeToDie = 3f;
@@ -13,6 +14,7 @@ public class CorruptionHazard : HazardBase
     private void Awake()
     {
         boxCollider = GetComponent<BoxCollider2D>();
+        sp = GetComponentInParent<SpriteRenderer>();
     }
 
     private void Death()
@@ -28,7 +30,7 @@ public class CorruptionHazard : HazardBase
             yield return null;
         }
         Debug.Log("Corruption destroyed");
-        canDamage = false;
+        transform.parent.gameObject.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
