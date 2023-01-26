@@ -26,7 +26,7 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
-        SceneTransition.gameObject.SetActive(false);
+        SceneTransition.TransitionFadeIn?.Invoke();
     }
 
     private void OpenPauseMenu()
@@ -62,6 +62,11 @@ public class UIManager : MonoBehaviour
         input.EnablePlayerInput();
 
         Cursor.visible = false;
+
+        if (settingsMenu.gameObject.activeInHierarchy)
+        {
+            settingsMenu.gameObject.SetActive(false);
+        }
     }
 
     private void ResumeButtonPressed()
@@ -81,18 +86,7 @@ public class UIManager : MonoBehaviour
 
     private void OpenSettingsMenu()
     {
-        settingsMenu.Closed += CloseSettingsMenu;
-        pauseMenu.gameObject.SetActive(false);
-        settingsMenu.gameObject.SetActive(true);
-
-        settingsMenu.Setup();
-    }
-
-    private void CloseSettingsMenu()
-    {
-        settingsMenu.Closed -= CloseSettingsMenu;
-        settingsMenu.gameObject.SetActive(false);
-        pauseMenu.gameObject.SetActive(true);
+        settingsMenu.gameObject.SetActive(!settingsMenu.gameObject.activeInHierarchy);
     }
 
     private void OnCutSceneStart(VideoClip clip, string scene)

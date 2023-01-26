@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6963586578489306887
 Transform:
   m_ObjectHideFlags: 0
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 809de9f325d075d4a9c3d683f2fd846a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clip: {fileID: 32900000, guid: 39d87b5b74960e845ae01dc556d55e8f, type: 3}
+  clip: {fileID: 0}
   sceneName: 
 --- !u!61 &6963586578489306885
 BoxCollider2D:

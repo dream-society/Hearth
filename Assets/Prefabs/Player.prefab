@@ -398,18 +398,19 @@ MonoBehaviour:
   inputHandler: {fileID: 11400000, guid: 2d08b32a33e8a2c439895acb0349c911, type: 2}
   saveSystem: {fileID: 11400000, guid: 5f66a0cc677dc1d408e7f727d4d4058f, type: 2}
   gravity: 9.81
-  walkSpeed: 3
-  runSpeed: 6
-  maxSpeed: 6
-  speed: 3
+  walkSpeed: 5
+  runSpeed: 10
+  maxSpeed: 10
+  speed: 5
   Lifes: 3
-  jumpForce: 30
+  jumpForce: 25
   variableJumpMult: 0.4
-  jumpBufferTime: 0.2
+  jumpBufferTime: 0.4
   isJumping: 0
   corpoSpriteRenderer: {fileID: 1439355388932429972}
   capelliSpriteRenderer: {fileID: 903278971}
   sciarpaSpriteRenderer: {fileID: 645033363}
+  Audio: 0
 --- !u!114 &6352361798827130934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -586,6 +587,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1439355389117721274}
   - component: {fileID: 1439355389117721275}
+  - component: {fileID: 448159634}
   m_Layer: 0
   m_Name: VirtualCamera
   m_TagString: Untagged
@@ -638,7 +640,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.8288288, y: 1}
+    m_SensorSize: {x: 1.7777778, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -647,6 +649,23 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 1439355389976745817}
+--- !u!114 &448159634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439355389117721276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2fba25a5cd15594e8f050a11e386c80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ConfineMode: 0
+  m_BoundingVolume: {fileID: 0}
+  m_BoundingShape2D: {fileID: 0}
+  m_ConfineScreenEdges: 1
+  m_Damping: 0
 --- !u!1 &1439355389976745818
 GameObject:
   m_ObjectHideFlags: 0

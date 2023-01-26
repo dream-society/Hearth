@@ -1,7 +1,3 @@
-using HNC;
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
@@ -28,11 +24,13 @@ public class VideoPlayerManager : MonoBehaviour
     private void OnCutsceneStart(VideoClip clip, string scene)
     {
         sceneName = scene;
-
-        player.enabled = true;
-        player.clip = clip;
-        player.loopPointReached += EndReached;
-        player.Play();
+        if (player != null)
+        {
+            player.enabled = true;
+            player.clip = clip;
+            player.loopPointReached += EndReached;
+            player.Play();
+        }
     }
 
     private void EndReached(VideoPlayer source)

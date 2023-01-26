@@ -9,6 +9,7 @@ namespace RoaREngine
 {
     public class RoarManager : MonoBehaviour
     {
+        public static RoarManager Instance;
         #region var
         [SerializeField] private GameObject roarEmitter;
         [SerializeField] private int count;
@@ -23,7 +24,15 @@ namespace RoaREngine
         #region functions
         private void Awake()
         {
-            DontDestroyOnLoad(transform.gameObject);
+            if (Instance != null && Instance != this)
+            {
+                Destroy(transform.gameObject);
+            }
+            else
+            {
+                Instance = this;
+                DontDestroyOnLoad(transform.gameObject);
+            }
             SetContainersNames();
             ResetContainersBankIndex();
             SetInitialEmitters();
@@ -175,6 +184,14 @@ namespace RoaREngine
                 return;
             }
             GameObject roarEmitter;
+            if (GetContainer(containerName).roarConfiguration.unique)
+            {
+                roarEmitter = GetActiveEmitter(containerName);
+                if (roarEmitter != null)
+                {
+                    return;
+                }
+            }
             if (GetContainer(containerName).roarConfiguration.esclusive)
             {
                 roarEmitter = GetActiveEmitter(containerName);
@@ -307,11 +324,13 @@ namespace RoaREngine
         private GameObject GetActiveEmitter(string containerName)
         {
             GameObject emitter = GetEmitter(containerName);
-            if (emitter.activeInHierarchy)
+            if (emitter != null)
             {
-                return emitter;
+                if (emitter.activeInHierarchy)
+                {
+                    return emitter;
+                }
             }
-            Debug.LogError("Invalid operation on inactive emitter");
             return null;
         }
 
@@ -370,7 +389,13 @@ namespace RoaREngine
 
         private AudioSource GetAudioSource(string containerName)
         {
-            RoarEmitter emitterComponent = GetEmitter(containerName).GetComponent<RoarEmitter>();
+
+            GameObject emitter = GetActiveEmitter(containerName);
+            RoarEmitter emitterComponent = null;
+            if (emitter != null)
+            {
+                emitterComponent = emitter.GetComponent<RoarEmitter>();
+            }
             if (emitterComponent != null)
             {
                 return emitterComponent.GetAudioSource();

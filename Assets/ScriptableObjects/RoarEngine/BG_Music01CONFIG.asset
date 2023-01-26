@@ -15,16 +15,17 @@ MonoBehaviour:
   audioMixerGroup: {fileID: 0}
   priority: 128
   esclusive: 0
+  unique: 1
   loop: 1
   mute: 0
   startTime: 0
   randomStartTime: 0
-  volume: 1
-  fadeInVolume: 0
-  playFadeTime: 0
+  volume: 0
+  fadeInVolume: 1
+  playFadeTime: 2
   pauseFadeTime: 0
   resumeFadeTime: 0
-  stopFadeTime: 0
+  stopFadeTime: 2
   delay: 0
   randomMinvolume: 0
   randomMaxvolume: 0

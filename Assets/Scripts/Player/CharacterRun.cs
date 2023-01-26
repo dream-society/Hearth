@@ -1,9 +1,9 @@
+using HNC;
 using RoaREngine;
 using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.Video;
 
 namespace Hearth.Player
 {
@@ -50,8 +50,6 @@ namespace Hearth.Player
         private int plasticBottles = 0;
         public int PlasticBottles { get => plasticBottles; }
 
-        public bool Audio;
-
         void Awake()
         {
             controller = GetComponent<CharacterController2D>();
@@ -68,7 +66,7 @@ namespace Hearth.Player
             inputHandler.runPressed += StartRun;
             inputHandler.runReleased += StopRun;
             inputHandler.interactPressed += Interact;
-            VideoPlayerManager.CutsceneStart += OnCutSceneStart;
+            SceneTransition.TransitionFadeOut += OnTransitionFadeOut;
         }
 
         private void OnDisable()
@@ -79,15 +77,15 @@ namespace Hearth.Player
             inputHandler.runPressed -= StartRun;
             inputHandler.runReleased -= StopRun;
             inputHandler.interactPressed -= Interact;
-            VideoPlayerManager.CutsceneStart -= OnCutSceneStart;
+            SceneTransition.TransitionFadeOut -= OnTransitionFadeOut;
         }
 
-        private void OnCutSceneStart(VideoClip arg0, string arg1)
+        private void OnTransitionFadeOut()
         {
             speed = 0;
-            controller.velocity = Vector3.zero;
-            velocity = Vector3.zero;
-            movement = Vector2.zero;
+            controller.velocity.x = 0;
+            velocity.x = 0;
+            movement.x = 0;
             enabled = false;
         }
 
@@ -241,25 +239,16 @@ namespace Hearth.Player
 
         public void PlayFootstepSFX()
         {
-            if (Audio)
-            {
-                RoarManager.CallPlay("Footsteps", null);
-            }
+            RoarManager.CallPlay("Footsteps", null);
         }
 
         public void PlayHurtSFX()
         {
-            if (Audio)
-            {
-                RoarManager.CallPlay("Hurt", null);
-            }
+            RoarManager.CallPlay("Hurt", null);
         }
         public void PlaySurrendSFX()
         {
-            if (Audio)
-            {
-                RoarManager.CallPlay("Surrend", null);
-            }
+            RoarManager.CallPlay("Surrend", null);
         }
     }
 }

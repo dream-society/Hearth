@@ -164,7 +164,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1988011195930182453
 CanvasRenderer:
@@ -1146,7 +1146,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8167790657942806927
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2022,8 +2022,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8476081726037645674}
-  - component: {fileID: 7188536615885360595}
   - component: {fileID: 5139271555000454639}
+  - component: {fileID: 6455644504889052538}
   m_Layer: 5
   m_Name: SettingsMenu
   m_TagString: Untagged
@@ -2053,20 +2053,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &7188536615885360595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8476081726037645673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b774ef1ff437ed640a31d7ad14d7466b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  input: {fileID: 11400000, guid: 2d08b32a33e8a2c439895acb0349c911, type: 2}
-  firstElement: {fileID: 544606714624205383}
 --- !u!222 &5139271555000454639
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2075,6 +2061,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8476081726037645673}
   m_CullTransparentMesh: 1
+--- !u!114 &6455644504889052538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8476081726037645673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db264ad18508b1b449a54c08c6900b62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input: {fileID: 11400000, guid: 2d08b32a33e8a2c439895acb0349c911, type: 2}
+  firstElement: {fileID: 8200799307455289024}
 --- !u!1 &8872453913829408082
 GameObject:
   m_ObjectHideFlags: 0

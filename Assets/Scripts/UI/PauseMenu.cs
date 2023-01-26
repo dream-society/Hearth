@@ -13,7 +13,6 @@ public class PauseMenu : MonoBehaviour
     public UnityAction ResumeButtonAction;
     public UnityAction SettingsButtonAction;
     public UnityAction QuitButtonAction;
-    public UnityAction Closed;
 
     public void SetMenuScreen()
     {
@@ -33,10 +32,5 @@ public class PauseMenu : MonoBehaviour
     public void QuitPressed()
     {
         QuitButtonAction?.Invoke();
-    }
-
-    public void CloseScreen()
-    {
-        Closed?.Invoke();
     }
 }

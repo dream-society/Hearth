@@ -30,6 +30,7 @@ public class CorruptionHazard : HazardBase
             yield return null;
         }
         Debug.Log("Corruption destroyed");
+        CorruptionManager.CorruptionDeath?.Invoke();
         transform.parent.gameObject.SetActive(false);
     }
 

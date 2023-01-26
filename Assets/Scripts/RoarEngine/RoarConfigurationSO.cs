@@ -35,6 +35,7 @@ namespace RoaREngine
         public AudioMixerGroup audioMixerGroup = null;
         public PriorityLevel priority = PriorityLevel.Standard;
         public bool esclusive = false;
+        public bool unique = false;
 
         [Header("Properties")]
         public bool loop = false;

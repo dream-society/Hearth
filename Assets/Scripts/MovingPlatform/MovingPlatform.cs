@@ -12,7 +12,6 @@ public class MovingPlatform : MonoBehaviour
     private bool isMoving;
     private int index;
 
-    public bool Audio;
     private void Awake()
     {
         index = TargetToStart;
@@ -32,10 +31,8 @@ public class MovingPlatform : MonoBehaviour
         {
             return;
         }
-        if (Audio)
-        {
-            RoarManager.CallPlay("MovingPlatform", null);
-        }
+
+        RoarManager.CallPlay("MovingPlatform", null);
         isMoving = true;
         Vector3 startPosition = TargetsPosition[index].position;
         index = index == TargetsPosition.Length - 1 ? 0 : index += 1;
@@ -54,10 +51,7 @@ public class MovingPlatform : MonoBehaviour
         }
         transform.position = targetPosition;
         isMoving = false;
-        if (Audio)
-        {
-            RoarManager.CallStop("MovingPlatform");
-        }
+        RoarManager.CallStop("MovingPlatform");
         if (!oneShot)
         {
             Move();

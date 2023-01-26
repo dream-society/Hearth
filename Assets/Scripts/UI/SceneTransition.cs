@@ -7,6 +7,7 @@ namespace HNC
     {
         public static UnityAction TransitionFadeOut;
         public static UnityAction TransitionFadeIn;
+        public static UnityAction TransitionFadeOutEnd;
 
         private Animator anim;
 
@@ -15,16 +16,22 @@ namespace HNC
         {
             TransitionFadeOut += OnTransitionFadeOut;
             TransitionFadeIn += OnTransitionFadeIn;
+            TransitionFadeOutEnd+= OnTransitionFadeOutEnd;
         }
 
         private void OnDisable()
         {
             TransitionFadeOut -= OnTransitionFadeOut;
             TransitionFadeIn -= OnTransitionFadeIn;
+            TransitionFadeOutEnd -= OnTransitionFadeOutEnd;
         }
         private void OnTransitionFadeOut() => anim.SetTrigger("FadeOut");
         private void OnTransitionFadeIn() => anim.SetTrigger("FadeIn");
-    
-        private void Deactive() => gameObject.SetActive(false);
+        private void OnTransitionFadeOutEnd() => gameObject.SetActive(false);
+
+        private void OnEnd()
+        {
+            TransitionFadeOutEnd?.Invoke();
+        }
     }
 }
