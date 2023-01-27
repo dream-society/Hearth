@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4d86f20d6c11a043a58a3ffe3ffd080, type: 3}
   m_Name: FootstepsBANK
   m_EditorClassIdentifier: 
-  sequenceMode: 0
+  sequenceMode: 1
   audioClips:
   - {fileID: 8300000, guid: 088095a9896e72e46a3ac95bf079b492, type: 3}
   - {fileID: 8300000, guid: 99a4f71484c79b74eb54d2a875536582, type: 3}

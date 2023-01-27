@@ -244,7 +244,7 @@ namespace Hearth.Player
 
         public void PlayHurtSFX()
         {
-            RoarManager.CallPlay("Hurt", null);
+           RoarManager.CallPlay("Hurt", null);
         }
         public void PlaySurrendSFX()
         {
