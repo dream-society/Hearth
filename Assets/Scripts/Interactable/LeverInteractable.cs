@@ -20,7 +20,7 @@ public class LeverInteractable : InteractableBase
 
     public void PlayLeverSFX()
     {
-        RoarManager.CallPlay("Switch", null);
+        RoarManager.CallPlay("Switch", transform);
     }
 
 }

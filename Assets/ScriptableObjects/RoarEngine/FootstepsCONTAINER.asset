@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Footsteps
   roarClipBank: {fileID: 11400000, guid: 5db59cdc2e7e09f4fae7866371862ece, type: 2}
-  roarConfiguration: {fileID: 11400000, guid: fe896b29d219fee4d9511976a6c2f1e5, type: 2}
+  roarConfiguration: {fileID: 11400000, guid: 5c9ddf77b880e3745ad59bc4db92e1e3, type: 2}

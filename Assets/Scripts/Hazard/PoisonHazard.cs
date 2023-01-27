@@ -1,3 +1,4 @@
+using RoaREngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,5 +21,15 @@ public class PoisonHazard : HazardBase
     {
         bc2D.enabled = false;
         canDamage = false;
+    }
+
+    private void PlayStartSFX()
+    {
+        RoarManager.CallPlay("PoisonousPlantStart", transform);
+    }
+
+    private void PlayPopSFX()
+    {
+        RoarManager.CallPlay("PoisonousPlantPlop", transform);
     }
 }

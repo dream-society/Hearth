@@ -15,4 +15,13 @@ MonoBehaviour:
   sequenceMode: 0
   audioClips:
   - {fileID: 8300000, guid: 905b5a9e22beb0547865bac9d51a7fbb, type: 3}
+  - {fileID: 8300000, guid: 99a4f71484c79b74eb54d2a875536582, type: 3}
+  - {fileID: 8300000, guid: 091e8e632a1889546aebca391cee1089, type: 3}
+  - {fileID: 8300000, guid: d8b584082f4ab49439841c3dcfa62b84, type: 3}
+  - {fileID: 8300000, guid: 714f540983be6e4458697773bc806120, type: 3}
+  - {fileID: 8300000, guid: eab8489ea6b61094ab99e9ab59d372e4, type: 3}
+  - {fileID: 8300000, guid: 7e5e685e6ec060442a5833f7da3547be, type: 3}
+  - {fileID: 8300000, guid: 820c6053d4da3e74f8a51f78bce7cd5e, type: 3}
+  - {fileID: 8300000, guid: e41c6217e2a44764ca3bb3bc80c1ba19, type: 3}
+  - {fileID: 8300000, guid: f32ddf9cf555f4b49b8dfeb9cf43a44f, type: 3}
   ClipIndex: 0

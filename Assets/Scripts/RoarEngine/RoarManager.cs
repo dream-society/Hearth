@@ -152,10 +152,13 @@ namespace RoaREngine
         {
             for (int i = 0; i < roarEmitters.Count; i++)
             {
-                if (!roarEmitters[i].activeInHierarchy)
+                if (roarEmitters[i] != null)
                 {
-                    roarEmitters[i].SetActive(true);
-                    return roarEmitters[i];
+                    if (!roarEmitters[i].activeInHierarchy)
+                    {
+                        roarEmitters[i].SetActive(true);
+                        return roarEmitters[i];
+                    }
                 }
             }
 

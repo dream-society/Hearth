@@ -43,11 +43,13 @@ public class Menu : MonoBehaviour
         Cursor.visible = false;
         RoarManager.CallStop(musicName);
         SceneTransition.TransitionFadeOut?.Invoke();
+        RoarManager.CallPlay("UI", null);
     }
 
     public void ToggleSettings()
     {
         settingsMenu.gameObject.SetActive(!settingsMenu.gameObject.activeInHierarchy);
+        RoarManager.CallPlay("UI", null);
     }
 
     public void Quit()

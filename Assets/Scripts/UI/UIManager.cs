@@ -1,4 +1,5 @@
 using HNC;
+using RoaREngine;
 using System;
 using UnityEngine;
 using UnityEngine.Video;
@@ -72,11 +73,13 @@ public class UIManager : MonoBehaviour
     private void ResumeButtonPressed()
     {
         ClosePauseMenu();
+        RoarManager.CallPlay("UI", null);
     }
 
     private void SettingsButtonPressed()
     {
         OpenSettingsMenu();
+        RoarManager.CallPlay("UI", null);
     }
 
     private void QuitButtonPressed()

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8186086dd867de4f818b28e825572ea, type: 3}
+  m_Name: ElectricCaveCONTAINER
+  m_EditorClassIdentifier: 
+  Name: ElectricCave
+  roarClipBank: {fileID: 11400000, guid: 0246963daac2cb04589ec4b308768f7b, type: 2}
+  roarConfiguration: {fileID: 11400000, guid: ccdd497551f69974a9cf734a04b827cb, type: 2}

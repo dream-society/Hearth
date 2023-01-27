@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1298b4d6db369fd4baefe6623994e27b, type: 3}
   m_Name: BG_Music01CONFIG
   m_EditorClassIdentifier: 
-  audioMixerGroup: {fileID: 0}
+  audioMixerGroup: {fileID: -1598770002440584840, guid: bc8c005f6bebb6c4783beaecad5393dd, type: 2}
   priority: 128
   esclusive: 0
   unique: 1

@@ -2,18 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Hearth.Player;
+using RoaREngine;
 
 public class CorruptionHazard : HazardBase
 {
     private BoxCollider2D boxCollider;
-    private SpriteRenderer sp;
     private float delta = 0.1f;
     private float counter = 0f;
     public float TimeToDie = 3f;
-
+    private BoxCollider2D parentBoxCollider;
+    private SpriteRenderer sp;
+    private float counterToDisappear = 1.5f;
     private void Awake()
     {
         boxCollider = GetComponent<BoxCollider2D>();
+        parentBoxCollider = GetComponentInParent<BoxCollider2D>();
         sp = GetComponentInParent<SpriteRenderer>();
     }
 
@@ -31,7 +34,23 @@ public class CorruptionHazard : HazardBase
         }
         Debug.Log("Corruption destroyed");
         CorruptionManager.CorruptionDeath?.Invoke();
-        transform.parent.gameObject.SetActive(false);
+        RoarManager.CallPlay("CorruptionDeath", null);
+        boxCollider.enabled = false;
+        parentBoxCollider.enabled = false;
+        StartCoroutine(Disappear());
+    }
+
+    private IEnumerator Disappear()
+    {
+        Color newColor = sp.color;
+        while (counterToDisappear > 0)
+        {
+            counterToDisappear -= Time.deltaTime;
+            newColor.a = counterToDisappear;
+            sp.color = newColor;
+            yield return null;
+        }
+        OnEnd();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -63,5 +82,10 @@ public class CorruptionHazard : HazardBase
             StopAllCoroutines();
             counter = 0f;
         }
+    }
+    
+    private void OnEnd()
+    {
+        transform.parent.gameObject.SetActive(false);
     }
 }

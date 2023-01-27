@@ -32,7 +32,7 @@ public class MovingPlatform : MonoBehaviour
             return;
         }
 
-        RoarManager.CallPlay("MovingPlatform", null);
+        RoarManager.CallPlay("MovingPlatform", transform);
         isMoving = true;
         Vector3 startPosition = TargetsPosition[index].position;
         index = index == TargetsPosition.Length - 1 ? 0 : index += 1;

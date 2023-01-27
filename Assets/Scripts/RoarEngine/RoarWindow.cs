@@ -396,9 +396,9 @@ namespace RoaREngine
             if (is3D)
             {
                 spatialBlend = EditorGUILayout.Slider("Spatial Blend", spatialBlend, 0f, 1f);
-                minDistance = EditorGUILayout.Slider("Min Distance", minDistance, 0.01f, 5f);
+                minDistance = EditorGUILayout.Slider("Min Distance", minDistance, 0.01f, 500f);
                 rolloffMode = (AudioRolloffMode)EditorGUILayout.EnumPopup("Mode", rolloffMode);
-                maxDistance = EditorGUILayout.Slider("Max Distance", maxDistance, 5f, 100f);
+                maxDistance = EditorGUILayout.Slider("Max Distance", maxDistance, 5f, 500f);
                 spread = EditorGUILayout.IntSlider("Spread", spread, 0, 360);
                 dopplerLevel = EditorGUILayout.Slider("Doopler Level", dopplerLevel, 0f, 5f);
                 minRandomXYZ = EditorGUILayout.Slider("Min Random XYZ", minRandomXYZ, -500f, 500f);

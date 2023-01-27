@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using Hearth.Player;
+using RoaREngine;
 using UnityEngine;
 
 public enum Power
@@ -115,6 +116,7 @@ public class PlayerPowerManagement : MonoBehaviour
     {
         if (!isOnGazzaForm)
         {
+            RoarManager.CallPlay("GazzaPower", null);
             isOnGazzaForm = true;
             PlayerUI.OnUsePower(timeIngGazzaForm);
             sciarpa.color = sciarpaColorPowers[1];

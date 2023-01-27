@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4d86f20d6c11a043a58a3ffe3ffd080, type: 3}
+  m_Name: PlasticBottleBANK
+  m_EditorClassIdentifier: 
+  sequenceMode: 0
+  audioClips:
+  - {fileID: 8300000, guid: 2485bc11c96c72649980e26c544c2baf, type: 3}
+  - {fileID: 8300000, guid: 99a4f71484c79b74eb54d2a875536582, type: 3}
+  - {fileID: 8300000, guid: 091e8e632a1889546aebca391cee1089, type: 3}
+  - {fileID: 8300000, guid: d8b584082f4ab49439841c3dcfa62b84, type: 3}
+  - {fileID: 8300000, guid: 714f540983be6e4458697773bc806120, type: 3}
+  - {fileID: 8300000, guid: eab8489ea6b61094ab99e9ab59d372e4, type: 3}
+  - {fileID: 8300000, guid: 7e5e685e6ec060442a5833f7da3547be, type: 3}
+  - {fileID: 8300000, guid: 820c6053d4da3e74f8a51f78bce7cd5e, type: 3}
+  - {fileID: 8300000, guid: e41c6217e2a44764ca3bb3bc80c1ba19, type: 3}
+  - {fileID: 8300000, guid: f32ddf9cf555f4b49b8dfeb9cf43a44f, type: 3}
+  ClipIndex: 0
