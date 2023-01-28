@@ -32,7 +32,6 @@ public class CorruptionHazard : HazardBase
             counter += Time.deltaTime;
             yield return null;
         }
-        Debug.Log("Corruption destroyed");
         CorruptionManager.CorruptionDeath?.Invoke();
         RoarManager.CallPlay("CorruptionDeath", null);
         boxCollider.enabled = false;

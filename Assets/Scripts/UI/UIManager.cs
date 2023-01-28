@@ -45,8 +45,6 @@ public class UIManager : MonoBehaviour
         input.EnableUIInput();
 
         Cursor.visible = true;
-
-        Debug.Log("Open pause menu");
     }
 
     private void ClosePauseMenu()

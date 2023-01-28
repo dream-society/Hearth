@@ -155,6 +155,7 @@ namespace Hearth.Player
 
         private void JumpStart()
         {
+            RoarManager.CallPlay("Jump", null);
             jumpInput = true;
             StartCoroutine(JumpBufferClear());
             jumpInputStop = false;
