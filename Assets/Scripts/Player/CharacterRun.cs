@@ -50,12 +50,19 @@ namespace Hearth.Player
         private int plasticBottles = 0;
         public int PlasticBottles { get => plasticBottles; }
 
+        private PlayerPowerManagement ppm;
+
+        public bool CanInteract;
+
+        private IInteractable interactable;
+
         void Awake()
         {
             controller = GetComponent<CharacterController2D>();
             speed = walkSpeed;
             coyoteTime = GetComponent<CoyoteTime>();
             animatorController = GetComponent<AnimatorController>();
+            ppm = GetComponent<PlayerPowerManagement>();
         }
 
         private void OnEnable()
@@ -193,7 +200,11 @@ namespace Hearth.Player
 
         public void Interact()
         {
-            GetComponent<PlayerPowerManagement>().Interact();
+            if (CanInteract)
+            {
+                interactable.Interact();
+                ppm.Interact();
+            }
         }
 
         public void GetDamaged(int dmg)
@@ -244,11 +255,32 @@ namespace Hearth.Player
 
         public void PlayHurtSFX()
         {
-           RoarManager.CallPlay("Hurt", null);
+            RoarManager.CallPlay("Hurt", null);
         }
+
         public void PlaySurrendSFX()
         {
             RoarManager.CallPlay("Surrend", null);
+        }
+
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (collision.GetComponent<LeverInteractable>() != null)
+            {
+                if (!collision.GetComponent<LeverInteractable>().Interacted)
+                {
+                    CanInteract = true;
+                    interactable = collision.GetComponent<LeverInteractable>();
+                }
+            }
+        }
+
+        private void OnTriggerExit2D(Collider2D collision)
+        {
+            if (collision is IInteractable)
+            {
+                CanInteract = false;
+            }
         }
     }
 }

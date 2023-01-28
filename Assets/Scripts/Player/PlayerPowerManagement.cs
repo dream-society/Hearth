@@ -30,6 +30,7 @@ public class PlayerPowerManagement : MonoBehaviour
     [SerializeField] private SpriteRenderer sciarpa;
     [SerializeField] private Color[] sciarpaColorPowers;
     [SerializeField] private float interactTime;
+
    private void Awake()
     {
         runComponent = GetComponent<CharacterRun>();
@@ -159,6 +160,7 @@ public class PlayerPowerManagement : MonoBehaviour
         if (sciarpa.color == sciarpaColorPowers[2])
         {
             sciarpa.color = sciarpaColorPowers[0];
+            runComponent.CanInteract = false;
         }
     }
 

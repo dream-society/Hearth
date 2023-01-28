@@ -6,11 +6,17 @@ public class LeverInteractable : InteractableBase
 {
     [SerializeField] private MovingPlatform Platform;
 
-    public override void Interact(CharacterRun player)
+    private Animator animator;
+
+    public bool Interacted { get => interacted; }
+    private void Awake()
     {
-        base.Interact(player);
-        Debug.Log("Interact with Lever");
-        Animator animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
+    }
+
+    public override void Interact()
+    {
+        interacted = true;
         animator.SetTrigger("Interact");
         if (Platform != null)
         {

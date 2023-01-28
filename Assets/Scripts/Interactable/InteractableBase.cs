@@ -7,18 +7,8 @@ public class InteractableBase : MonoBehaviour, IInteractable
 {
     protected bool interacted;
 
-    public virtual void Interact(CharacterRun player)
+    public virtual void Interact()
     {
-        player.Interact();
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Player" && !interacted)
-        {
-            CharacterRun player = collision.GetComponent<CharacterRun>();
-            interacted = true;
-            Interact(player);
-        }
+        
     }
 }
