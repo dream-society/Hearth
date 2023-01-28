@@ -31,6 +31,8 @@ public class PlayerPowerManagement : MonoBehaviour
     [SerializeField] private Color[] sciarpaColorPowers;
     [SerializeField] private float interactTime;
 
+    public bool IsOnGazzaForm { get => isOnGazzaForm; } 
+
    private void Awake()
     {
         runComponent = GetComponent<CharacterRun>();

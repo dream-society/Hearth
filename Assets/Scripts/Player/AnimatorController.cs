@@ -6,10 +6,11 @@ public class AnimatorController : MonoBehaviour
     [SerializeField] private Animator capelliAnimator;
     [SerializeField] private Animator sciarpaAnimator;
     private CharacterController2D controller;
-
+    private PlayerPowerManagement ppm;
     private void Awake()
     {
         controller = GetComponent<CharacterController2D>();
+        ppm = GetComponent<PlayerPowerManagement>();
     }
 
     public void StartIdleAnimation()
@@ -117,6 +118,27 @@ public class AnimatorController : MonoBehaviour
         sciarpaAnimator.SetBool("surrend", false);
     }
 
+    public void StartFlyAnimation() 
+    {
+        StopIdleAnimation();
+        StopMoveAnimation();
+        StopJumpAnimation();
+        StopLandAnimation();
+        corpoAnimator.SetBool("fly", true);
+        capelliAnimator.SetBool("fly", true);
+        sciarpaAnimator.SetBool("fly", true);
+    }
+
+    public void StopFlyAnimation()
+    {
+        corpoAnimator.SetBool("fly", false);
+        capelliAnimator.SetBool("fly", false);
+        sciarpaAnimator.SetBool("fly", false);
+        corpoAnimator.SetBool("inAir", true);
+        capelliAnimator.SetBool("inAir", true);
+        sciarpaAnimator.SetBool("inAir", true);
+    }
+
     public void SetYVelocity(float yVelocity)
     {
         corpoAnimator.SetFloat("yVelocity", yVelocity);
@@ -153,6 +175,19 @@ public class AnimatorController : MonoBehaviour
             else
             {
                 SetYVelocity(controller.velocity.y);
+            }
+        }
+
+        if (ppm.IsOnGazzaForm && !controller.isGrounded)
+        {
+            StartFlyAnimation();
+
+        }
+        else
+        {
+            if (corpoAnimator.GetBool("fly"))
+            {
+                StopFlyAnimation();
             }
         }
     }
