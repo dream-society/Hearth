@@ -10,11 +10,13 @@ public class PlayerUI : MonoBehaviour
     public Image borderPowerImage;
     public TextMeshProUGUI plasticBottleTxt;
     public RectTransform PowersUI;
+    public Button PowerUIFocus;
     public static Action<int> OnUpdateLife;
     public static Action<int> OnUpdatePlasticBottle;
     public static Action OnTogglePowersUI;
     public static Action<float> OnUsePower;
     public Sprite[] bordersPowers;
+    [SerializeField] private InputHandler input;
 
     private void OnEnable()
     {
@@ -47,6 +49,18 @@ public class PlayerUI : MonoBehaviour
     private void TogglePowersUI()
     {
         PowersUI.gameObject.SetActive(!PowersUI.gameObject.activeSelf);
+
+        if (PowersUI.gameObject.activeInHierarchy)
+        {
+            PowerUIFocus.Select();
+            // enable ui input
+            input.EnableUIInput();
+        }
+        else
+        {
+            // Enable player input
+            input.EnablePlayerInput();
+        }
     }
     
     public void GazzaPower(Image image)

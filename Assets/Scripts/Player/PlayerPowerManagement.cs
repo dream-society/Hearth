@@ -115,6 +115,7 @@ public class PlayerPowerManagement : MonoBehaviour
         if (haveGazzaPower)
         {
             currentPower = Power.GAZZA;
+            PlayerUI.OnTogglePowersUI();
         }
     }
 
