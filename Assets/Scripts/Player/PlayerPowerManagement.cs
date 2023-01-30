@@ -20,10 +20,10 @@ public class PlayerPowerManagement : MonoBehaviour
     public static Func<Power, bool> CanUsePower;
     public static Action<Power> OnUnlockPower;
     public static Func<float> OnUsePower;
-    public bool haveGazzaPower;
-    private bool haveOrsoPower;
-    private bool haveRagnoPower;
-    private bool isOnGazzaForm;
+    public bool haveGazzaPower = false;
+    private bool haveOrsoPower = false;
+    private bool haveRagnoPower = false;
+    private bool isOnGazzaForm = false;
     public float timeIngGazzaForm;
     private CharacterRun runComponent;
     private CharacterFly flyComponent;
@@ -112,7 +112,10 @@ public class PlayerPowerManagement : MonoBehaviour
 
     public void ChangePowerGazza() 
     {
-        ChangePower(Power.GAZZA);
+        if (haveGazzaPower)
+        {
+            currentPower = Power.GAZZA;
+        }
     }
 
     private void GazzaPower()
