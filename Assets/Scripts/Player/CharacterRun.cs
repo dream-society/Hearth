@@ -56,6 +56,8 @@ namespace Hearth.Player
 
         private IInteractable interactable;
 
+        bool gamePaused = false;
+
         void Awake()
         {
             controller = GetComponent<CharacterController2D>();
@@ -73,7 +75,13 @@ namespace Hearth.Player
             inputHandler.runPressed += StartRun;
             inputHandler.runReleased += StopRun;
             inputHandler.interactPressed += Interact;
+            inputHandler.pausePressed += TogglePause;
             SceneTransition.TransitionFadeOut += OnTransitionFadeOut;
+        }
+
+        public void TogglePause()
+        {
+            gamePaused = !gamePaused;
         }
 
         private void OnDisable()
@@ -106,6 +114,11 @@ namespace Hearth.Player
 
         void Update()
         {
+            if (gamePaused)
+            {
+                return;
+            }
+
             velocity.y += -gravity * gravityScale * Time.deltaTime;
 
             animatorController.SetXVelocity(speed / runSpeed);

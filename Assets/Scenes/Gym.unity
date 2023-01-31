@@ -6578,6 +6578,17 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &894394145 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1166726457908786566, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+  m_PrefabInstance: {fileID: 2166784795746225667}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894394141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aec7cc23a2a70d48b62549157c668a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &894859246 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8207516788591981574, guid: ccb5ff10122b7064082e9d69984e88b1, type: 3}
@@ -9304,6 +9315,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ab7941da265065349bfd606c66c4e2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1196188075 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1439355388932429970, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+  m_PrefabInstance: {fileID: 1639300337}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19d0308c512f9b94485794b4fbbb99d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1197514732
@@ -17181,6 +17203,46 @@ PrefabInstance:
     - target: {fileID: 2166784796004442622, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 63
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166784796077647201, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166784796077647201, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166784796077647201, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1196188075}
+    - target: {fileID: 2166784796077647201, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 894394145}
+    - target: {fileID: 2166784796077647201, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166784796077647201, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: TogglePause
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166784796077647201, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ResumePressed
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166784796077647201, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Hearth.Player.CharacterRun, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166784796077647201, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: PauseMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166784796077647201, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2166784796425493706, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_SizeDelta.x

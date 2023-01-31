@@ -19,7 +19,7 @@ public class ParallaxLayer : MonoBehaviour
         float threshold = cam.transform.position.x * (1 - parallax);
         float dist = cam.transform.position.x * parallax;
 
-        transform.position = new Vector3(startPos + dist, cam.transform.position.y, transform.position.z);
+        transform.position = new Vector3(startPos + dist, cam.transform.position.y * 0.5f, transform.position.z);
 
         if (threshold > startPos + length)
         {
