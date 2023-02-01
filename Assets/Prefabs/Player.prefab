@@ -410,7 +410,7 @@ MonoBehaviour:
   corpoSpriteRenderer: {fileID: 1439355388932429972}
   capelliSpriteRenderer: {fileID: 903278971}
   sciarpaSpriteRenderer: {fileID: 645033363}
-  Audio: 0
+  CanInteract: 0
 --- !u!114 &6352361798827130934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -527,9 +527,9 @@ MonoBehaviour:
   timeIngGazzaForm: 3
   sciarpa: {fileID: 645033363}
   sciarpaColorPowers:
-  - {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 1}
-  - {r: 0, g: 0.602689, b: 0.7924528, a: 1}
-  - {r: 1, g: 0.98820126, b: 0.1273585, a: 1}
+  - {r: 0.50980395, g: 0.49803922, b: 0.5764706, a: 1}
+  - {r: 0.5176471, g: 0.8, b: 0.84313726, a: 1}
+  - {r: 0.8867924, g: 0.88077116, b: 0.43921322, a: 1}
   interactTime: 3
 --- !u!114 &754754600
 MonoBehaviour:
@@ -640,7 +640,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.7782102, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
