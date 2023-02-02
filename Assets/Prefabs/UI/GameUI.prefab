@@ -58,10 +58,12 @@ MonoBehaviour:
   borderPowerImage: {fileID: 468891316318620357}
   plasticBottleTxt: {fileID: 1264767673440035220}
   PowersUI: {fileID: 1264767671594194662}
+  PowerUIFocus: {fileID: 1124963354610319169}
   bordersPowers:
   - {fileID: 21300000, guid: e99b8726ffaf8f044b86e7e91ce7fb6a, type: 3}
   - {fileID: 21300000, guid: c2ed6255545117e4fa5a64cb12d117f7, type: 3}
   - {fileID: 21300000, guid: 7fef9f7f01ea98445aec713cd5d7e3be, type: 3}
+  input: {fileID: 11400000, guid: 2d08b32a33e8a2c439895acb0349c911, type: 2}
 --- !u!1001 &1440525625745343854
 PrefabInstance:
   m_ObjectHideFlags: 0
