@@ -28,6 +28,7 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         SceneTransition.TransitionFadeIn?.Invoke();
+        input.EnablePlayerInput();
     }
 
     private void OpenPauseMenu()

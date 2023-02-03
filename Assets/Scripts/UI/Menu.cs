@@ -14,9 +14,10 @@ public class Menu : MonoBehaviour
     [SerializeField] private VideoClip clip;
     [SerializeField] private string sceneName;
     [SerializeField] private string musicName;
-
+    [SerializeField] private InputHandler input;
     private void Start()
     {
+        input.EnableUIInput();
         Cursor.visible= true;
         SceneTransition.TransitionFadeIn?.Invoke();
         RoarManager.CallPlay(musicName, null);

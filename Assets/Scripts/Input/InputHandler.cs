@@ -56,7 +56,7 @@ public class InputHandler : ScriptableObject, Input.IPlayerActions, Input.IUIAct
         input.Player.Disable();
         input.UI.Enable();
 
-        Cursor.visible = false;
+        Cursor.visible = true;
         Cursor.lockState = CursorLockMode.Confined;
     }
 

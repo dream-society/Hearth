@@ -243,6 +243,7 @@ MonoBehaviour:
   clip: {fileID: 32900000, guid: e6aa1efae6034a34b93b425f9a10e304, type: 3}
   sceneName: 1Tutorial
   musicName: BG_Music01
+  input: {fileID: 11400000, guid: 2d08b32a33e8a2c439895acb0349c911, type: 2}
 --- !u!1 &102618462
 GameObject:
   m_ObjectHideFlags: 0
@@ -695,7 +696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 102618462}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &1469945690
