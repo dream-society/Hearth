@@ -6244,6 +6244,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4708429271368431479, guid: 8c5603d594a047142be38df134e7330d, type: 3}
   m_PrefabInstance: {fileID: 1965669284}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1152928138 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 371518275, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+  m_PrefabInstance: {fileID: 1439355388565749255}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7941da265065349bfd606c66c4e2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1167684233 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1221746234144123112, guid: b344e38e14b5f784b9278038144ff155, type: 3}
@@ -12772,7 +12783,7 @@ PrefabInstance:
     - target: {fileID: 295972864, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 371518275, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      objectReference: {fileID: 1152928138}
     - target: {fileID: 295972864, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ChangePowerGazza
@@ -12792,6 +12803,10 @@ PrefabInstance:
     - target: {fileID: 336775542135722405, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 656815394667545988, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 683297133030693337, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_IsActive
@@ -12951,11 +12966,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2166784796425493706, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1920
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2166784796425493706, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1080
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2166784796425493706, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_LocalScale.x
@@ -12998,6 +13013,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2166784796633739698, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166784796926155168, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}

@@ -5,16 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 1e82d3e0f6c5e4143abb82e5389f914a
   - enabled: 1
     path: Assets/Scenes/1Tutorial.unity
     guid: c08bb9e1f6e7b9c49ba9e94e9729faed
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/2GazzaBioma.unity
     guid: de62af1f610d9d84e9487175ba8ab264
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/3MauraTree.unity
     guid: 2d977d7b55e577342b13fd9fee380692
   m_configObjects:

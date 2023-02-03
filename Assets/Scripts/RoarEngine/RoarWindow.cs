@@ -1,3 +1,6 @@
+#if UNITY_EDITOR
+
+
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEditor.AnimatedValues;
@@ -1208,7 +1211,7 @@ namespace RoaREngine
                 reverbZoneDensity = config.reverbZoneDensity;
             }
         }
-   
+
         private void UpdateEmitterEditorSettings()
         {
             if (emitterEditor != null)
@@ -1277,3 +1280,4 @@ namespace RoaREngine
         #endregion
     }
 }
+#endif

@@ -14347,7 +14347,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1068329354}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 84.53, y: 161, z: 0}
+  m_LocalPosition: {x: 84.53, y: 116, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -30855,7 +30855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1439355389117721275, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 1.7782102
+      value: 1.7777778
       objectReference: {fileID: 0}
     - target: {fileID: 1439355389117721276, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
       propertyPath: m_IsActive
@@ -30872,6 +30872,17 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 448159634, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+--- !u!114 &1439355388565749256 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 371518275, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+  m_PrefabInstance: {fileID: 1439355388565749255}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7941da265065349bfd606c66c4e2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2166784795746225667
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30882,7 +30893,7 @@ PrefabInstance:
     - target: {fileID: 295972864, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 371518275, guid: 6734f7452428d114aa3d7fbfa8cb126d, type: 3}
+      objectReference: {fileID: 1439355388565749256}
     - target: {fileID: 295972864, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ChangePowerGazza
@@ -31153,11 +31164,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2166784796425493706, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1920
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2166784796425493706, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1080
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2166784796425493706, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_LocalScale.x
@@ -31200,6 +31211,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2166784796633739698, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2166784796926155168, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -31465,6 +31480,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5670982571948343852, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6057025125120844347, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6125757693805274191, guid: db84e3ade1397da4b8f3256a168d4112, type: 3}

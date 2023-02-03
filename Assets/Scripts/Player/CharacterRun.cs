@@ -130,7 +130,7 @@ namespace Hearth.Player
                 if (controller.collisionState.platformBelow.GetComponent<MovingPlatform>() != null)
                 {
                     transform.parent = controller.collisionState.platformBelow;
-                }
+                } 
             }
 
             CheckVariableJump();
@@ -177,10 +177,15 @@ namespace Hearth.Player
 
         private void Jump()
         {
+            float parentVelocity = 1;
+            if (transform.parent != null)
+            {
+                parentVelocity = 1.5f;
+            }
+            velocity.y = Mathf.Sqrt(2f * jumpForce) * parentVelocity;
             transform.parent = null;
             isJumping = true;
             isInAir = true;
-            velocity.y = Mathf.Sqrt(2f * jumpForce);
             animatorController.StartJumpAnimation();
         }
 
