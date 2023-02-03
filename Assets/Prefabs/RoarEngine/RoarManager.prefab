@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roarEmitter: {fileID: 2264068812468898127, guid: 8c5cf37056c234047ab023da7cf0e128, type: 3}
-  count: 0
+  count: 10
   containersBank: {fileID: 6711792958125067067, guid: 58144bdc07e6c5a49b59d7e5370e3db7, type: 3}
-  audiomixers: []
+  audiomixers:
+  - {fileID: 24100000, guid: bc8c005f6bebb6c4783beaecad5393dd, type: 2}

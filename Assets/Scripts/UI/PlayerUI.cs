@@ -61,6 +61,8 @@ public class PlayerUI : MonoBehaviour
             // Enable player input
             input.EnablePlayerInput();
         }
+
+        Cursor.visible = PowersUI.gameObject.activeSelf;
     }
     
     public void GazzaPower(Image image)

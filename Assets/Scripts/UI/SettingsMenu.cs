@@ -1,4 +1,5 @@
 using HNC;
+using RoaREngine;
 using System;
 using UnityEngine;
 using UnityEngine.Events;
@@ -34,14 +35,16 @@ public class SettingsMenu : MonoBehaviour
 
     public void ChangeMasterVolume(float volume)
     {
-        // TODO
+        RoarManager.CallSetAudioMixerVolumeWithSlider("AudioMixer", "MasterVolume", volume);
     }
     public void ChangeMusicVolume(float volume)
     {
-        // TODO
+        RoarManager.CallSetAudioMixerVolumeWithSlider("AudioMixer", "MusicVolume", volume);
+
     }
     public void ChangeSFXVolume(float volume)
     {
-        // TODO
+        RoarManager.CallSetAudioMixerVolumeWithSlider("AudioMixer", "SFXVolume", volume);
+
     }
 }
