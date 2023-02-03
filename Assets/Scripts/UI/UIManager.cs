@@ -60,8 +60,6 @@ public class UIManager : MonoBehaviour
         pauseMenu.gameObject.SetActive(false);
         input.EnablePlayerInput();
 
-        Cursor.visible = false;
-
         if (settingsMenu.gameObject.activeInHierarchy)
         {
             settingsMenu.gameObject.SetActive(false);
