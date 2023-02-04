@@ -129,6 +129,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2166784795494928793}
     m_Modifications:
+    - target: {fileID: 2118464091598392736, guid: df540012517398943a9b640458f7c84e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 94325fdfc3776bf4a87a2aec85112f55, type: 3}
+    - target: {fileID: 2118464091598392737, guid: df540012517398943a9b640458f7c84e, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 37510f8d8d66bc5458dfc67ea32e0de8, type: 3}
+    - target: {fileID: 2118464091598392737, guid: df540012517398943a9b640458f7c84e, type: 3}
+      propertyPath: m_SpriteState.m_DisabledSprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118464091598392737, guid: df540012517398943a9b640458f7c84e, type: 3}
+      propertyPath: m_SpriteState.m_SelectedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 37510f8d8d66bc5458dfc67ea32e0de8, type: 3}
+    - target: {fileID: 2118464091598392737, guid: df540012517398943a9b640458f7c84e, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 37510f8d8d66bc5458dfc67ea32e0de8, type: 3}
     - target: {fileID: 2118464091598392737, guid: df540012517398943a9b640458f7c84e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -141,6 +161,46 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PauseMenu, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 2118464092013818464, guid: df540012517398943a9b640458f7c84e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b3c0de530cf04c74b874f1685a6293e4, type: 3}
+    - target: {fileID: 2118464092013818465, guid: df540012517398943a9b640458f7c84e, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 80d86f66708bb7c4ea4f86ce2f8f6b03, type: 3}
+    - target: {fileID: 2118464092013818465, guid: df540012517398943a9b640458f7c84e, type: 3}
+      propertyPath: m_SpriteState.m_DisabledSprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118464092013818465, guid: df540012517398943a9b640458f7c84e, type: 3}
+      propertyPath: m_SpriteState.m_SelectedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 80d86f66708bb7c4ea4f86ce2f8f6b03, type: 3}
+    - target: {fileID: 2118464092013818465, guid: df540012517398943a9b640458f7c84e, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 80d86f66708bb7c4ea4f86ce2f8f6b03, type: 3}
+    - target: {fileID: 2118464092579587366, guid: df540012517398943a9b640458f7c84e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9b6b822ee51e0ac41a71f89370691104, type: 3}
+    - target: {fileID: 2118464092579587367, guid: df540012517398943a9b640458f7c84e, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a0efa6b85666a884eab26d995ee8e202, type: 3}
+    - target: {fileID: 2118464092579587367, guid: df540012517398943a9b640458f7c84e, type: 3}
+      propertyPath: m_SpriteState.m_DisabledSprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118464092579587367, guid: df540012517398943a9b640458f7c84e, type: 3}
+      propertyPath: m_SpriteState.m_SelectedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a0efa6b85666a884eab26d995ee8e202, type: 3}
+    - target: {fileID: 2118464092579587367, guid: df540012517398943a9b640458f7c84e, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a0efa6b85666a884eab26d995ee8e202, type: 3}
     - target: {fileID: 2118464093531730954, guid: df540012517398943a9b640458f7c84e, type: 3}
       propertyPath: m_Pivot.x
       value: 0
