@@ -9,6 +9,7 @@ public class LeverInteractable : InteractableBase
     private Animator animator;
 
     public bool Interacted { get => interacted; }
+    
     private void Awake()
     {
         animator = GetComponent<Animator>();
