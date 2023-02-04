@@ -76,6 +76,7 @@ namespace Hearth.Player
             inputHandler.runReleased += StopRun;
             inputHandler.interactPressed += Interact;
             inputHandler.pausePressed += TogglePause;
+            EnablePlayerInput += TogglePause;
             SceneTransition.TransitionFadeOut += OnTransitionFadeOut;
         }
 
@@ -92,6 +93,8 @@ namespace Hearth.Player
             inputHandler.runPressed -= StartRun;
             inputHandler.runReleased -= StopRun;
             inputHandler.interactPressed -= Interact;
+            inputHandler.pausePressed += TogglePause;
+            EnablePlayerInput += TogglePause;
             SceneTransition.TransitionFadeOut -= OnTransitionFadeOut;
         }
 

@@ -37,7 +37,7 @@ public class UIManager : MonoBehaviour
         input.pausePressed -= OpenPauseMenu;
         input.pausePressed += ClosePauseMenu;
 
-        pauseMenu.ResumeButtonAction += ResumeButtonPressed;
+        pauseMenu.ResumeButtonAction += ClosePauseMenu;
         pauseMenu.SettingsButtonAction += SettingsButtonPressed;
         pauseMenu.QuitButtonAction += QuitButtonPressed;
 
@@ -48,13 +48,13 @@ public class UIManager : MonoBehaviour
         Cursor.visible = true;
     }
 
-    private void ClosePauseMenu()
+    public void ClosePauseMenu()
     {
         Time.timeScale = 1.0f;
         input.pausePressed -= ClosePauseMenu;
         input.pausePressed += OpenPauseMenu;
 
-        pauseMenu.ResumeButtonAction -= ResumeButtonPressed;
+        pauseMenu.ResumeButtonAction -= ClosePauseMenu;
         pauseMenu.SettingsButtonAction -= SettingsButtonPressed;
         pauseMenu.QuitButtonAction -= QuitButtonPressed;
 
@@ -65,11 +65,6 @@ public class UIManager : MonoBehaviour
         {
             settingsMenu.gameObject.SetActive(false);
         }
-    }
-
-    private void ResumeButtonPressed()
-    {
-        ClosePauseMenu();
         RoarManager.CallPlay("UI", null);
     }
 

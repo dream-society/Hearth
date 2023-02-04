@@ -129,6 +129,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2166784795494928793}
     m_Modifications:
+    - target: {fileID: 2118464091598392737, guid: df540012517398943a9b640458f7c84e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1166726457908786566}
+    - target: {fileID: 2118464091598392737, guid: df540012517398943a9b640458f7c84e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResumePressed
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118464091598392737, guid: df540012517398943a9b640458f7c84e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PauseMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2118464093531730954, guid: df540012517398943a9b640458f7c84e, type: 3}
       propertyPath: m_Pivot.x
       value: 0
