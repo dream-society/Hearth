@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CorruptionAnimatorController
+  m_Controller: {fileID: 9100000, guid: 4f660faae8903a146b1541a690a134ef, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 55ae065169248224bb95d5fddee4437a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2ec24b6247d0f2b45ad1ec40b4f5adfc, type: 2}
