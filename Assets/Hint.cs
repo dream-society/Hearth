@@ -28,11 +28,15 @@ public class Hint : InteractableBase
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.GetComponent<CharacterRun>() != null)
+        if (!interacted)
         {
-            Interact();
+            if (collision.GetComponent<CharacterRun>() != null)
+            {
+                Interact();
+            }
         }
     }
+
     private void SpawnHint()
     {
         StartCoroutine(SpawnHintCoroutine());
