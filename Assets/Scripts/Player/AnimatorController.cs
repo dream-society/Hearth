@@ -1,3 +1,5 @@
+using HNC;
+using System;
 using UnityEngine;
 
 public class AnimatorController : MonoBehaviour
@@ -11,6 +13,21 @@ public class AnimatorController : MonoBehaviour
     {
         controller = GetComponent<CharacterController2D>();
         ppm = GetComponent<PlayerPowerManagement>();
+    }
+
+    private void OnEnable()
+    {
+        SceneTransition.TransitionFadeOut += OnTransitionFadeOut;
+    }
+
+
+    private void OnDisable()
+    {
+        SceneTransition.TransitionFadeOut -= OnTransitionFadeOut;
+    }
+    private void OnTransitionFadeOut()
+    {
+        StartIdleAnimation();
     }
 
     public void StartIdleAnimation()

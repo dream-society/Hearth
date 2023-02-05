@@ -554,6 +554,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2821155899029726351}
     m_Modifications:
+    - target: {fileID: 2553679581510202844, guid: 42c3caf7a8b070a45b1444b837bc1c10, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3086536189744556047, guid: 42c3caf7a8b070a45b1444b837bc1c10, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4228723471681501126, guid: 42c3caf7a8b070a45b1444b837bc1c10, type: 3}
       propertyPath: m_Name
       value: ActivePowerUI
@@ -650,7 +658,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 2734151331521150745}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 

@@ -11,16 +11,16 @@ public class PlayerUI : MonoBehaviour
     public TextMeshProUGUI plasticBottleTxt;
     public RectTransform PowersUI;
     public Button PowerUIFocus;
-    public static Action<int> OnUpdateLife;
     public static Action<int> OnUpdatePlasticBottle;
     public static Action OnTogglePowersUI;
     public static Action<float> OnUsePower;
+    public static Action<int> OnUpdateLife;
     public Sprite[] bordersPowers;
+    public Sprite[] circlePowers;
     [SerializeField] private InputHandler input;
 
     private void OnEnable()
     {
-        OnUpdateLife += UpdateLifeText;
         OnUpdatePlasticBottle += UpdatePlasticBottleText;
         OnTogglePowersUI += TogglePowersUI;
         OnUsePower += UsePower;
@@ -28,15 +28,9 @@ public class PlayerUI : MonoBehaviour
 
     private void OnDisable()
     {
-        OnUpdateLife -= UpdateLifeText;
         OnUpdatePlasticBottle -= UpdatePlasticBottleText;
         OnTogglePowersUI -= TogglePowersUI;
         OnUsePower -= UsePower;
-    }
-
-    private void UpdateLifeText(int life)
-    {
-        
     }
 
     private void UpdatePlasticBottleText(int plasticBottle)
@@ -65,45 +59,46 @@ public class PlayerUI : MonoBehaviour
         Cursor.visible = PowersUI.gameObject.activeSelf;
     }
     
-    public void GazzaPower(Image image)
+    public void GazzaPower(Sprite sprite)
     {
         if (PlayerPowerManagement.CanUsePower.Invoke(Power.GAZZA))
         {
             PlayerPowerManagement.OnChangePower?.Invoke(Power.GAZZA);
-            ChangeActivePowerImage(image);
+            ChangeActivePowerImage(sprite);
             borderPowerImage.sprite = bordersPowers[0];
         }
     }
 
-    public void OrsoPower(Image image)
+    public void OrsoPower(Sprite sprite)
     {
         if (PlayerPowerManagement.CanUsePower.Invoke(Power.ORSO))
         {
             PlayerPowerManagement.OnChangePower?.Invoke(Power.ORSO);
-            ChangeActivePowerImage(image);
+            ChangeActivePowerImage(sprite);
             borderPowerImage.sprite = bordersPowers[1];
         }
     }
 
-    public void RagnoPower(Image image)
+    public void RagnoPower(Sprite sprite)
     {
         if (PlayerPowerManagement.CanUsePower.Invoke(Power.RAGNO))
         {
             PlayerPowerManagement.OnChangePower?.Invoke(Power.RAGNO);
-            ChangeActivePowerImage(image);
+            ChangeActivePowerImage(sprite);
             borderPowerImage.sprite = bordersPowers[2];
         }
     }
 
-    private void ChangeActivePowerImage(Image image)
+    private void ChangeActivePowerImage(Sprite sprite)
     {
         borderPowerImage.enabled = true;
-        activePowerImage.sprite = image.sprite;
+        activePowerImage.sprite = sprite;
     }
 
     private void UsePower(float time)
     {
         StartCoroutine(StartPowerCD(time));
+        GazzaPower(circlePowers[0]);
     }
 
     private IEnumerator StartPowerCD(float time)
