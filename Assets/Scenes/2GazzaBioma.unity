@@ -486,6 +486,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MovingPlatform4
       objectReference: {fileID: 0}
+    - target: {fileID: 7391729520554337469, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
 --- !u!4 &39690241 stripped
@@ -8124,12 +8128,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 626297604}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 177.54, y: 102, z: 0}
+  m_LocalPosition: {x: 177.54, y: 108.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &628918971
 PrefabInstance:
@@ -10035,15 +10039,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7391729520554337466, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 7391729520554337466, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 177.79
+      value: 177.54
       objectReference: {fileID: 0}
     - target: {fileID: 7391729520554337466, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 106.63
+      value: 108.83
       objectReference: {fileID: 0}
     - target: {fileID: 7391729520554337466, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10078,6 +10082,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7391729520554337468, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
+      propertyPath: speed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391729520554337468, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
+      propertyPath: start
+      value: 
+      objectReference: {fileID: 626297605}
+    - target: {fileID: 7391729520554337468, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
+      propertyPath: active
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391729520554337468, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1167069363}
+    - target: {fileID: 7391729520554337468, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
       propertyPath: Duration
       value: 5
       objectReference: {fileID: 0}
@@ -10086,9 +10106,21 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7391729520554337468, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
+      propertyPath: velocity.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391729520554337468, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
+      propertyPath: velocity.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391729520554337468, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
       propertyPath: TargetToStart
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7391729520554337468, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
+      propertyPath: TargetPosition
+      value: 
+      objectReference: {fileID: 1167069363}
     - target: {fileID: 7391729520554337468, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
       propertyPath: TargetsPosition.Array.size
       value: 2
@@ -10710,6 +10742,10 @@ PrefabInstance:
     - target: {fileID: 7391729520554337469, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
       propertyPath: m_Name
       value: MovingPlatform4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391729520554337469, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
@@ -12389,6 +12425,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MovingPlatform3
       objectReference: {fileID: 0}
+    - target: {fileID: 7391729520554337469, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
 --- !u!1 &924068455 stripped
@@ -13604,6 +13644,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7391729520554337468, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
+      propertyPath: start
+      value: 
+      objectReference: {fileID: 2130386286}
+    - target: {fileID: 7391729520554337468, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1068329355}
+    - target: {fileID: 7391729520554337468, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
       propertyPath: Duration
       value: 20
       objectReference: {fileID: 0}
@@ -13626,6 +13674,10 @@ PrefabInstance:
     - target: {fileID: 7391729520554337469, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
       propertyPath: m_Name
       value: MovingPlatform1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391729520554337469, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
