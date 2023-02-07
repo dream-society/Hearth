@@ -404,6 +404,7 @@ public class CharacterController2D : MonoBehaviour
 			{
 				// set our new deltaMovement and recalculate the rayDistance taking it into account
 				deltaMovement.y = _raycastHit.point.y - ray.y;
+				Debug.Log(deltaMovement.y);
 				rayDistance = Mathf.Abs(deltaMovement.y);
 
 				// remember to remove the skinWidth from our deltaMovement
@@ -416,7 +417,7 @@ public class CharacterController2D : MonoBehaviour
 				{
 					deltaMovement.y += _skinWidth;
 					collisionState.below = true;
-                    collisionState.platformBelow = _raycastHit.collider.transform;
+                    //collisionState.platformBelow = _raycastHit.collider.transform;
                 }
 
                 _raycastHitsThisFrame.Add(_raycastHit);

@@ -4,6 +4,8 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.U2D.IK;
+using static UnityEngine.RuleTile.TilingRuleOutput;
 
 namespace Hearth.Player
 {
@@ -78,6 +80,7 @@ namespace Hearth.Player
             inputHandler.pausePressed += TogglePause;
             EnablePlayerInput += TogglePause;
             SceneTransition.TransitionFadeOut += OnTransitionFadeOut;
+            controller.onControllerCollidedEvent += onControllerCollided;
         }
 
         public void TogglePause()
@@ -96,6 +99,22 @@ namespace Hearth.Player
             inputHandler.pausePressed += TogglePause;
             EnablePlayerInput += TogglePause;
             SceneTransition.TransitionFadeOut -= OnTransitionFadeOut;
+            controller.onControllerCollidedEvent += onControllerCollided;
+        }
+
+        private void onControllerCollided(RaycastHit2D obj)
+        {
+            if (obj.rigidbody == null) return;
+
+            if (obj.rigidbody.gameObject.GetComponent<MovingPlatform>() != null)
+            {
+                transform.parent = obj.transform;
+                controller.velocity.y = 0;
+            }
+            else
+            {
+                transform.parent = null;
+            }
         }
 
         private void OnTransitionFadeOut()
@@ -126,16 +145,11 @@ namespace Hearth.Player
 
             animatorController.SetXVelocity(speed / runSpeed);
 
-
-            // Apply gravity before move
-            if (controller.isGrounded)
+            if (!controller.isGrounded)
             {
-                if (controller.collisionState.platformBelow.GetComponent<MovingPlatform>() != null)
-                {
-                    transform.parent = controller.collisionState.platformBelow;
-                } 
+                transform.parent = null;
             }
-
+    
             CheckVariableJump();
 
             if ((controller.isGrounded || coyoteTime.Active) && jumpInput)
@@ -180,12 +194,7 @@ namespace Hearth.Player
 
         private void Jump()
         {
-            float parentVelocity = 1;
-            if (transform.parent != null)
-            {
-                parentVelocity = 1.5f;
-            }
-            velocity.y = Mathf.Sqrt(2f * jumpForce) * parentVelocity;
+            velocity.y = Mathf.Sqrt(2f * jumpForce);
             transform.parent = null;
             isJumping = true;
             isInAir = true;
