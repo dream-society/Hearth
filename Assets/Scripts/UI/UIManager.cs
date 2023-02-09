@@ -86,7 +86,7 @@ public class UIManager : MonoBehaviour
 
     private void OnCutSceneStart(VideoClip clip, string scene)
     {
-        // FIXME: hide game ui
+        // FIXME: hide game uix 
         //playerUI.gameObject.SetActive(false);
     }
 
