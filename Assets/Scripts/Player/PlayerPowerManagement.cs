@@ -154,6 +154,7 @@ public class PlayerPowerManagement : MonoBehaviour
         runComponent.enabled = false;
         flyComponent.enabled = true;
         yield return new WaitForSeconds(timeIngGazzaForm);
+        runComponent.ResetVelocity();
         runComponent.enabled = true;
         flyComponent.enabled = false;
         isOnGazzaForm = false;

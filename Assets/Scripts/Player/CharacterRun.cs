@@ -183,6 +183,8 @@ namespace Hearth.Player
 
         private void StopRun() => runInput = false;
 
+        public void ResetVelocity() => velocity = Vector2.zero;
+
         private void JumpStart()
         {
             RoarManager.CallPlay("Jump", null);
