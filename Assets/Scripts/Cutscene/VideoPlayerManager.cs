@@ -21,6 +21,11 @@ public class VideoPlayerManager : MonoBehaviour
         CutsceneStart += OnCutsceneStart;
     }
 
+    private void OnDisable()
+    {
+        CutsceneStart -= OnCutsceneStart;
+    }
+
     private void OnCutsceneStart(VideoClip clip, string scene)
     {
         sceneName = scene;
@@ -36,6 +41,7 @@ public class VideoPlayerManager : MonoBehaviour
     private void EndReached(VideoPlayer source)
     {
         player.enabled = false;
+        player.loopPointReached -= EndReached;
 
         CutsceneEnd?.Invoke();
 
@@ -43,6 +49,7 @@ public class VideoPlayerManager : MonoBehaviour
         {
             return;
         }
+
 
         SceneManager.LoadScene(sceneName);
     }
