@@ -23,7 +23,7 @@ public class ChimneyHazard : HazardBase
     {
         bc2D.enabled = false;
         canDamage = false;
-        RoarManager.CallStop("ChimneyFire");
+        RoarManager.CallStop("ChimneyFire", transform);
         RoarManager.CallPlay("ChimneyClosed", transform);
     }
 }

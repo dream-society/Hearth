@@ -15,14 +15,16 @@ public class UIManager : MonoBehaviour
     private void OnEnable()
     {
         input.pausePressed += OpenPauseMenu;
-        VideoPlayerManager.CutsceneStart += OnCutSceneStart;
+        //VideoPlayerManager.CutsceneStart += OnCutSceneStart;
         VideoPlayerManager.CutsceneEnd += OnCutSceneEnd;
+        SceneTransition.TransitionFadeOut += OnTransitionFadeOut;
     }
 
     private void OnDisable()
     {
         input.pausePressed -= OpenPauseMenu;
         VideoPlayerManager.CutsceneEnd -= OnCutSceneEnd;
+        SceneTransition.TransitionFadeOut -= OnTransitionFadeOut;
     }
 
     private void Start()
@@ -84,10 +86,10 @@ public class UIManager : MonoBehaviour
         settingsMenu.gameObject.SetActive(!settingsMenu.gameObject.activeInHierarchy);
     }
 
-    private void OnCutSceneStart(VideoClip clip, string scene)
+    private void OnTransitionFadeOut()
     {
         // FIXME: hide game uix 
-        //playerUI.gameObject.SetActive(false);
+        playerUI.gameObject.SetActive(false);
     }
 
     private void OnCutSceneEnd()

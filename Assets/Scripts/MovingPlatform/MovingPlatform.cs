@@ -21,6 +21,10 @@ public class MovingPlatform : MonoBehaviour
     private void Start()
     {
         transform.position = start.position;
+        if (active)
+        {
+            RoarManager.CallPlay("MovingPlatform", transform);
+        }
     }
 
     void FixedUpdate()
@@ -37,14 +41,17 @@ public class MovingPlatform : MonoBehaviour
 
     void SwapTarget()
     {
+        RoarManager.CallStop("MovingPlatform", transform);
         Transform tmp = target;
         target = start;
         start = tmp;
+        RoarManager.CallPlay("MovingPlatform", transform);
     }
 
     public void Move()
     {
         active = true;
+        RoarManager.CallPlay("MovingPlatform", transform);
     }
 
     //private void OnCollisionEnter2D(Collision2D other)

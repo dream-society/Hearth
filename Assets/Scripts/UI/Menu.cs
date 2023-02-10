@@ -42,7 +42,7 @@ public class Menu : MonoBehaviour
     public void LoadPlayScene()
     {
         Cursor.visible = false;
-        RoarManager.CallStop(musicName);
+        RoarManager.CallStop(musicName, null);
         SceneTransition.TransitionFadeOut?.Invoke();
         RoarManager.CallPlay("UI", null);
     }

@@ -200,7 +200,7 @@ namespace RoaREngine
                 roarEmitter = GetActiveEmitter(containerName);
                 if (roarEmitter != null)
                 {
-                    Stop(containerName);
+                    Stop(containerName, parent);
                 }
             }
             roarEmitter = GetEmitterFromPool();
@@ -220,12 +220,22 @@ namespace RoaREngine
             }
         }
 
-        private void Stop(string containerName)
+        private void Stop(string containerName, Transform parent)
         {
+            RoarEmitter emitterComponent;
+            if (parent != null)
+            {
+                emitterComponent = parent.GetComponentInChildren<RoarEmitter>();
+                if (emitterComponent != null)
+                {
+                    emitterComponent.Stop();
+                    return;
+                }
+            }
             GameObject roarEmitter = GetActiveEmitter(containerName);
             if (roarEmitter != null)
             {
-                RoarEmitter emitterComponent = roarEmitter.GetComponent<RoarEmitter>();
+                emitterComponent = roarEmitter.GetComponent<RoarEmitter>();
                 emitterComponent.Stop();
             }
         }
@@ -737,7 +747,7 @@ namespace RoaREngine
         public static UnityAction<string, Transform> CallPlay;
         public static UnityAction<string> CallPause;
         public static UnityAction<string> CallResume;
-        public static UnityAction<string> CallStop;
+        public static UnityAction<string, Transform> CallStop;
         public static UnityAction CallStopAll;
         public static UnityAction CallPauseAll;
         public static UnityAction CallResumeAll;

@@ -7721,6 +7721,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7391729520554337468, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
+      propertyPath: start
+      value: 
+      objectReference: {fileID: 493338280}
+    - target: {fileID: 7391729520554337468, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1517168328}
+    - target: {fileID: 7391729520554337468, guid: 77a650c07c3b2a74a9ea892ff7cb37e5, type: 3}
       propertyPath: Duration
       value: 3
       objectReference: {fileID: 0}
