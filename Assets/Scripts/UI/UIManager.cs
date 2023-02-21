@@ -96,7 +96,7 @@ public class UIManager : MonoBehaviour
     {
         playerUI.gameObject.SetActive(true);
         SceneTransition.gameObject.SetActive(true);
-        SceneTransition.TransitionFadeIn.Invoke();
+        //SceneTransition.TransitionFadeIn.Invoke();
     }
 
 }

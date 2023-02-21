@@ -15,7 +15,7 @@ MonoBehaviour:
   audioMixerGroup: {fileID: -1598770002440584840, guid: bc8c005f6bebb6c4783beaecad5393dd, type: 2}
   priority: 128
   esclusive: 0
-  unique: 1
+  unique: 0
   loop: 1
   mute: 0
   startTime: 0

@@ -1,3 +1,4 @@
+using HNC;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,22 +14,40 @@ public class CorruptionManager : MonoBehaviour
     public static Action CorruptionDeath;
     private int corruptionsDeathCount;
 
+    public bool skip;
+
+    private void Update()
+    {
+        if (skip)
+        {
+            skip = false;
+            SceneTransition.TransitionFadeOut?.Invoke();
+        }
+    }
+
     private void OnEnable()
     {
         CorruptionDeath += OnCorruptionDeath;
+        SceneTransition.TransitionFadeOutEnd += StartCutScene;
     }
-
 
     private void OnDisable()
     {
         CorruptionDeath -= OnCorruptionDeath;
+        SceneTransition.TransitionFadeOutEnd -= StartCutScene;
     }
+
+    private void StartCutScene()
+    {
+        VideoPlayerManager.CutsceneStart.Invoke(clip, sceneName);
+    }
+
     private void OnCorruptionDeath()
     {
         corruptionsDeathCount++;
         if (corruptionsDeathCount == corruptions.Length)
         {
-            VideoPlayerManager.CutsceneStart.Invoke(clip, sceneName);
+            SceneTransition.TransitionFadeOut?.Invoke();
         }
     }
 }

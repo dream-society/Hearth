@@ -324,10 +324,13 @@ namespace RoaREngine
             {
                 foreach (GameObject roarEmitter in roarEmitters)
                 {
-                    RoarEmitter emitterComponent = roarEmitter.GetComponent<RoarEmitter>();
-                    if (emitterComponent.CheckForContainerName(containerName))
+                    if (roarEmitter != null)
                     {
-                        return roarEmitter;
+                        RoarEmitter emitterComponent = roarEmitter.GetComponent<RoarEmitter>();
+                        if (emitterComponent.CheckForContainerName(containerName))
+                        {
+                            return roarEmitter;
+                        }
                     }
                 }
             }
@@ -352,9 +355,12 @@ namespace RoaREngine
             List<RoarEmitter> activeEmitters = new List<RoarEmitter>();
             foreach (GameObject roarEmitter in roarEmitters)
             {
-                if (roarEmitter.gameObject.activeInHierarchy == true)
+                if (roarEmitter != null)
                 {
-                    activeEmitters.Add(roarEmitter.GetComponent<RoarEmitter>());
+                    if (roarEmitter.gameObject.activeInHierarchy == true)
+                    {
+                        activeEmitters.Add(roarEmitter.GetComponent<RoarEmitter>());
+                    }
                 }
             }
             return activeEmitters;

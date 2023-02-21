@@ -4,10 +4,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MusicPlayerHandler : MonoBehaviour
 {
     [SerializeField] private string musicName;
+    [SerializeField] private bool overwrite;
 
     private void OnEnable()
     {
@@ -27,14 +29,18 @@ public class MusicPlayerHandler : MonoBehaviour
 
     private void OnTransitionFadeIn()
     {
-        if (RoarManager.CallGetAudioSource(musicName) != null)
+        if (overwrite)
         {
-            RoarManager.CallFade(musicName, 2f, 1f);
+            RoarManager.CallStopAll();
         }
-        else
+        else 
         {
-            RoarManager.CallPlay(musicName, null);
+            if (RoarManager.CallGetAudioSource(musicName) != null)
+            {
+                RoarManager.CallFade(musicName, 2f, 1f);
+                return;
+            }
         }
+        RoarManager.CallPlay(musicName, null);
     }
-
 }
